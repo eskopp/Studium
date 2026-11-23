@@ -18,7 +18,7 @@ weight: 4
 > [!TIP] In einfachen Worten
 > Was ein Körper an Schwung verliert, bekommt der andere. Das gilt für Billardkugeln genauso wie für Teilchen im Detektor am LHC. Die Rechnung ist darum für jeden Stoß dieselbe, egal wie kompliziert der Vorgang im Inneren ist.
 
-### Herleitung
+### Herleitung über das dritte Newtonsche Gesetz
 
 Auf Teilchen 1 wirkt die Kraft $\mathbf{F}_{12}$ und auf Teilchen 2 die Kraft $\mathbf{F}_{21} = -\mathbf{F}_{12}$. Dann ist
 
@@ -26,7 +26,41 @@ $$
 \dot{\mathbf{p}}_1 + \dot{\mathbf{p}}_2 = \mathbf{F}_{12} + \mathbf{F}_{21} = 0 ,
 $$
 
-also ist $\mathbf{p}_1 + \mathbf{p}_2$ zeitlich konstant. Das ist ein Weg über das dritte Newtonsche Gesetz. Eleganter ist die Herleitung über die Invarianz des Stoßes gegenüber Galilei-Transformationen, siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/). Sie braucht das dritte Newtonsche Gesetz nicht.
+also ist $\mathbf{p}_1 + \mathbf{p}_2$ zeitlich konstant. Das ist die alternative Herleitung der Vorlesung. Sie ist nach den Folien nicht so elegant wie die folgende.
+
+### Herleitung aus der Galilei-Invarianz
+
+Diese Herleitung braucht das dritte Newtonsche Gesetz nicht. Sie setzt drei Dinge voraus:
+
+1. **Massenerhaltung:** Die Gesamtmasse $m_1 + m_2$ ist vor und nach dem Stoß gleich.
+2. **Energieerhaltung** in der Form $W_{kin} = W_{kin}' + \Delta W$. Dabei ist $\Delta W$ der Anteil, der in Reibung, Wärme oder innere Anregung geht. Er hat in allen Inertialsystemen denselben Wert.
+3. **Galilei-Invarianz:** Derselbe Stoß lässt sich aus jedem Inertialsystem beschreiben, und die Energieerhaltung gilt dort in derselben Form (siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/)).
+
+Die Teilchen werden als Punktmassen idealisiert. Wie im Skriptum heißen die Geschwindigkeiten vor dem Stoß $\mathbf{v}_i$ und nach dem Stoß $\mathbf{u}_i$, also $\mathbf{p}_i = m_i\mathbf{v}_i$ und $\mathbf{p}_i{}' = m_i\mathbf{u}_i$. In $S$ lautet die Energieerhaltung
+
+$$
+\tfrac{1}{2} m_1 v_1^2 + \tfrac{1}{2} m_2 v_2^2 = \tfrac{1}{2} m_1 u_1^2 + \tfrac{1}{2} m_2 u_2^2 + \Delta W . \tag{a}
+$$
+
+Ein zweites System $S'$ bewegt sich mit der beliebigen Geschwindigkeit $\mathbf{V}$ relativ zu $S$. Dort gilt $\mathbf{v}_i' = \mathbf{v}_i - \mathbf{V}$ und $\mathbf{u}_i' = \mathbf{u}_i - \mathbf{V}$, und die Energieerhaltung hat dieselbe Form:
+
+$$
+\tfrac{1}{2} m_1 (\mathbf{v}_1 - \mathbf{V})^2 + \tfrac{1}{2} m_2 (\mathbf{v}_2 - \mathbf{V})^2 = \tfrac{1}{2} m_1 (\mathbf{u}_1 - \mathbf{V})^2 + \tfrac{1}{2} m_2 (\mathbf{u}_2 - \mathbf{V})^2 + \Delta W . \tag{b}
+$$
+
+Beim Ausmultiplizieren entsteht auf beiden Seiten der Term $\tfrac{1}{2}(m_1 + m_2)V^2$. Er hebt sich weg, weil die Gesamtmasse konstant ist. Zieht man (a) von (b) ab, bleibt
+
+$$
+(m_1\mathbf{v}_1 + m_2\mathbf{v}_2) \cdot \mathbf{V} = (m_1\mathbf{u}_1 + m_2\mathbf{u}_2) \cdot \mathbf{V} .
+$$
+
+Da $\mathbf{V}$ beliebig gewählt werden kann, müssen die Vektoren links und rechts gleich sein:
+
+$$
+m_1\mathbf{v}_1 + m_2\mathbf{v}_2 = m_1\mathbf{u}_1 + m_2\mathbf{u}_2 \quad \Leftrightarrow \quad \mathbf{p}_1 + \mathbf{p}_2 = \mathbf{p}_1{}' + \mathbf{p}_2{}' .
+$$
+
+Die Herleitung gilt für elastische und unelastische Stöße, denn $\Delta W$ fällt heraus. Wichtig ist, dass $\Delta W$ vom Bezugssystem unabhängig ist.
 
 ## Energie beim Stoß
 
@@ -120,5 +154,6 @@ Alle Größen sind positiv, also ist $\Delta W > 0$.
 ## Quellen
 
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitt 4.4 und Folien zur Galilei-Transformation (ballistisches Pendel)
+- Skriptum Experimentalphysik 1, Kapitel 3, Satz 3.2 (Herleitung des Impulserhaltungssatzes aus der Galilei-Invarianz)
 - W. Demtröder, Experimentalphysik 1 (Springer, 2006), auf den Folien als Quelle der Bilder genannt
 - Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.

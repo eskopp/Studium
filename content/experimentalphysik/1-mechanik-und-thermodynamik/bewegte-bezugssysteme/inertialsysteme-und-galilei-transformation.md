@@ -52,11 +52,17 @@ Ein weiteres Ableiten ergibt $\mathbf{a} = \dot{\mathbf{v}} = \dot{\mathbf{v}}{}
 ## Beschleunigte Systeme und Trägheitskräfte
 
 > [!NOTE] Definition
-> Ist $S'$ gegenüber einem Inertialsystem $S$ mit der Beschleunigung $\mathbf{a}_S$ beschleunigt, dann gilt $F = ma$ in $S'$ nur, wenn man zusätzlich die **Trägheitskraft** (auch Scheinkraft oder Pseudokraft)
+> Ist $S'$ gegenüber einem Inertialsystem $S$ mit der Beschleunigung $\mathbf{a}_S$ beschleunigt, dann gilt für einen Körper der Masse $m$ mit der Beschleunigung $\mathbf{a}'$ in $S'$ das zweite Newtonsche Gesetz nur, wenn man zu den realen Kräften $\sum_i \mathbf{F}_i$ zusätzlich die **Trägheitskraft** (auch Scheinkraft oder Pseudokraft)
 >
 > $$ \mathbf{F}_T = -m\,\mathbf{a}_S $$
 >
-> einführt. **D'Alembertsches Prinzip:** Im mitbeschleunigten System ist die Summe aus den äußeren Kräften und den Trägheitskräften null.
+> hinzunimmt. Dann gilt
+>
+> $$ m\,\mathbf{a}' = \sum_i \mathbf{F}_i + \mathbf{F}_T $$
+>
+> **D'Alembertsches Prinzip:** Für einen mitbeschleunigten Beobachter, relativ zu dem der Körper ruht ($\mathbf{a}' = 0$), ist im mitbewegten System die vektorielle Summe aus den äußeren Kräften und den Trägheitskräften gleich null:
+>
+> $$ \sum_i \mathbf{F}_i + \mathbf{F}_T = 0 $$
 
 > [!TIP] In einfachen Worten
 > Wer im anfahrenden Bus steht, wird nach hinten gedrückt. Aus Sicht der Straße stimmt das nicht: Dein Körper will nur geradeaus weiterfahren, der Bus beschleunigt unter dir weg. Aus Sicht des Busses wirkt aber wirklich eine Kraft nach hinten. Diese Kraft nennt man Trägheitskraft. Sie gibt es nur in beschleunigten Systemen und hat keinen Verursacher, an dem man sie ablesen könnte.
@@ -73,10 +79,12 @@ Ohne Beschleunigung zeigt die Waage $70\,\mathrm{kg} \cdot 9{,}81\,\mathrm{m/s^2
 
 > [!CAUTION] Stolperstelle
 > Trägheitskräfte sind keine Wechselwirkungskräfte. Sie haben keine Gegenkraft im Sinne des dritten Newtonschen Gesetzes. Man führt sie nur ein, damit $F = ma$ im beschleunigten System weiter benutzbar ist.
+>
+> Die Kräftebilanz "Summe gleich null" gilt nur für einen Körper, der im beschleunigten System ruht, wie die Person im Fahrstuhl. Bewegt sich der Körper dort, ist die Summe gleich $m\,\mathbf{a}'$ und nicht null.
 
 ## Weiter
 
-Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/rotierende-bezugssysteme/). Aus der Galilei-Invarianz folgt auch der Impulserhaltungssatz bei Stößen, siehe [Stöße](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/stoesse/).
+Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/rotierende-bezugssysteme/). Aus der Galilei-Invarianz folgt zusammen mit der Massen- und der Energieerhaltung auch der Impulserhaltungssatz bei Stößen, siehe [Stöße](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/stoesse/).
 
 ## Quellen
 

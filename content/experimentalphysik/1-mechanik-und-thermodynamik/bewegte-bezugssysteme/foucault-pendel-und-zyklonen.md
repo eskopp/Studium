@@ -18,17 +18,20 @@ weight: 3
 > $$ T(\varphi) = \frac{2\pi}{\omega_s} = \frac{2\pi}{\omega \sin\varphi} $$
 
 > [!TIP] In einfachen Worten
-> Das Pendel schwingt in einer festen Ebene, denn auf den Pendelkörper wirkt keine seitliche Kraft. Die Erde dreht sich darunter weg. Wer auf der Erde steht, sieht darum die Pendelebene langsam wandern. Am Pol dreht sich die Erde einmal in $24\,\mathrm{h}$ unter dem Pendel. Am Äquator dreht sich die Pendelebene gar nicht. Dazwischen sagt $\sin\varphi$, welcher Anteil der Erddrehung wirkt.
+> Man stellt sich vor, dass das Pendel in einer festen Ebene schwingt, weil keine seitliche Kraft auf den Pendelkörper wirkt. Die Erde dreht sich darunter weg. Wer auf der Erde steht, sieht darum die Pendelebene langsam wandern. Am Pol dreht sich die Erde einmal in $24\,\mathrm{h}$ unter dem Pendel. Am Äquator dreht sich die Pendelebene gar nicht. Dazwischen sagt $\sin\varphi$, welcher Anteil der Erddrehung wirkt.
+
+> [!CAUTION] Idealisierung
+> Das Bild der festen Schwingungsebene, unter der sich die Erde wegdreht, ist eine Idealisierung. Es gilt genau nur am Pol. An anderen Orten dreht nur der senkrechte Anteil der Erddrehung, $\omega_s = \omega\sin\varphi$, die Schwingungsebene relativ zum Boden. Das Skriptum rechnet außerdem mit Voraussetzungen: Der Pendelkörper legt nur kleine Strecken zurück, sodass Gravitation und Zentrifugalkraft als konstant gelten, es wirkt keine weitere äußere Kraft, und die Bewegung ist eben (sehr langes Pendel). Ein reales Pendel erfüllt das nur näherungsweise.
 
 ### Der Modellversuch in der Vorlesung
 
-In der Vorlesung wurde der Effekt im Kleinen gezeigt. Ein Pendel hängt über einer Drehscheibe, der Pendelkörper ist mit grobem Ostseesand gefüllt und zeichnet seine Spur auf die Scheibe. Aus Sicht eines ruhenden Beobachters schwingt das Pendel in einer festen Ebene, und die Scheibe dreht sich darunter weg. Wer auf der Scheibe mitdreht, sieht deshalb eine gekrümmte Bahn in Form einer Rosette.
+In der Vorlesung wurde der Effekt im Kleinen gezeigt. Ein Pendel hängt über einer Drehscheibe, der Pendelkörper ist mit grobem Ostseesand gefüllt und zeichnet seine Spur auf die Scheibe. Aus Sicht eines ruhenden Beobachters schwingt das Pendel idealisiert in einer festen Ebene, und die Scheibe dreht sich darunter weg. Wer auf der Scheibe mitdreht, sieht deshalb eine gekrümmte Bahn in Form einer Rosette.
 
 ![Die Drehscheibe aus der Vorlesung mit dem Pendel in seinem Gestell. Der braune Pendelkörper hängt über der blauen Scheibe.](/images/foucault-pendel/drehscheibe-vorlesung.jpg)
 
 ![Skizze zum Versuch aus der Mitschrift. Links die gekrümmte Bahn, die ein Beobachter auf der drehenden Scheibe sieht, rechts der Aufbau aus Pendel und Drehscheibe, gefüllt mit grobem Ostseesand.](/images/foucault-pendel/skizze-drehscheibe.png)
 
-Die Erde ist in diesem Bild die Drehscheibe: Das Pendel schwingt in seiner Ebene, und der Boden dreht sich darunter weg.
+Die Erde entspricht in diesem Bild der Drehscheibe. Das stimmt genau nur am Pol. Anderswo wirkt, wie oben beschrieben, nur der Anteil $\omega\sin\varphi$.
 
 ### Das Pendel in Ilmenau
 

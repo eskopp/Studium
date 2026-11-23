@@ -100,10 +100,10 @@ $$
 Zusammengefasst und nach $\mathbf{a}'$ umgestellt:
 
 $$
-\mathbf{a}' = \mathbf{a} \; \underbrace{-\,2\,\boldsymbol{\omega} \times \mathbf{v}'}_{a_C} \; \underbrace{-\,\boldsymbol{\omega} \times (\boldsymbol{\omega} \times \mathbf{r})}_{a_Z}
+\mathbf{a}' = \mathbf{a} \; \underbrace{-\,2\,\boldsymbol{\omega} \times \mathbf{v}'}_{\mathbf{a}_C} \; \underbrace{-\,\boldsymbol{\omega} \times (\boldsymbol{\omega} \times \mathbf{r})}_{\mathbf{a}_Z}
 $$
 
-Mit $m$ multipliziert sind $m a_C$ die Coriolis-Kraft und $m a_Z$ die Zentrifugalkraft.
+Mit $m$ multipliziert sind $m\,\mathbf{a}_C$ die Coriolis-Kraft und $m\,\mathbf{a}_Z$ die Zentrifugalkraft.
 
 ## Zwei Beispiele für Fliehkräfte
 
@@ -115,7 +115,7 @@ $$
 F_Z = m g \tan\alpha .
 $$
 
-Im mitdrehenden System ruht die Kugel. Dort gilt $m\mathbf{g} + \mathbf{F}_f + \mathbf{F}_Z' = 0$, also $\mathbf{F}_Z' = -\mathbf{F}_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
+Im mitdrehenden System ruht die Kugel, also ist $\mathbf{a}' = 0$. Dort gilt $m\mathbf{g} + \mathbf{F}_f + \mathbf{F}_Z' = 0$, also $\mathbf{F}_Z' = -\mathbf{F}_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
 
 ### Der Satellit
 
