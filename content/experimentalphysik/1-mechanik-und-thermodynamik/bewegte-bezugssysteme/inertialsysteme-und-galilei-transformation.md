@@ -17,14 +17,14 @@ weight: 1
 ## Galilei-Transformation
 
 > [!NOTE] Definition
-> Zwei Inertialsysteme $S$ und $S'$ bewegen sich mit der konstanten Geschwindigkeit $\vec u$ gegeneinander. Für einen Massenpunkt gelten dann, solange $|\vec u| \ll c$ ist ($c$: Lichtgeschwindigkeit), die Transformationsgleichungen
+> Zwei Inertialsysteme $S$ und $S'$ bewegen sich mit der konstanten Geschwindigkeit $\mathbf{u}$ gegeneinander. Für einen Massenpunkt gelten dann, solange $|\mathbf{u}| \ll c$ ist ($c$: Lichtgeschwindigkeit), die Transformationsgleichungen
 >
-> $$ \vec r = \vec r' + \vec u\,t, \qquad \vec v = \vec v' + \vec u, \qquad \vec a = \vec a', \qquad t = t' $$
+> $$ \mathbf{r} = \mathbf{r}' + \mathbf{u}\,t, \qquad \mathbf{v} = \mathbf{v}' + \mathbf{u}, \qquad \mathbf{a} = \mathbf{a}', \qquad t = t' $$
 >
-> $\vec r$, $\vec v$, $\vec a$ sind Ort, Geschwindigkeit und Beschleunigung in $S$, die gestrichenen Größen gehören zu $S'$.
+> $\mathbf{r}$, $\mathbf{v}$, $\mathbf{a}$ sind Ort, Geschwindigkeit und Beschleunigung in $S$, die gestrichenen Größen gehören zu $S'$.
 
 > [!TIP] In einfachen Worten
-> Die Formel sagt: Ort und Geschwindigkeit sehen aus beiden Systemen verschieden aus, die Beschleunigung nicht. Weil die Beschleunigung gleich ist, ist auch die Kraft $\vec F = m\vec a$ gleich. Darum sagt das **Newtonsche Relativitätsprinzip**: Kein mechanisches Experiment zeigt, ob sich ein Inertialsystem relativ zu einem anderen bewegt.
+> Die Formel sagt: Ort und Geschwindigkeit sehen aus beiden Systemen verschieden aus, die Beschleunigung nicht. Weil die Beschleunigung gleich ist, ist auch die Kraft $\mathbf{F} = m\mathbf{a}$ gleich. Darum sagt das **Newtonsche Relativitätsprinzip**: Kein mechanisches Experiment zeigt, ob sich ein Inertialsystem relativ zu einem anderen bewegt.
 
 ### Beispiel
 
@@ -41,20 +41,20 @@ Beschleunigt der Werfer den Ball während des Wurfs mit $a' = 10\,\mathrm{m/s^2}
 
 ### Herleitung
 
-Aus $\vec r = \vec r' + \vec u\,t$ folgt durch Ableiten nach der Zeit, mit konstantem $\vec u$ und $t = t'$,
+Aus $\mathbf{r} = \mathbf{r}' + \mathbf{u}\,t$ folgt durch Ableiten nach der Zeit, mit konstantem $\mathbf{u}$ und $t = t'$,
 
 $$
-\vec v = \dot{\vec r} = \dot{\vec r}{}' + \vec u = \vec v' + \vec u .
+\mathbf{v} = \dot{\mathbf{r}} = \dot{\mathbf{r}}{}' + \mathbf{u} = \mathbf{v}' + \mathbf{u} .
 $$
 
-Ein weiteres Ableiten ergibt $\vec a = \dot{\vec v} = \dot{\vec v}{}' = \vec a'$, denn $\vec u$ ist konstant.
+Ein weiteres Ableiten ergibt $\mathbf{a} = \dot{\mathbf{v}} = \dot{\mathbf{v}}{}' = \mathbf{a}'$, denn $\mathbf{u}$ ist konstant.
 
 ## Beschleunigte Systeme und Trägheitskräfte
 
 > [!NOTE] Definition
-> Ist $S'$ gegenüber einem Inertialsystem $S$ mit der Beschleunigung $\vec a_S$ beschleunigt, dann gilt $F = ma$ in $S'$ nur, wenn man zusätzlich die **Trägheitskraft** (auch Scheinkraft oder Pseudokraft)
+> Ist $S'$ gegenüber einem Inertialsystem $S$ mit der Beschleunigung $\mathbf{a}_S$ beschleunigt, dann gilt $F = ma$ in $S'$ nur, wenn man zusätzlich die **Trägheitskraft** (auch Scheinkraft oder Pseudokraft)
 >
-> $$ \vec F_T = -m\,\vec a_S $$
+> $$ \mathbf{F}_T = -m\,\mathbf{a}_S $$
 >
 > einführt. **D'Alembertsches Prinzip:** Im mitbeschleunigten System ist die Summe aus den äußeren Kräften und den Trägheitskräften null.
 
@@ -82,3 +82,4 @@ Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bez
 
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Kapitel 3 und Skriptum Kapitel 3
 - W. Demtröder, Experimentalphysik 1 (Springer, 2006), auf den Folien als Quelle der Bilder genannt
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.

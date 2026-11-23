@@ -13,9 +13,9 @@ weight: 2
 >
 > $$ \omega = \frac{\mathrm{d}\varphi}{\mathrm{d}t} = \dot\varphi $$
 >
-> Einheit: $[\omega] = 1/\mathrm{s}$. Als Vektor $\vec\omega$ steht sie senkrecht auf der Ebene, die Ortsvektor $\vec r$ und Bahngeschwindigkeit $\vec v$ aufspannen. Die Rechte-Hand-Regel gibt die Richtung: Zeigt der Daumen in Richtung $\vec\omega$, zeigen die Finger in Drehrichtung. Es gilt
+> Einheit: $[\omega] = 1/\mathrm{s}$. Als Vektor $\boldsymbol{\omega}$ steht sie senkrecht auf der Ebene, die Ortsvektor $\mathbf{r}$ und Bahngeschwindigkeit $\mathbf{v}$ aufspannen. Die Rechte-Hand-Regel gibt die Richtung: Zeigt der Daumen in Richtung $\boldsymbol{\omega}$, zeigen die Finger in Drehrichtung. Es gilt
 >
-> $$ \vec v = \vec\omega \times \vec r $$
+> $$ \mathbf{v} = \boldsymbol{\omega} \times \mathbf{r} $$
 
 > [!TIP] In einfachen Worten
 > $\omega$ sagt, wie schnell sich etwas dreht, gemessen in Radiant pro Sekunde. Eine volle Umdrehung hat $2\pi$ Radiant. Wer weiter außen sitzt, legt bei gleichem $\omega$ pro Sekunde einen längeren Weg zurück und ist deshalb schneller. Das steckt in $v = \omega r$.
@@ -35,7 +35,7 @@ $$
 >
 > $$ F_Z' = m\,\omega^2 r $$
 >
-> In Vektorform: $\vec F_Z = -m\,\vec\omega \times (\vec\omega \times \vec r)$.
+> In Vektorform: $\mathbf{F}_Z = -m\,\boldsymbol{\omega} \times (\boldsymbol{\omega} \times \mathbf{r})$.
 
 > [!TIP] In einfachen Worten
 > Von außen sieht man: Der Körper würde geradeaus fliegen, und eine Kraft zum Zentrum, die **Zentripetalkraft**, zwingt ihn auf die Kreisbahn. Wer mitdreht, sieht den Körper ruhen und muss sich eine Kraft nach außen denken, die der Zentripetalkraft die Waage hält. Beide Kräfte sind gleich groß, aber nur eine davon gibt es im Inertialsystem.
@@ -51,11 +51,11 @@ $$
 ## Coriolis-Kraft
 
 > [!NOTE] Definition
-> Bewegt sich ein Körper der Masse $m$ in einem mit $\omega$ rotierenden System mit der Geschwindigkeit $\vec v'$ (nicht entlang der Drehachse), dann wirkt senkrecht zu seiner Bewegungsrichtung die **Coriolis-Kraft**
+> Bewegt sich ein Körper der Masse $m$ in einem mit $\omega$ rotierenden System mit der Geschwindigkeit $\mathbf{v}'$ (nicht entlang der Drehachse), dann wirkt senkrecht zu seiner Bewegungsrichtung die **Coriolis-Kraft**
 >
-> $$ \vec F_C = -2m\,\vec\omega \times \vec v' $$
+> $$ \mathbf{F}_C = -2m\,\boldsymbol{\omega} \times \mathbf{v}' $$
 >
-> Ihr Betrag ist $F_C = 2m\omega v'$, wenn $\vec v' \perp \vec\omega$.
+> Ihr Betrag ist $F_C = 2m\omega v'$, wenn $\mathbf{v}' \perp \boldsymbol{\omega}$.
 
 > [!TIP] In einfachen Worten
 > Rollt eine Kugel auf einer sich drehenden Scheibe geradlinig nach außen, dann sieht ein Beobachter auf der Scheibe, wie sie zur Seite abgelenkt wird. Der Grund: Weiter außen bewegt sich der Boden schneller als weiter innen, und die Kugel hält ihre alte Seitwärtsgeschwindigkeit. Die Scheibe "läuft ihr davon". Die Kraft ändert nur die Richtung der Bewegung, nicht den Betrag der Geschwindigkeit.
@@ -73,34 +73,34 @@ $$
 
 ### Herleitung der Beschleunigung im rotierenden System
 
-Gesucht ist der Zusammenhang zwischen der Beschleunigung $\vec a$ im Inertialsystem $S$ und $\vec a'$ im rotierenden System $S'$. Beide Systeme haben denselben Ursprung, $\vec\omega$ ist konstant.
+Gesucht ist der Zusammenhang zwischen der Beschleunigung $\mathbf{a}$ im Inertialsystem $S$ und $\mathbf{a}'$ im rotierenden System $S'$. Beide Systeme haben denselben Ursprung, $\boldsymbol{\omega}$ ist konstant.
 
-**Schritt 1.** Von $S$ aus gesehen drehen sich die Einheitsvektoren $\vec e'_x, \vec e'_y, \vec e'_z$ von $S'$ mit $\vec\omega$. Für jeden gilt $\dot{\vec e}{}'_i = \vec\omega \times \vec e'_i$.
+**Schritt 1.** Von $S$ aus gesehen drehen sich die Einheitsvektoren $\mathbf{e}'_x, \mathbf{e}'_y, \mathbf{e}'_z$ von $S'$ mit $\boldsymbol{\omega}$. Für jeden gilt $\dot{\mathbf{e}}{}'_i = \boldsymbol{\omega} \times \mathbf{e}'_i$.
 
-**Schritt 2.** Der Ortsvektor ist $\vec r = x'\vec e'_x + y'\vec e'_y + z'\vec e'_z$. Ableiten nach der Zeit in $S$ nach der Produktregel liefert
-
-$$
-\vec v = \underbrace{\dot x'\vec e'_x + \dot y'\vec e'_y + \dot z'\vec e'_z}_{=\,\vec v'} + \underbrace{x'\dot{\vec e}{}'_x + y'\dot{\vec e}{}'_y + z'\dot{\vec e}{}'_z}_{=\,\vec\omega \times \vec r} .
-$$
-
-Also gilt $\vec v = \vec v' + \vec\omega \times \vec r$. Das ist die Formel $\vec v = \vec\omega \times \vec r$ für einen Punkt, der im rotierenden System ruht, plus die Eigenbewegung $\vec v'$.
-
-**Schritt 3.** Dieselbe Rechnung gilt für jeden Vektor $\vec q$:
+**Schritt 2.** Der Ortsvektor ist $\mathbf{r} = x'\mathbf{e}'_x + y'\mathbf{e}'_y + z'\mathbf{e}'_z$. Ableiten nach der Zeit in $S$ nach der Produktregel liefert
 
 $$
-\left(\frac{\mathrm{d}\vec q}{\mathrm{d}t}\right)_S = \left(\frac{\mathrm{d}\vec q}{\mathrm{d}t}\right)_{S'} + \vec\omega \times \vec q .
+\mathbf{v} = \underbrace{\dot x'\mathbf{e}'_x + \dot y'\mathbf{e}'_y + \dot z'\mathbf{e}'_z}_{=\,\mathbf{v}'} + \underbrace{x'\dot{\mathbf{e}}{}'_x + y'\dot{\mathbf{e}}{}'_y + z'\dot{\mathbf{e}}{}'_z}_{=\,\boldsymbol{\omega} \times \mathbf{r}} .
 $$
 
-**Schritt 4.** Man leitet $\vec v = \vec v' + \vec\omega \times \vec r$ in $S$ noch einmal ab und benutzt Schritt 3 für $\vec v'$:
+Also gilt $\mathbf{v} = \mathbf{v}' + \boldsymbol{\omega} \times \mathbf{r}$. Das ist die Formel $\mathbf{v} = \boldsymbol{\omega} \times \mathbf{r}$ für einen Punkt, der im rotierenden System ruht, plus die Eigenbewegung $\mathbf{v}'$.
+
+**Schritt 3.** Dieselbe Rechnung gilt für jeden Vektor $\mathbf{q}$:
 
 $$
-\vec a = \left(\frac{\mathrm{d}\vec v'}{\mathrm{d}t}\right)_S + \vec\omega \times \vec v = \vec a' + \vec\omega \times \vec v' + \vec\omega \times (\vec v' + \vec\omega \times \vec r) .
+\left(\frac{\mathrm{d}\mathbf{q}}{\mathrm{d}t}\right)_S = \left(\frac{\mathrm{d}\mathbf{q}}{\mathrm{d}t}\right)_{S'} + \boldsymbol{\omega} \times \mathbf{q} .
 $$
 
-Zusammengefasst und nach $\vec a'$ umgestellt:
+**Schritt 4.** Man leitet $\mathbf{v} = \mathbf{v}' + \boldsymbol{\omega} \times \mathbf{r}$ in $S$ noch einmal ab und benutzt Schritt 3 für $\mathbf{v}'$:
 
 $$
-\vec a' = \vec a \; \underbrace{-\,2\,\vec\omega \times \vec v'}_{a_C} \; \underbrace{-\,\vec\omega \times (\vec\omega \times \vec r)}_{a_Z}
+\mathbf{a} = \left(\frac{\mathrm{d}\mathbf{v}'}{\mathrm{d}t}\right)_S + \boldsymbol{\omega} \times \mathbf{v} = \mathbf{a}' + \boldsymbol{\omega} \times \mathbf{v}' + \boldsymbol{\omega} \times (\mathbf{v}' + \boldsymbol{\omega} \times \mathbf{r}) .
+$$
+
+Zusammengefasst und nach $\mathbf{a}'$ umgestellt:
+
+$$
+\mathbf{a}' = \mathbf{a} \; \underbrace{-\,2\,\boldsymbol{\omega} \times \mathbf{v}'}_{a_C} \; \underbrace{-\,\boldsymbol{\omega} \times (\boldsymbol{\omega} \times \mathbf{r})}_{a_Z}
 $$
 
 Mit $m$ multipliziert sind $m a_C$ die Coriolis-Kraft und $m a_Z$ die Zentrifugalkraft.
@@ -109,13 +109,13 @@ Mit $m$ multipliziert sind $m a_C$ die Coriolis-Kraft und $m a_Z$ die Zentrifuga
 
 ### Das Drehpendel
 
-Eine Kugel hängt an einem Faden und kreist so, dass der Faden den Winkel $\alpha$ zur Senkrechten hat. Von außen gesehen ist die Resultierende aus Gewichtskraft $m\vec g$ und Fadenkraft $\vec F_f$ die Zentripetalkraft. Trigonometrie liefert
+Eine Kugel hängt an einem Faden und kreist so, dass der Faden den Winkel $\alpha$ zur Senkrechten hat. Von außen gesehen ist die Resultierende aus Gewichtskraft $m\mathbf{g}$ und Fadenkraft $\mathbf{F}_f$ die Zentripetalkraft. Trigonometrie liefert
 
 $$
 F_Z = m g \tan\alpha .
 $$
 
-Im mitdrehenden System ruht die Kugel. Dort gilt $m\vec g + \vec F_f + \vec F_Z' = 0$, also $\vec F_Z' = -\vec F_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
+Im mitdrehenden System ruht die Kugel. Dort gilt $m\mathbf{g} + \mathbf{F}_f + \mathbf{F}_Z' = 0$, also $\mathbf{F}_Z' = -\mathbf{F}_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
 
 ### Der Satellit
 
@@ -134,3 +134,4 @@ Zwei Anwendungen der Coriolis-Kraft stehen in [Foucault-Pendel und Zyklonen](/ex
 ## Quellen
 
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitt 3.2.2 und Skriptum Kapitel 3 (anschauliche und vektorielle Herleitung)
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.

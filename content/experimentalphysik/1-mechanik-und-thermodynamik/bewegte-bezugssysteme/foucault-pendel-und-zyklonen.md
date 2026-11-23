@@ -90,13 +90,13 @@ Trondheim liegt weiter nördlich, bei etwa $63{,}4^\circ$. Dort ist $\sin\varphi
 
 ### Herleitung der Idee
 
-Man zerlegt den Vektor der Erdrotation $\vec\omega$ am Ort des Pendels in zwei Anteile: einen, der waagerecht liegt, und einen senkrecht zum Boden, $\omega_s = \omega\sin\varphi$. Nur der senkrechte Anteil dreht die waagerechte Pendelebene. Aus der Bewegungsgleichung
+Man zerlegt den Vektor der Erdrotation $\boldsymbol{\omega}$ am Ort des Pendels in zwei Anteile: einen, der waagerecht liegt, und einen senkrecht zum Boden, $\omega_s = \omega\sin\varphi$. Nur der senkrechte Anteil dreht die waagerechte Pendelebene. Aus der Bewegungsgleichung
 
 $$
-m\ddot{\vec r} = m\vec g_e - 2m\,\vec\omega \times \dot{\vec r}
+m\ddot{\mathbf{r}} = m\mathbf{g}_e - 2m\,\boldsymbol{\omega} \times \dot{\mathbf{r}}
 $$
 
-folgt dasselbe Ergebnis. Dabei fasst $\vec g_e$ Gravitation und Zentrifugalkraft zu einer konstanten effektiven Erdbeschleunigung zusammen. Die Lösung des gekoppelten Differentialgleichungssystems für die Auslenkungen $r_x$ und $r_y$ steht im Skriptum erst für das zweite Semester an. Hier steht nur das Ergebnis.
+folgt dasselbe Ergebnis. Dabei fasst $\mathbf{g}_e$ Gravitation und Zentrifugalkraft zu einer konstanten effektiven Erdbeschleunigung zusammen. Die Lösung des gekoppelten Differentialgleichungssystems für die Auslenkungen $r_x$ und $r_y$ steht im Skriptum erst für das zweite Semester an. Hier steht nur das Ergebnis. Im Skriptum steht für den Breitengrad einmal $\alpha$ und einmal $\varphi$, hier steht durchgehend $\varphi$.
 
 ## Zyklonen
 
@@ -113,7 +113,7 @@ folgt dasselbe Ergebnis. Dabei fasst $\vec g_e$ Gravitation und Zentrifugalkraft
 
 ### Herleitung
 
-Ein Luftelement strömt zunächst entlang des Druckgefälles auf das Zentrum zu. Die Coriolis-Kraft $\vec F_C = -2m\,\vec\omega \times \vec v'$ zeigt auf der Nordhalbkugel nach rechts von der Bewegungsrichtung (Rechte-Hand-Regel). Dadurch wird das Luftelement zur Seite gedrängt. Direkt über dem Zentrum zeigt dieselbe Kraft, immer noch rechts von der Bewegungsrichtung, nun nach links. Insgesamt ergibt sich eine Linksdrehung. Auf der Südhalbkugel kehrt sich die Ablenkung um.
+Ein Luftelement strömt zunächst entlang des Druckgefälles auf das Zentrum zu. Die Coriolis-Kraft $\mathbf{F}_C = -2m\,\boldsymbol{\omega} \times \mathbf{v}'$ zeigt auf der Nordhalbkugel nach rechts von der Bewegungsrichtung (Rechte-Hand-Regel). Dadurch wird das Luftelement zur Seite gedrängt. Direkt über dem Zentrum zeigt dieselbe Kraft, immer noch rechts von der Bewegungsrichtung, nun nach links. Insgesamt ergibt sich eine Linksdrehung. Auf der Südhalbkugel kehrt sich die Ablenkung um.
 
 > [!CAUTION] Stolperstelle
 > "Nach rechts" bezieht sich immer auf die momentane Bewegungsrichtung der Luft, nicht auf die Karte. Zeigt die Strömung zum Zentrum hin, lenkt die Kraft zur Seite ab, und erst aus dem Zusammenspiel entsteht der Wirbel.
@@ -127,3 +127,4 @@ Die Grundlagen der Coriolis-Kraft stehen in [Rotierende Bezugssysteme](/experime
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Beispiele 5 und 6, Skriptum Kapitel 3, Abschnitte 3.2.2.3 und 3.2.2.4
 - L. Foucault, C. R. Acad. Sci. 32, 135 (1851), auf den Folien und im Skriptum genannt
 - Fotos der Pendel in Ilmenau und Trondheim sowie des Vorlesungsversuchs und die Skizze aus der Mitschrift sind eigene Aufnahmen. Die technischen Daten stammen von der Infotafel am Ilmenauer Pendel.
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechnungen für Ilmenau und Trondheim. Die Breite von Trondheim ist ein Näherungswert und stammt nicht aus der Vorlesung.

@@ -66,3 +66,4 @@ Der Wert ist so klein, dass die Äquivalenz bisher auf etwa $15$ Stellen bestät
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitt 3.3, Skriptum Kapitel 3
 - Touboul et al., Phys. Rev. Lett. 119, 231101 (2017) und 129, 121102 (2022), auf den Folien genannt
 - R. v. Eötvös, Mathem. Naturw. Ber. Ungarn 8, 65 (1890), auf den Folien genannt
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.

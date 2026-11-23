@@ -11,7 +11,7 @@ weight: 4
 > [!NOTE] Definition
 > Stoßen zwei Teilchen in einem abgeschlossenen System, in dem nur innere Kräfte wirken, dann ist der Gesamtimpuls vor und nach dem Stoß gleich:
 >
-> $$ \vec p_1 + \vec p_2 = \vec p_1{}' + \vec p_2{}' $$
+> $$ \mathbf{p}_1 + \mathbf{p}_2 = \mathbf{p}_1{}' + \mathbf{p}_2{}' $$
 >
 > Die gestrichenen Größen gelten nach dem Stoß. Der Impulserhaltungssatz gilt immer, solange keine äußeren Kräfte wirken.
 
@@ -20,13 +20,13 @@ weight: 4
 
 ### Herleitung
 
-Auf Teilchen 1 wirkt die Kraft $\vec F_{12}$ und auf Teilchen 2 die Kraft $\vec F_{21} = -\vec F_{12}$. Dann ist
+Auf Teilchen 1 wirkt die Kraft $\mathbf{F}_{12}$ und auf Teilchen 2 die Kraft $\mathbf{F}_{21} = -\mathbf{F}_{12}$. Dann ist
 
 $$
-\dot{\vec p}_1 + \dot{\vec p}_2 = \vec F_{12} + \vec F_{21} = 0 ,
+\dot{\mathbf{p}}_1 + \dot{\mathbf{p}}_2 = \mathbf{F}_{12} + \mathbf{F}_{21} = 0 ,
 $$
 
-also ist $\vec p_1 + \vec p_2$ zeitlich konstant. Das ist ein Weg über das dritte Newtonsche Gesetz. Eleganter ist die Herleitung über die Invarianz des Stoßes gegenüber Galilei-Transformationen, siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/). Sie braucht das dritte Newtonsche Gesetz nicht.
+also ist $\mathbf{p}_1 + \mathbf{p}_2$ zeitlich konstant. Das ist ein Weg über das dritte Newtonsche Gesetz. Eleganter ist die Herleitung über die Invarianz des Stoßes gegenüber Galilei-Transformationen, siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/). Sie braucht das dritte Newtonsche Gesetz nicht.
 
 ## Energie beim Stoß
 
@@ -121,3 +121,4 @@ Alle Größen sind positiv, also ist $\Delta W > 0$.
 
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitt 4.4 und Folien zur Galilei-Transformation (ballistisches Pendel)
 - W. Demtröder, Experimentalphysik 1 (Springer, 2006), auf den Folien als Quelle der Bilder genannt
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.

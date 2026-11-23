@@ -9,13 +9,13 @@ weight: 2
 ## Reduzierte Masse
 
 > [!NOTE] Definition
-> Zwei Teilchen mit den Massen $m_1$ und $m_2$ üben die Kräfte $\vec F_{12}$ (von 2 auf 1) und $\vec F_{21} = -\vec F_{12}$ aufeinander aus. Mit dem Relativvektor $\vec r = \vec r_1 - \vec r_2$ gilt
+> Zwei Teilchen mit den Massen $m_1$ und $m_2$ üben die Kräfte $\mathbf{F}_{12}$ (von 2 auf 1) und $\mathbf{F}_{21} = -\mathbf{F}_{12}$ aufeinander aus. Mit dem Relativvektor $\mathbf{r} = \mathbf{r}_1 - \mathbf{r}_2$ gilt
 >
-> $$ \mu\,\ddot{\vec r} = \vec F_{12}, \qquad \mu = \frac{m_1 m_2}{m_1 + m_2} \qquad \Leftrightarrow \qquad \frac{1}{\mu} = \frac{1}{m_1} + \frac{1}{m_2} $$
+> $$ \mu\,\ddot{\mathbf{r}} = \mathbf{F}_{12}, \qquad \mu = \frac{m_1 m_2}{m_1 + m_2} \qquad \Leftrightarrow \qquad \frac{1}{\mu} = \frac{1}{m_1} + \frac{1}{m_2} $$
 >
 > $\mu$ heißt **reduzierte Masse**. Die kinetische Energie im Schwerpunktsystem ist
 >
-> $$ W_k^{(S)} = \tfrac{1}{2}\,\mu\,v_{12}^2, \qquad \vec v_{12} = \vec v_1 - \vec v_2 $$
+> $$ W_k^{(S)} = \tfrac{1}{2}\,\mu\,v_{12}^2, \qquad \mathbf{v}_{12} = \mathbf{v}_1 - \mathbf{v}_2 $$
 
 > [!TIP] In einfachen Worten
 > Die Relativbewegung zweier Körper beschreibt man wie die Bewegung eines einzigen Körpers der Masse $\mu$, der von der Kraft $F_{12}$ angetrieben wird. $\mu$ ist immer kleiner als beide Einzelmassen. Ist ein Körper viel schwerer als der andere, ist $\mu$ fast so groß wie die kleinere Masse. Dann bleibt der schwere Körper praktisch in Ruhe.
@@ -41,18 +41,18 @@ Beide Entfernungen zusammen ergeben den Abstand $r$. Die Erde ist also viel schw
 
 ### Herleitung
 
-Nach dem zweiten und dritten Newtonschen Gesetz gilt $m_1\ddot{\vec r}_1 = \vec F_{12}$ und $m_2\ddot{\vec r}_2 = -\vec F_{12}$. Die Differenz der Beschleunigungen ist
+Nach dem zweiten und dritten Newtonschen Gesetz gilt $m_1\ddot{\mathbf{r}}_1 = \mathbf{F}_{12}$ und $m_2\ddot{\mathbf{r}}_2 = -\mathbf{F}_{12}$. Die Differenz der Beschleunigungen ist
 
 $$
-\ddot{\vec r}_1 - \ddot{\vec r}_2 = \left(\frac{1}{m_1} + \frac{1}{m_2}\right)\vec F_{12} = \frac{1}{\mu}\,\vec F_{12} .
+\ddot{\mathbf{r}}_1 - \ddot{\mathbf{r}}_2 = \left(\frac{1}{m_1} + \frac{1}{m_2}\right)\mathbf{F}_{12} = \frac{1}{\mu}\,\mathbf{F}_{12} .
 $$
 
-Das ist $\mu\,\ddot{\vec r} = \vec F_{12}$.
+Das ist $\mu\,\ddot{\mathbf{r}} = \mathbf{F}_{12}$.
 
-Für die kinetische Energie benutzt man, dass im Schwerpunktsystem $m_1\vec v_{1S} + m_2\vec v_{2S} = 0$ gilt (siehe [Massenmittelpunkt](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/massenmittelpunkt/)). Daraus folgt
+Für die kinetische Energie benutzt man, dass im Schwerpunktsystem $m_1\mathbf{v}_{1S} + m_2\mathbf{v}_{2S} = 0$ gilt (siehe [Massenmittelpunkt](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/massenmittelpunkt/)). Daraus folgt
 
 $$
-\vec v_{1S} = \frac{m_2}{m_1 + m_2}\,\vec v_{12}, \qquad \vec v_{2S} = -\frac{m_1}{m_1 + m_2}\,\vec v_{12} .
+\mathbf{v}_{1S} = \frac{m_2}{m_1 + m_2}\,\mathbf{v}_{12}, \qquad \mathbf{v}_{2S} = -\frac{m_1}{m_1 + m_2}\,\mathbf{v}_{12} .
 $$
 
 Eingesetzt in die kinetische Energie:
@@ -64,3 +64,4 @@ $$
 ## Quellen
 
 - Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitt 4.2 (Erde-Mond-Beispiel mit den Näherungswerten $0{,}99$ und $0{,}01$)
+- Eigene Ergänzung: Die Kästen "In einfachen Worten". Das Erde-Mond-Beispiel stammt von den Folien.
