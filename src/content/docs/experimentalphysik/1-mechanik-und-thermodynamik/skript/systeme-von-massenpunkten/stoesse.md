@@ -34,7 +34,7 @@ Diese Herleitung braucht das dritte Newtonsche Gesetz nicht. Sie setzt drei Ding
 
 1. **Massenerhaltung:** Die Gesamtmasse $m_1 + m_2$ ist vor und nach dem Stoß gleich.
 2. **Energieerhaltung** in der Form $W_{kin} = W_{kin}' + \Delta W$. Dabei ist $\Delta W$ der Anteil, der in Reibung, Wärme oder innere Anregung geht. Er hat in allen Inertialsystemen denselben Wert.
-3. **Galilei-Invarianz:** Derselbe Stoß lässt sich aus jedem Inertialsystem beschreiben, und die Energieerhaltung gilt dort in derselben Form (siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/)).
+3. **Galilei-Invarianz:** Derselbe Stoß lässt sich aus jedem Inertialsystem beschreiben, und die Energieerhaltung gilt dort in derselben Form (siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/)).
 
 Die Teilchen werden als Punktmassen idealisiert. Wie im Skriptum heißen die Geschwindigkeiten vor dem Stoß $\mathbf{v}_i$ und nach dem Stoß $\mathbf{u}_i$, also $\mathbf{p}_i = m_i\mathbf{v}_i$ und $\mathbf{p}_i{}' = m_i\mathbf{u}_i$. In $S$ lautet die Energieerhaltung
 

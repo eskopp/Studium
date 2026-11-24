@@ -84,4 +84,4 @@ Die Probe zeigt: $(2 + i)(1 - i) = 2 - 2i + i - i^2 = 3 - i$. Das stimmt.
 > [!CAUTION] Stolperstelle
 > Das Vorzeichen bei $i^2$ geht gern verloren. Es gilt $-8i^2 = -8 \cdot (-1) = +8$, nicht $-8$. Rechne bei Produkten immer zuerst alle Terme aus und ersetze erst danach $i^2$ durch $-1$.
 
-Wie man komplexe Zahlen als Punkte in der Ebene versteht und mit Betrag und Winkel beschreibt, steht im Artikel [Betrag und Polarform](/mathematik/1/komplexe-zahlen/komplexe-zahlen-polarform/).
+Wie man komplexe Zahlen als Punkte in der Ebene versteht und mit Betrag und Winkel beschreibt, steht im Artikel [Betrag und Polarform](/mathematik/1/skript/komplexe-zahlen/komplexe-zahlen-polarform/).

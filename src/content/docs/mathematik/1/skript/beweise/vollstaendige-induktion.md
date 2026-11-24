@@ -77,4 +77,4 @@ Also gilt sie auch für $n + 1$.
 > [!CAUTION] Stolperstelle
 > Ohne Induktionsanfang beweist der Schritt nichts. Nimm die falsche Aussage $A(n)$: "$n = n + 1$". Der Schritt gelingt, denn aus $n = n + 1$ folgt durch Addition von $1$, dass $n + 1 = n + 2$ gilt. Trotzdem ist die Aussage für kein $n$ wahr, denn der Induktionsanfang $1 = 2$ ist falsch. Die Dominokette fällt nicht, wenn der erste Stein stehen bleibt.
 
-Wie man das Vorgehen als Beweismethode einordnet, steht im Artikel [Beweismethoden](/mathematik/1/beweise/beweismethoden/).
+Wie man das Vorgehen als Beweismethode einordnet, steht im Artikel [Beweismethoden](/mathematik/1/skript/beweise/beweismethoden/).

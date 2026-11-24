@@ -7,7 +7,7 @@ linkTitle: "Äquivalenz, Ordnung"
 
 *In einem Satz: Eine Äquivalenzrelation sagt "gleichwertig in einer Hinsicht", eine Ordnungsrelation sagt "kommt davor oder ist gleich".*
 
-Die Eigenschaften reflexiv, symmetrisch, antisymmetrisch und transitiv sind im Artikel [Eigenschaften von Relationen](/mathematik/1/relationen-und-funktionen/relationen-eigenschaften/) erklärt. Hier setzen wir sie zu zwei Sorten von Relationen zusammen.
+Die Eigenschaften reflexiv, symmetrisch, antisymmetrisch und transitiv sind im Artikel [Eigenschaften von Relationen](/mathematik/1/skript/relationen-und-funktionen/relationen-eigenschaften/) erklärt. Hier setzen wir sie zu zwei Sorten von Relationen zusammen.
 
 ## Äquivalenzrelationen
 

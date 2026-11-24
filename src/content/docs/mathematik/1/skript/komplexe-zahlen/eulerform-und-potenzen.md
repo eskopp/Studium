@@ -46,7 +46,7 @@ Beim Multiplizieren **multiplizierst du die Längen und addierst die Winkel**. D
 ### So gehst du vor: hohe Potenzen
 
 1. **Betrag** berechnen: $r = \sqrt{a^2 + b^2}$.
-2. **Winkel** bestimmen: $\tan\varphi = b/a$. **Quadrant prüfen**, denn der Taschenrechner liefert für $a < 0$ den falschen Wert (siehe [Betrag und Polarform](/mathematik/1/komplexe-zahlen/komplexe-zahlen-polarform/)).
+2. **Winkel** bestimmen: $\tan\varphi = b/a$. **Quadrant prüfen**, denn der Taschenrechner liefert für $a < 0$ den falschen Wert (siehe [Betrag und Polarform](/mathematik/1/skript/komplexe-zahlen/komplexe-zahlen-polarform/)).
 3. In **Eulerform** schreiben: $z = r\,e^{i\varphi}$.
 4. **de Moivre** anwenden: $z^n = r^n\,e^{i\,n\varphi}$.
 5. Den Winkel $n\varphi$ **um volle Umdrehungen $2\pi$ reduzieren**.

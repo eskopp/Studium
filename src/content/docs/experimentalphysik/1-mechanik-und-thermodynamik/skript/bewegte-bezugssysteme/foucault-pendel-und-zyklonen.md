@@ -123,7 +123,7 @@ Ein Luftelement strömt zunächst entlang des Druckgefälles auf das Zentrum zu.
 
 ## Weiter
 
-Die Grundlagen der Coriolis-Kraft stehen in [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/rotierende-bezugssysteme/).
+Die Grundlagen der Coriolis-Kraft stehen in [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/rotierende-bezugssysteme/).
 
 ## Quellen
 

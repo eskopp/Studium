@@ -115,7 +115,7 @@ $$
 F_Z = m g \tan\alpha .
 $$
 
-Im mitdrehenden System ruht die Kugel, also ist $\mathbf{a}' = 0$. Dort gilt $m\mathbf{g} + \mathbf{F}_f + \mathbf{F}_Z' = 0$, also $\mathbf{F}_Z' = -\mathbf{F}_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
+Im mitdrehenden System ruht die Kugel, also ist $\mathbf{a}' = 0$. Dort gilt $m\mathbf{g} + \mathbf{F}_f + \mathbf{F}_Z' = 0$, also $\mathbf{F}_Z' = -\mathbf{F}_Z$. Das ist das d'Alembertsche Prinzip aus [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
 
 ### Der Satellit
 
@@ -129,7 +129,7 @@ Der Astronaut im Satelliten fühlt sich kräftefrei. Für ihn heben sich Gravita
 
 ## Weiter
 
-Zwei Anwendungen der Coriolis-Kraft stehen in [Foucault-Pendel und Zyklonen](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/foucault-pendel-und-zyklonen/).
+Zwei Anwendungen der Coriolis-Kraft stehen in [Foucault-Pendel und Zyklonen](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/foucault-pendel-und-zyklonen/).
 
 ## Quellen
 

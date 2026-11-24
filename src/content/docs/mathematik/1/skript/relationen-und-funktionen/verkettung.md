@@ -42,7 +42,7 @@ Für $x = 3$ ergibt das $(g \circ f)(3) = 1^2 = 1$, aber $(f \circ g)(3) = 2 \cd
 - **a)** Ist $g \circ f$ surjektiv, dann ist $g$ surjektiv.
 - **b)** Ist $g \circ f$ injektiv, dann ist $f$ injektiv.
 
-Die Begriffe stehen im Artikel [Injektivität und Surjektivität](/mathematik/1/relationen-und-funktionen/injektiv-und-surjektiv/). Beide Beweise folgen demselben Muster: Man nimmt die Voraussetzung über $g \circ f$ und liest daraus die Behauptung über einen Teil ab.
+Die Begriffe stehen im Artikel [Injektivität und Surjektivität](/mathematik/1/skript/relationen-und-funktionen/injektiv-und-surjektiv/). Beide Beweise folgen demselben Muster: Man nimmt die Voraussetzung über $g \circ f$ und liest daraus die Behauptung über einen Teil ab.
 
 **Beweis a).** *Zu zeigen:* Zu jedem $c \in C$ gibt es ein $b \in B$ mit $g(b) = c$. Am Ende muss also ein Element $b \in B$ dastehen, das auf $c$ abgebildet wird.
 

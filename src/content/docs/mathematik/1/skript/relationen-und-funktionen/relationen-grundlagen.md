@@ -70,4 +70,4 @@ $$
 2^{\,n^2}
 $$
 
-verschiedene Relationen auf $A$. Für $n = 2$ sind das $2^4 = 16$, für $n = 3$ schon $2^9 = 512$. Warum $2^k$ Teilmengen entstehen, steht im Artikel [Potenzmengen](/mathematik/1/logik-und-mengen/potenzmengen/).
+verschiedene Relationen auf $A$. Für $n = 2$ sind das $2^4 = 16$, für $n = 3$ schon $2^9 = 512$. Warum $2^k$ Teilmengen entstehen, steht im Artikel [Potenzmengen](/mathematik/1/skript/logik-und-mengen/potenzmengen/).

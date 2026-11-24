@@ -90,7 +90,7 @@ Der mittlere Summand ist null, es bleibt $W_k = \tfrac{1}{2} M v_S^2 + W_k^{(S)}
 
 ## Weiter
 
-Für zwei Teilchen vereinfacht sich die Relativbewegung weiter, siehe [Reduzierte Masse](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/reduzierte-masse/).
+Für zwei Teilchen vereinfacht sich die Relativbewegung weiter, siehe [Reduzierte Masse](/experimentalphysik/1-mechanik-und-thermodynamik/skript/systeme-von-massenpunkten/reduzierte-masse/).
 
 ## Quellen
 

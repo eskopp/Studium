@@ -84,7 +84,7 @@ Ohne Beschleunigung zeigt die Waage $70\,\mathrm{kg} \cdot 9{,}81\,\mathrm{m/s^2
 
 ## Weiter
 
-Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/bewegte-bezugssysteme/rotierende-bezugssysteme/). Aus der Galilei-Invarianz folgt zusammen mit der Massen- und der Energieerhaltung auch der Impulserhaltungssatz bei Stößen, siehe [Stöße](/experimentalphysik/1-mechanik-und-thermodynamik/systeme-von-massenpunkten/stoesse/).
+Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bezugssysteme](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/rotierende-bezugssysteme/). Aus der Galilei-Invarianz folgt zusammen mit der Massen- und der Energieerhaltung auch der Impulserhaltungssatz bei Stößen, siehe [Stöße](/experimentalphysik/1-mechanik-und-thermodynamik/skript/systeme-von-massenpunkten/stoesse/).
 
 ## Quellen
 

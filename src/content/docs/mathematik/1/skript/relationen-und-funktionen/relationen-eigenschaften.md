@@ -16,7 +16,7 @@ Jede der vier Eigenschaften ist eine Aussage über **alle** Elemente. Deshalb gi
 - **Nachweisen:** Du nimmst beliebige Elemente und formst die Regel Schritt für Schritt um, bis die Behauptung dasteht. Einzelne Beispiele beweisen nichts.
 - **Widerlegen:** Du suchst **ein** Gegenbeispiel mit konkreten Werten. Ein einziger Fall genügt.
 
-Warum das so ist, steht im Artikel [Logik und Notation](/mathematik/1/logik-und-mengen/logik-und-notation/) bei der Verneinung von $\forall$.
+Warum das so ist, steht im Artikel [Logik und Notation](/mathematik/1/skript/logik-und-mengen/logik-und-notation/) bei der Verneinung von $\forall$.
 
 Für zwei Eigenschaften nutzen wir dieselbe Relation auf $\mathbb{N} \times \mathbb{N}$, deren Elemente Paare $(a, b)$ sind:
 

@@ -6,7 +6,7 @@ Das Grundpraktikum liegt separat in `Grundpraktikum-der-Physik-1`.
 
 ## Aufbau
 
-- `src/content/docs/`: die Artikel, ein Ordner je Bereich und Modul, Startseite in `src/content/docs/index.md`
+- `src/content/docs/`: die Artikel, ein Ordner je Bereich und Modul, Startseite in `src/content/docs/index.mdx`. Ein Modul hat Reiter aus den Ordnern `skript/`, `uebung/`, `hausaufgaben/` und `praktikum/`, es gibt nur die mit Inhalt
 - `src/components/`: interaktive Widgets für einzelne Artikel (`Dichte.astro`, `Torsion.astro`)
 - `public/`: Dateien, die unverändert veröffentlicht werden (Favicon, Logo, `CNAME`, Bilder)
 - `astro.config.mjs`: Konfiguration des Themes (Name, Logo, Bearbeiten-Link)
