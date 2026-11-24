@@ -1,8 +1,6 @@
 ---
 title: Start
 description: So ist die Seite aufgebaut.
-aliases:
-  - "/start/"
 ---
 
 Diese Seite sammelt meine Unterlagen zum Studium der Technischen Physik. Sie wächst mit dem Studium, Module kommen hinzu, sobald es Inhalte gibt.

@@ -2,8 +2,6 @@
 title: Potenzmengen
 description: Die Menge aller Teilmengen einer Menge und wie viele es sind.
 weight: 3
-aliases:
-  - "/mathematik/1/potenzmengen/"
 ---
 
 *In einem Satz: Die Potenzmenge einer Menge ist die Menge aller Auswahlen, die man aus ihr treffen kann.*

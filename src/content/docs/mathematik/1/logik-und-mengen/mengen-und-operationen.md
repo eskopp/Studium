@@ -3,8 +3,6 @@ title: Mengen und Mengenoperationen
 description: Was eine Menge ist, wie man sie schreibt und wie man Mengen verknüpft.
 weight: 2
 linkTitle: "Mengen"
-aliases:
-  - "/mathematik/1/mengen-und-operationen/"
 ---
 
 *In einem Satz: Eine Menge ist eine Sammlung von Dingen, und es zählt nur, ob ein Ding drin ist, nicht wie oft oder in welcher Reihenfolge.*

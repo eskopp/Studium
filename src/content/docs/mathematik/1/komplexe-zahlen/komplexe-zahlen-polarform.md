@@ -3,8 +3,6 @@ title: "Komplexe Zahlen: Betrag und Polarform"
 description: "Die Zahlenebene, Betrag und Winkel einer komplexen Zahl und die Umrechnung in die Polarform."
 weight: 2
 linkTitle: "Polarform"
-aliases:
-  - "/mathematik/1/komplexe-zahlen-polarform/"
 ---
 
 *In einem Satz: Eine komplexe Zahl ist ein Punkt in der Ebene, und man kann ihn entweder mit zwei Koordinaten oder mit Abstand und Winkel angeben.*

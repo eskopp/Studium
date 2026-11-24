@@ -2,8 +2,6 @@
 title: Beweise mit Mengen
 description: Mit der Elementmethode Teilmengen und Gleichheiten von Mengen beweisen.
 weight: 4
-aliases:
-  - "/mathematik/1/beweise-mit-mengen/"
 ---
 
 *In einem Satz: Um etwas über Mengen zu beweisen, nimmst du ein beliebiges Element und verfolgst, in welchen Mengen es liegen muss.*

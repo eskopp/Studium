@@ -2,8 +2,6 @@
 title: "Beweismethoden"
 description: "Direkter Beweis, Gegenbeispiel und Widerspruchsbeweis im Vergleich."
 weight: 1
-aliases:
-  - "/mathematik/1/beweismethoden/"
 ---
 
 *In einem Satz: Ein Beweis zeigt mit Schritten aus bekannten Aussagen, dass etwas immer stimmt, und es gibt drei Grundwege dorthin.*

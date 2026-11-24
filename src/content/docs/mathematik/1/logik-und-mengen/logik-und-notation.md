@@ -2,8 +2,6 @@
 title: Logik und Notation
 description: Aussagen, Verknüpfungen und Quantoren, die Sprache der Mathematik.
 weight: 1
-aliases:
-  - "/mathematik/1/logik-und-notation/"
 ---
 
 *In einem Satz: Die Mathematik hat eine eigene kurze Schrift, und wer die Zeichen $\forall$, $\exists$, $\Rightarrow$ und $\Leftrightarrow$ lesen kann, versteht jeden Beweis.*
