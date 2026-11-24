@@ -9,6 +9,6 @@ Diese Seite sammelt meine Unterlagen zum Studium der Technischen Physik. Sie wä
 
 ## Aufbau
 
-Oben stehen die Semester, darunter die Module. Die Seitenleiste zeigt immer nur das Modul, in dem du gerade bist. Die Suche oben findet Begriffe und Formeln über alle Seiten.
+Die Seitenleiste zeigt immer nur das Modul, in dem du gerade bist. Die Suche oben findet Begriffe und Formeln über alle Seiten.
 
-## Semester
+## Bereiche
