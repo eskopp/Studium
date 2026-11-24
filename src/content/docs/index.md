@@ -9,6 +9,14 @@ Diese Seite sammelt meine Unterlagen zum Studium der Technischen Physik. Sie wä
 
 ## Aufbau
 
-Oben stehen die Semester, darunter die Module. Die Seitenleiste zeigt immer nur das Modul, in dem du gerade bist. Die Suche oben findet Begriffe und Formeln über alle Seiten.
+Die Seitenleiste zeigt immer nur das Modul, in dem du gerade bist. Die Suche oben findet Begriffe und Formeln über alle Seiten.
 
 ## Semester
+
+**WS 26/27**
+
+- [Experimentalphysik 1](/experimentalphysik/1-mechanik-und-thermodynamik/): Mechanik und Thermodynamik
+- [Mathematik 1](/mathematik/1/): Mathematik für Physiker
+- [Grundpraktikum 1](/praktika/grundpraktikum-1/): Versuche aus dem Grundpraktikum Physik
+
+## Bereiche
