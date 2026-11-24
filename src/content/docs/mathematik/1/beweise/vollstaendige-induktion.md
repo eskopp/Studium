@@ -2,8 +2,6 @@
 title: "Vollständige Induktion"
 description: "Aussagen für alle natürlichen Zahlen beweisen, mit Induktionsanfang und Induktionsschritt."
 weight: 2
-aliases:
-  - "/mathematik/1/vollstaendige-induktion/"
 ---
 
 *In einem Satz: Bei der vollständigen Induktion zeigst du, dass eine Aussage für die erste Zahl gilt und dass sie jedes Mal an die nächste Zahl weitergereicht wird.*

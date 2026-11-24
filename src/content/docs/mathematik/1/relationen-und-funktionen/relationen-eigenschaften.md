@@ -3,8 +3,6 @@ title: "Eigenschaften von Relationen"
 description: "Reflexiv, symmetrisch, antisymmetrisch, transitiv: Formel, Beispiel aus der Hausaufgabe als Rechenkette und Gegenbeispiel."
 weight: 2
 linkTitle: "Eigenschaften"
-aliases:
-  - "/mathematik/1/relationen-eigenschaften/"
 ---
 
 *In einem Satz: Man beschreibt eine Relation, indem man prüft, welche von vier typischen Regeln für sie gelten.*

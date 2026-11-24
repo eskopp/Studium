@@ -3,8 +3,6 @@ title: "Komplexe Zahlen: Grundlagen"
 description: "Die imaginäre Einheit, die Form a + bi und das Rechnen mit komplexen Zahlen."
 weight: 1
 linkTitle: "Grundlagen"
-aliases:
-  - "/mathematik/1/komplexe-zahlen-grundlagen/"
 ---
 
 *In einem Satz: Komplexe Zahlen erweitern die reellen Zahlen um eine Zahl $i$, deren Quadrat $-1$ ist, damit jede quadratische Gleichung eine Lösung hat.*

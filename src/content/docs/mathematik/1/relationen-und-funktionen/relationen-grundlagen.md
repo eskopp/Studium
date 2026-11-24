@@ -3,8 +3,6 @@ title: "Relationen: Grundlagen"
 description: "Geordnete Paare, das kartesische Produkt und was eine Relation ist."
 weight: 1
 linkTitle: "Grundlagen"
-aliases:
-  - "/mathematik/1/relationen-grundlagen/"
 ---
 
 *In einem Satz: Eine Relation legt fest, welche Paare von Dingen zusammengehören.*

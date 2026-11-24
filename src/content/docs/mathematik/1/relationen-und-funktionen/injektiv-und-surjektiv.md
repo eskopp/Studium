@@ -3,8 +3,6 @@ title: "Injektivität und Surjektivität"
 description: "Wann eine Funktion jeden Wert höchstens einmal und wann sie jeden Wert mindestens einmal trifft, mit Aufgaben und sauber ausgeschriebenen Lösungen."
 weight: 4
 linkTitle: "Injektiv, surjektiv"
-aliases:
-  - "/mathematik/1/injektiv-und-surjektiv/"
 ---
 
 *In einem Satz: Eine Funktion ist injektiv, wenn sich nie zwei Eingaben denselben Ausgang teilen, und surjektiv, wenn jeder mögliche Ausgang auch erreicht wird.*

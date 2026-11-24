@@ -3,8 +3,6 @@ title: "Äquivalenz- und Ordnungsrelationen"
 description: "Zwei wichtige Sorten von Relationen, woran man sie erkennt und wie man sie nachweist oder widerlegt."
 weight: 3
 linkTitle: "Äquivalenz, Ordnung"
-aliases:
-  - "/mathematik/1/aequivalenz-und-ordnungsrelationen/"
 ---
 
 *In einem Satz: Eine Äquivalenzrelation sagt "gleichwertig in einer Hinsicht", eine Ordnungsrelation sagt "kommt davor oder ist gleich".*
