@@ -10,6 +10,7 @@ export default defineConfig({
     astrostudium({
       name: 'Technische Physik',
       logo: '/logo.svg',
+      menu: [],
       editUrl: 'https://github.com/eskopp/Studium/edit/main/',
     }),
     mdx(),
