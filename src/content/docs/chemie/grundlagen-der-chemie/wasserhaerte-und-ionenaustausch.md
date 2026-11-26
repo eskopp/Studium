@@ -44,6 +44,8 @@ Gegen Kalkablagerungen hilft nach der Vorlesung Essigsäure. Spezielle Kalkentfe
 > [!TIP] In einfachen Worten
 > Das Harz ist wie ein Parkhaus mit festen Plätzen. Ein Calcium-Ion nimmt zwei Plätze und schiebt dafür zwei $\mathrm{H_3O^+}$ ins Wasser. Danach ist das Calcium aus dem Wasser weg. Die Ladung bleibt dabei erhalten: Ein $\mathrm{Ca^{2+}}$ ersetzt zwei einfach geladene $\mathrm{H_3O^+}$.
 
+![Ein Calcium-Ion tauscht sich gegen zwei H₃O⁺: Links trägt das Harz zwei SO₃⁻-Gruppen mit H₃O⁺, rechts sitzt das Calcium fest und zwei H₃O⁺ sind im Wasser.](/images/chemie/ionenaustausch.svg)
+
 Wenn alle Plätze belegt sind, ist das Harz erschöpft. Man **regeneriert** es: Einen Kationenaustauscher in der $\mathrm{H^+}$-Form regeneriert man mit Säure, einen Anionenaustauscher mit Lauge. Die gebundenen Ionen lösen sich ab, und das Harz kann wieder arbeiten.
 
 Im Haushalt tauscht ein Enthärter Calcium meist gegen Natrium aus. Das Wasser bleibt dann ohne Kalk, enthält aber etwas mehr Natrium.
@@ -57,6 +59,8 @@ Phosphat bindet Calcium und Magnesium als schwerlösliche Phosphate. Deshalb ste
 1. Phosphat ist ein Nährstoff und fördert das Algenwachstum.
 2. Beim Abbau der Algen wird gelöster Sauerstoff verbraucht.
 3. Fehlt der Sauerstoff, sterben Wassertiere. Das Gewässer „kippt um“.
+
+![Ursache-Wirkungs-Kette: Phosphat im Abwasser, mehr Algenwachstum, Abbau der Algen verbraucht Sauerstoff, Sauerstoffmangel und Tiere sterben.](/images/chemie/phosphat-kette.svg)
 
 Die Abwasserreinigung ging deshalb in Stufen vor: erst grobe Rechen für große Abfälle, dann biologische Reinigung durch Bakterien, später eine eigene Stufe, die das Phosphat entfernt.
 
