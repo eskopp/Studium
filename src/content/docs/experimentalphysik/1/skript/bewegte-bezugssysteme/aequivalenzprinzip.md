@@ -59,7 +59,7 @@ Der Wert ist so klein, dass die Äquivalenz bisher auf etwa $15$ Stellen bestät
 > **Starkes Äquivalenzprinzip:** In einem Bezugssystem, das im Gravitationsfeld frei fällt, bewegen sich alle frei fallenden Testteilchen geradlinig gleichförmig.
 
 > [!TIP] In einfachen Worten
-> Die Bahn eines fallenden Körpers hängt nicht von dem Körper ab, nur vom Ort und von der Anfangsgeschwindigkeit. Darum kann man die Gravitation als Eigenschaft des Raumes beschreiben, also geometrisch. Im freien Fall (zum Beispiel im Satelliten) verschwindet die Schwerkraft sogar für den, der mitfällt. Umgekehrt kann man Schwerkraft durch Beschleunigung erzeugen, etwa im anfahrenden Fahrstuhl, siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1-mechanik-und-thermodynamik/skript/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
+> Die Bahn eines fallenden Körpers hängt nicht von dem Körper ab, nur vom Ort und von der Anfangsgeschwindigkeit. Darum kann man die Gravitation als Eigenschaft des Raumes beschreiben, also geometrisch. Im freien Fall (zum Beispiel im Satelliten) verschwindet die Schwerkraft sogar für den, der mitfällt. Umgekehrt kann man Schwerkraft durch Beschleunigung erzeugen, etwa im anfahrenden Fahrstuhl, siehe [Inertialsysteme und Galilei-Transformation](/experimentalphysik/1/skript/bewegte-bezugssysteme/inertialsysteme-und-galilei-transformation/).
 
 ## Quellen
 
