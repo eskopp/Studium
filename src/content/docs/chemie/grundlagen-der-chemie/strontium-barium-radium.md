@@ -8,7 +8,7 @@ weight: 2
 
 ## Strontium
 
-Strontium kommt selten vor. Man findet es vor allem als Sulfat und als Carbonat in Mineralen. Strontiumverbindungen färben Feuerwerk rot. Manche Isotope sind radioaktiv.
+Strontium kommt selten vor. Man findet es vor allem als Sulfat und als Carbonat in Mineralen. Es hat kaum technische Anwendungen. Strontiumverbindungen färben aber Feuerwerk rot (Rotfeuer). Manche Isotope sind radioaktiv.
 
 > [!CAUTION] Stolperstelle
 > Strontium verhält sich im Körper ähnlich wie Calcium. Radioaktives Strontium kann deshalb in die Knochen eingebaut werden. Das ist keine Anleitung für den Ernstfall, sondern nur die Erklärung, warum Strontium und Calcium sich ähneln.
@@ -38,7 +38,7 @@ Als Kontrastmittel füllt Bariumsulfat den Magen. Es schwächt Röntgenstrahlen 
 
 Radium ist radioaktiv. Es entsteht beim Zerfall von Uran und kommt deshalb in Uranerzen vor, vor allem in der Pechblende, die hauptsächlich aus $\mathrm{UO_2}$ besteht. Nach der Vorlesung findet man etwa $0{,}34\,\mathrm{g}$ Radium pro Tonne Uran.
 
-Man stellt es durch Elektrolyse mit einer Quecksilberelektrode her. Es ist ein silberweißes Metall und schmilzt bei etwa $700\,^\circ\mathrm{C}$. Seine Chemie ähnelt der von Barium.
+Nach der Vorlesung schmilzt man ein Radiumsalz und elektrolysiert die Schmelze an einer Quecksilberelektrode. Es ist ein silberweißes Metall und schmilzt bei etwa $700\,^\circ\mathrm{C}$. Seine Chemie ähnelt der von Barium.
 
 Früher bestrahlte man damit Tumoren, zum Beispiel an der Schilddrüse oder am Gebärmutterhals. Die Bestrahlung ließ sich schwer kontrollieren und verursachte schwere Strahlenschäden, darunter Vernarbungen und Gefäßschäden. Heute setzt man Radium dafür nicht mehr ein.
 
