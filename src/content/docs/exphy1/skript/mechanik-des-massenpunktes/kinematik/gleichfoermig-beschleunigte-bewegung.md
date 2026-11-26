@@ -50,6 +50,10 @@ Beim schiefen Wurf startet der Körper in der Höhe $h$ mit der Geschwindigkeit 
 >
 > Die Wurfdauer folgt aus $x_\mathrm{w} = v_0 \cos\varphi \cdot T$, also $T = x_\mathrm{w}/(v_0\cos\varphi)$.
 
+![Die Parabelbahn eines Wurfs aus der Höhe h unter dem Winkel phi mit höchster Höhe H und Wurfweite x_w.](/images/exphy1/schiefer-wurf.svg)
+
+*Eigene Zeichnung: Der schiefe Wurf mit Wurfhöhe und Wurfweite.*
+
 ### Beispiel
 
 Ein Ball wird vom Boden ($h = 0$) mit $v_0 = 15\,\mathrm{m/s}$ unter $\varphi = 30^\circ$ geworfen. Die Zahlen sind frei gewählt. Dann ist

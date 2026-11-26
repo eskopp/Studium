@@ -58,6 +58,10 @@ Ein Körper ruht auf einer schiefen Ebene mit dem Neigungswinkel $\alpha$. Man z
 
 Damit der Körper nicht abrutscht, braucht es eine Zugkraft $\mathbf{Z} = -\mathbf{F}_\parallel$, zum Beispiel durch ein Seil. Die Normalkomponente wird durch eine **Zwangskraft** $\mathbf{N} = -\mathbf{F}_\perp$ ausgeglichen. Sie entsteht, weil die Unterlage ein wenig nachgibt und den Körper trägt. Die Summe aller vier Kräfte ist null.
 
+![Ein Körper auf einer schiefen Ebene mit Gewichtskraft, Hangabtriebskraft, Normalkraft, Zugkraft und Zwangskraft.](/images/exphy1/schiefe-ebene.svg)
+
+*Eigene Zeichnung: Die Gewichtskraft wird in Hangabtriebskraft und Normalkraft zerlegt.*
+
 #### Beispiel
 
 Ein Körper mit $m = 2{,}0\,\mathrm{kg}$ liegt auf einer Ebene mit $\alpha = 30^\circ$. Die Zahlen sind frei gewählt. Dann ist

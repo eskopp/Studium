@@ -42,6 +42,10 @@ $$
 a_n = -g\cos\varphi + \frac{Z_n}{m} = 0 , \qquad a_t = -g\sin\varphi .
 $$
 
+![Ein Pendel mit Fadenlänge l und Auslenkwinkel phi. Die Gewichtskraft ist in eine Komponente entlang des Fadens und eine tangential zur Bahn zerlegt, dazu wirkt die Fadenkraft.](/images/exphy1/pendel-kraefte.svg)
+
+*Eigene Zeichnung: Kräfte am mathematischen Pendel.*
+
 Die Tangentialbeschleunigung ist die zweite Ableitung des Bogens $b = \ell\varphi$ nach der Zeit, also $a_t = \ell\ddot{\varphi}$. Daraus folgt die **Pendelgleichung**
 
 $$

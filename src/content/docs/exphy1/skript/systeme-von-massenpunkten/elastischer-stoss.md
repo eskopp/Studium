@@ -55,6 +55,10 @@ Beim **zentralen Stoß** liegen $\mathbf{p}_1$, $\mathbf{p}_1'$ und $\mathbf{p}_
 
 Bei $m_1 = m_2$ wird die **gesamte** kinetische Energie von Teilchen 1 auf Teilchen 2 übertragen. Das passt zu den Beobachtungen mit zwei gleich schweren Wagen auf der Luftkissenbahn.
 
+![Der Experimentiertisch der Vorlesung mit einem Rahmen, vier Billardkugeln und einem Queue.](/images/exphy1/billard-aufbau.jpg)
+
+*Aufbau mit Billardkugeln und Queue auf dem Experimentiertisch der Vorlesung (eigenes Foto).*
+
 #### Beispiel
 
 $m_1 = 0{,}20\,\mathrm{kg}$ mit $v_1 = 3{,}0\,\mathrm{m/s}$ trifft den ruhenden Körper $m_2 = 0{,}60\,\mathrm{kg}$ (frei gewählte Zahlen). Dann ist $v_1' = -1{,}5\,\mathrm{m/s}$ und $v_2' = 1{,}5\,\mathrm{m/s}$, und der Anteil der Energie, der übergeht, ist $4\cdot 0{,}20\cdot 0{,}60/(0{,}80)^2 = 0{,}75$. Zur Kontrolle: Vorher $0{,}90\,\mathrm{J}$, nachher $0{,}225\,\mathrm{J} + 0{,}675\,\mathrm{J} = 0{,}90\,\mathrm{J}$.

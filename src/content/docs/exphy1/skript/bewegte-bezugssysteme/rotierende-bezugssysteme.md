@@ -60,6 +60,10 @@ $$
 > [!TIP] In einfachen Worten
 > Rollt eine Kugel auf einer sich drehenden Scheibe geradlinig nach außen, dann sieht ein Beobachter auf der Scheibe, wie sie zur Seite abgelenkt wird. Der Grund: Weiter außen bewegt sich der Boden schneller als weiter innen, und die Kugel hält ihre alte Seitwärtsgeschwindigkeit. Die Scheibe "läuft ihr davon". Die Kraft ändert nur die Richtung der Bewegung, nicht den Betrag der Geschwindigkeit.
 
+![Die Drehscheibe aus der Vorlesung. Links die Schale mit der Kugel, die über die sich drehende Scheibe gerollt wurde, in der Mitte ein Gestell mit einem Gewicht an Fäden.](/images/exphy1/coriolis-drehscheibe.jpg)
+
+*Die Drehscheibe aus der Vorlesung (eigenes Foto). Links die Schale mit der Kugel, mit der man die gekrümmte Spur auf der drehenden Scheibe zeigen kann.*
+
 ### Beispiel
 
 Auf einer Scheibe mit $\omega = 2\pi\,\mathrm{s^{-1}}$ rollt eine Kugel mit $m = 0{,}1\,\mathrm{kg}$ radial nach außen mit $v' = 1\,\mathrm{m/s}$. Die Coriolis-Kraft hat den Betrag

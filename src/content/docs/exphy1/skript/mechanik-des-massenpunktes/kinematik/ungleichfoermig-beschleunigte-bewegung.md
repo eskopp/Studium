@@ -24,6 +24,10 @@ Eine Beschleunigung ist **ungleichförmig**, wenn $\mathbf{a}(t)$ nicht konstant
 > [!TIP] In einfachen Worten
 > Die Geschwindigkeit ist ein Pfeil, der sich dreht, und das Drehen ist eine Beschleunigung. Sie zeigt nach innen und ändert nur die Richtung, nicht das Tempo. Ohne sie würde der Körper geradeaus weiterfliegen.
 
+![Ein Punkt auf einer Kreisbahn mit Ortsvektor, tangentialer Geschwindigkeit und zum Mittelpunkt gerichteter Zentripetalbeschleunigung.](/images/exphy1/kreisbewegung.svg)
+
+*Eigene Zeichnung: Bei der gleichförmigen Kreisbewegung zeigt die Beschleunigung zum Mittelpunkt und steht senkrecht auf der Geschwindigkeit.*
+
 ### Beispiel
 
 Ein Rad mit $R = 0{,}50\,\mathrm{m}$ dreht sich zweimal pro Sekunde. Die Zahlen sind frei gewählt. Dann ist $\omega = 2\pi\cdot 2\,\mathrm{s^{-1}} \approx 12{,}6\,\mathrm{s^{-1}}$, und am Rand gilt
@@ -71,6 +75,10 @@ Man legt die $xy$-Ebene so, dass $\mathbf{a}$ und $\mathbf{v}$ in ihr liegen, un
 
 > [!TIP] In einfachen Worten
 > Der Krümmungsradius ist der Radius des Kreises, der sich an der Stelle am besten an die Bahn anschmiegt. Eine enge Kurve hat einen kleinen $\varrho$, eine gerade Strecke einen unendlich großen. Die Normalbeschleunigung $v^2/\varrho$ wächst mit dem Quadrat des Tempos und mit der Enge der Kurve.
+
+![Eine gekrümmte Bahn mit Geschwindigkeit, Tangentialbeschleunigung, Normalbeschleunigung und Krümmungskreis.](/images/exphy1/tangential-normalbeschleunigung.svg)
+
+*Eigene Zeichnung: Tangential- und Normalbeschleunigung und der Krümmungskreis.*
 
 ### Beispiel
 
