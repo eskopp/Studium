@@ -30,6 +30,8 @@ Die weiteren Hauptbestandteile:
 - **Ozeane:** Wasserstoff $11\,\%$, Chlor $1{,}9\,\%$, Natrium $1{,}1\,\%$, Rest $0{,}4\,\%$.
 - **Atmosphäre:** Stickstoff $78\,\%$, Argon $0{,}9\,\%$, Kohlenstoffdioxid $0{,}03\,\%$ (so steht es auf der Folie, heute sind es über $0{,}04\,\%$).
 
+![Massenanteil der Elemente in der Erdkruste als Balkendiagramm: Sauerstoff 46 Prozent, Silicium 28 Prozent, Aluminium 8,2 Prozent und weitere.](/images/chemie/erdkruste-elemente.svg)
+
 Für die gesamte Erde einschließlich Erdkern liegt der Sauerstoffanteil bei etwa $29\,\%$.
 
 In der Atmosphäre war der Sauerstoffanteil vor etwa 700 Millionen Jahren noch unter $1\,\%$. Danach stieg er auf heute $21\,\%$. Die Photosynthese ist dafür eine wesentliche Ursache. Die genauen Werte aus der frühen Erdgeschichte sind in der Forschung unsicher.
@@ -53,6 +55,8 @@ Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für 
 
 Daraus folgt das Volumenverhältnis $\mathrm{H_2} : \mathrm{O_2} = 2 : 1$, weil bei gleicher Temperatur und gleichem Druck gleich viele Moleküle eines Gases gleich viel Volumen einnehmen.
 
+![Hoffmannscher Wasserzersetzer als Skizze: Am Minuspol sammeln sich zwei Teile Wasserstoff, am Pluspol ein Teil Sauerstoff.](/images/chemie/hoffmann-zersetzer.svg)
+
 Die Gase weist man so nach:
 
 - **Wasserstoff:** Knallgasprobe.
@@ -67,6 +71,8 @@ Im Großen gewinnt man Sauerstoff aus Luft. Dafür verflüssigt man die Luft und
 3. Am **Drosselventil** entspannt sie sich und kühlt dabei weiter ab (Joule-Thomson-Effekt).
 4. Die entspannte, kalte Luft läuft im Gegenstrom zurück und kühlt die nachkommende Luft vor.
 5. Nach vielen Durchläufen ist die Luft so kalt, dass sie flüssig wird.
+
+![Schema des Linde-Verfahrens: Luft, Verdichter, Kühler, Gegenstrom-Wärmeaustauscher, Drosselventil und flüssige Luft, dazu der Rückweg der kalten Luft im Gegenstrom.](/images/chemie/linde-verfahren.svg)
 
 Die flüssige Luft wird anschließend **fraktioniert destilliert**. Die Bestandteile sieden bei unterschiedlichen Temperaturen und lassen sich so trennen.
 
@@ -88,6 +94,8 @@ Führt man Energie zu, entsteht **Singulett-Sauerstoff** $^1\mathrm{O_2}$. Das i
 
 In der Vorlesung regte eine chemische Reaktion Sauerstoff an, und beim Zurückfallen leuchtete er rot. Der Raum musste abgedunkelt werden, weil das Leuchten schwach ist.
 
+![Der Experimentiertisch in der Vorlesung: links der Hoffmannsche Wasserzersetzer, in der Mitte zwei Kolben an einem Stativ, rechts ein großer Glaskolben.](/images/chemie/versuchsaufbau.jpg)
+
 > [!CAUTION] Stolperstelle
 > Man kann die rote Farbe nicht direkt aus den $92\,\mathrm{kJ/mol}$ ablesen. Ein einzelnes Photon mit dieser Energie hätte die Wellenlänge
 >
@@ -106,4 +114,4 @@ In der Vorlesung regte eine chemische Reaktion Sauerstoff an, und beim Zurückfa
 
 ## Quellen
 
-- Mitschrift und Folien der Vorlesung Chemie vom 25.11.2026, in eigenen Worten zusammengefasst. Die Grafik ist eine eigene Zeichnung.
+- Mitschrift und Folien der Vorlesung Chemie vom 25.11.2026, in eigenen Worten zusammengefasst. Die Grafiken sind eigene Zeichnungen, das Foto ist von mir.
