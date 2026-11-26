@@ -26,6 +26,10 @@ weight: 1
 > [!TIP] In einfachen Worten
 > Die Formel sagt: Ort und Geschwindigkeit sehen aus beiden Systemen verschieden aus, die Beschleunigung nicht. Weil die Beschleunigung gleich ist, ist auch die Kraft $\mathbf{F} = m\mathbf{a}$ gleich. Darum sagt das **Newtonsche Relativitätsprinzip**: Kein mechanisches Experiment zeigt, ob sich ein Inertialsystem relativ zu einem anderen bewegt.
 
+![Zwei Koordinatensysteme S und S-Strich, wobei S-Strich sich mit der Geschwindigkeit V gegen S bewegt, und ein Punkt P mit den Ortsvektoren r und r-Strich.](/images/exphy1/galilei-transformation.svg)
+
+*Eigene Zeichnung: Die Galilei-Transformation zwischen zwei Systemen.*
+
 ### Beispiel
 
 Ein Zug fährt mit $u = 20\,\mathrm{m/s}$ am Bahnsteig vorbei. Im Zug wirft jemand einen Ball mit $v' = 5\,\mathrm{m/s}$ in Fahrtrichtung. Vom Bahnsteig aus gilt

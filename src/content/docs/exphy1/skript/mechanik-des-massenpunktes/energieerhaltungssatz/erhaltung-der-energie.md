@@ -24,6 +24,10 @@ Die erste Form ist die Definition der potentiellen Energie, die zweite folgt aus
 > [!TIP] In einfachen Worten
 > Energie wandert zwischen "Lage" und "Bewegung" hin und her, aber die Summe bleibt gleich. Beim Fallen sinkt die potentielle Energie, die kinetische steigt im selben Maß. An der Schaukel passiert es immer wieder: ganz oben nur potentielle, ganz unten nur kinetische Energie.
 
+![Die potentielle Energie einer Feder als Parabel mit einer waagerechten Linie für die Gesamtenergie. Der Abstand dazwischen ist die kinetische Energie.](/images/exphy1/energieerhaltung-parabel.svg)
+
+*Eigene Zeichnung: Potentielle und kinetische Energie bei der Feder, die Summe bleibt konstant.*
+
 ### Beispiel
 
 Ein Stein fällt aus $h = 20\,\mathrm{m}$ ohne Anfangsgeschwindigkeit. Mit dem Nullniveau am Boden ist die Gesamtenergie am Start $m\,g\,h$, am Boden $\tfrac{1}{2}\,m\,v^2$. Gleichsetzen ergibt

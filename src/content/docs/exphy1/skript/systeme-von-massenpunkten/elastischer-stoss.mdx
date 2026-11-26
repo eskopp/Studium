@@ -4,6 +4,8 @@ description: Elastische Stöße im Laborsystem und im Schwerpunktsystem, der Kre
 weight: 5
 ---
 
+import StossApplet from '../../../../../components/StossApplet.astro';
+
 *In einem Satz: Beim elastischen Stoß auf einen ruhenden Körper liegen alle möglichen Endimpulse auf einem Kreis, und im Schwerpunktsystem drehen sich die Impulse nur, ohne ihren Betrag zu ändern.*
 
 Elastisch heißt $\Delta W = 0$: Die kinetische Energie bleibt erhalten. Man betrachtet den Stoß aus zwei Sichtweisen. Das **Laborsystem** eignet sich, wenn ein Teilchen vor dem Stoß ruht, denn dann ist es das Ruhesystem dieses Teilchens. Das [Schwerpunktsystem](/exphy1/skript/systeme-von-massenpunkten/massenmittelpunkt/) vereinfacht die Impulse.
@@ -23,6 +25,10 @@ Teilchen 2 ruht vor dem Stoß, $\mathbf{p}_2 = 0$. Es gelten die Impulserhaltung
 
 > [!TIP] In einfachen Worten
 > Aus Impuls und Energie allein folgt nicht, in welche Richtung die Körper fliegen. Es folgt aber, dass der Endimpuls von Körper 2 auf einem festen Kreis endet. Welchen Punkt auf dem Kreis der Stoß trifft, hängt davon ab, wie mittig der Treffer war.
+
+![Ein Kreis mit dem Radius mu mal v1 um den Punkt (mu v1, 0). Die Spitze von p2-Strich liegt auf dem Kreis, bei gleichen Massen stehen p1-Strich und p2-Strich senkrecht aufeinander.](/images/exphy1/impulskreis.svg)
+
+*Eigene Zeichnung: Der Impulskreis beim elastischen Stoß, hier für gleiche Massen.*
 
 #### Herleitung
 
@@ -73,6 +79,12 @@ Beim **nicht zentralen Stoß** liegen die drei Impulse in einer Ebene, aber nich
 
 > [!CAUTION] Stolperstelle
 > Die Formeln für $v_1'$ und $v_2'$ gelten nur, wenn Körper 2 vor dem Stoß ruht und der Stoß zentral und elastisch ist. Beim Frontalstoß zweier gleich schwerer Körper mit $\mathbf{p}_1 = -\mathbf{p}_2$ folgt dagegen aus Impuls- und Energieerhaltung $\mathbf{p}_1' = -\mathbf{p}_1$ und $\mathbf{p}_2' = -\mathbf{p}_2$: Beide prallen mit umgekehrter Geschwindigkeit zurück. Ruht Körper 2, gilt für gleiche Massen $p_1' = 0$ und $p_2' = p_1$, Körper 1 bleibt stehen.
+
+### Ausprobieren
+
+Verändere das Massenverhältnis und den Streuwinkel im Schwerpunktsystem. Bei gleichen Massen stehen die Endimpulse immer senkrecht aufeinander, bei $m_1 > m_2$ gibt es einen größten Streuwinkel.
+
+<StossApplet />
 
 ## 4.4.2.2 Schwerpunktsystem
 

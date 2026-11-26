@@ -4,6 +4,8 @@ description: Warum das Gravitationsgesetz zu Kegelschnitten als Bahnen führt, w
 weight: 3
 ---
 
+import BahnApplet from '../../../../../../components/BahnApplet.astro';
+
 *In einem Satz: Aus Energie- und Drehimpulserhaltung folgt, dass sich ein Körper im Gravitationsfeld auf einem Kegelschnitt bewegt, und das Vorzeichen der Gesamtenergie entscheidet, welcher es ist.*
 
 Diese Rechnungen wurden in der Vorlesung im Einzelnen nicht durchgeführt, sie stehen im Skriptum und sind für das Verständnis wichtig.
@@ -53,6 +55,10 @@ Perihel und Aphel folgen aus $\dot{r} = 0$. Für die Ellipse ist $r_\mathrm{min}
 
 Für $W < 0$ ist $a > 0$ eine echte Halbachse. Für $W = 0$ geht $a \to \infty$. Die Parabel hat den kleinsten Abstand $r_\mathrm{min} = L^2/(2\gamma m^2 M)$.
 
+![Kreis, Ellipse, Parabel und Hyperbel um denselben Brennpunkt.](/images/exphy1/bahnformen.svg)
+
+*Eigene Zeichnung: Die vier möglichen Bahnformen im Gravitationsfeld.*
+
 ### Beispiel
 
 Die Fluchtgeschwindigkeit von der Erdoberfläche folgt aus $W = 0$: $\tfrac{1}{2}m v^2 = \gamma m M/R$, also
@@ -65,6 +71,12 @@ Die Werte für die Erde sind frei eingesetzt und nachgerechnet. Wer mit weniger 
 
 > [!CAUTION] Stolperstelle
 > Die Gleichung für $\varepsilon$ zeigt, dass die Bahnform nur von **zwei** Größen abhängt, der Energie $W$ und dem Drehimpuls $L$. Die Richtung der Anfangsgeschwindigkeit steckt in $L$. Zwei Körper mit gleichem $W$ und verschiedenem $L$ laufen auf Ellipsen derselben Halbachse $a$, aber mit verschiedener Exzentrizität.
+
+### Ausprobieren
+
+Ändere die Exzentrizität und beobachte, wie aus der Ellipse über die Parabel eine Hyperbel wird. Der Wechsel passiert genau bei $W = 0$.
+
+<BahnApplet />
 
 ## Das effektive Potential
 
@@ -81,6 +93,10 @@ Der Winkelanteil der kinetischen Energie hängt nur von $r$ ab. Man fasst ihn mi
 
 > [!TIP] In einfachen Worten
 > Die Bewegung im Abstand $r$ sieht aus wie die eindimensionale Bewegung eines Balls in einem Tal, dessen Form das effektive Potential vorgibt. Das Zentrifugalpotential ist eine Wand, die den Körper von der Sonne fernhält, solange er Drehimpuls hat.
+
+![Das effektive Potential als Funktion des Abstands mit Minimum für die Kreisbahn und Umkehrpunkten für die Ellipse.](/images/exphy1/effektives-potential.svg)
+
+*Eigene Zeichnung: Effektives Potential mit Kreisbahn, Ellipse und Hyperbel.*
 
 Mit dem effektiven Potential und dem Radialanteil $W_\mathrm{kin}^{(r)} = \tfrac{1}{2}m\dot{r}^2$ lassen sich die Bahnen unterscheiden:
 

@@ -22,6 +22,10 @@ weight: 1
 > [!TIP] In einfachen Worten
 > Nur der Teil der Kraft, der in Richtung der Bewegung zeigt, verrichtet Arbeit. Wer einen schweren Koffer waagerecht durch den Flur trägt, verrichtet im physikalischen Sinn keine Arbeit am Koffer, denn die Kraft nach oben steht senkrecht auf dem Weg. Wer ihn hochhebt, verrichtet Arbeit.
 
+![Ein Kraftvektor F und ein Wegvektor Delta r schließen den Winkel alpha ein. Die Arbeit ist die Kraftkomponente in Wegrichtung mal die Weglänge.](/images/exphy1/arbeit-skalarprodukt.svg)
+
+*Eigene Zeichnung: Arbeit als Skalarprodukt aus Kraft und Weg.*
+
 Zwei Beispiele aus der Vorlesung:
 
 - **Gleichförmige Kreisbewegung:** Die Zentripetalkraft steht immer senkrecht auf der Bahn, also ist $\mathrm{d}W = \mathbf{F}_\mathrm{Z}\cdot\mathrm{d}\mathbf{r} = 0$. Sie verrichtet keine Arbeit und ändert deshalb nicht das Tempo.
@@ -30,6 +34,10 @@ Zwei Beispiele aus der Vorlesung:
 $$
 W = \int_{x_0}^{x} k\,(x' - x_0)\,\mathrm{d}x' = \tfrac{1}{2}\,k\,(x - x_0)^2 .
 $$
+
+![Ein Kraft-Weg-Diagramm mit einer Geraden. Die Fläche unter der Geraden ist ein Dreieck und entspricht der Federenergie.](/images/exphy1/feder-arbeit.svg)
+
+*Eigene Zeichnung: Die Arbeit beim Dehnen einer Feder ist die Fläche unter der Kraft.*
 
 ### Beispiel
 

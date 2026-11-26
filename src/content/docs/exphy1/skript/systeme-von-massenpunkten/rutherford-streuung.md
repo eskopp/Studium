@@ -44,6 +44,10 @@ $$
 
 Wegen $(1 + \cos\vartheta)/\sin\vartheta = \cot(\vartheta/2)$ folgt das Ergebnis.
 
+![Ein Teilchen fliegt mit Stoßparameter b auf einen abstoßenden Kern zu und wird um den Streuwinkel theta abgelenkt.](/images/exphy1/streuung-stossparameter.svg)
+
+*Eigene Zeichnung: Streuung am Kern mit Stoßparameter $b$ und Streuwinkel $\vartheta$. Die Bahn habe ich numerisch berechnet.*
+
 > [!NOTE] Streuwinkel
 > $$ \cot\frac{\vartheta}{2} = \frac{\mu\,v_0^2\,b}{a} = \frac{2\,W_\mathrm{kin}}{W_\mathrm{pot}(b)} . $$
 >

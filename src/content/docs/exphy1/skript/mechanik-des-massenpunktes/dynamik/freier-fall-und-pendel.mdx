@@ -4,6 +4,8 @@ description: Der freie Fall aus dem zweiten Axiom, das mathematische Pendel mit 
 weight: 4
 ---
 
+import PendelApplet from '../../../../../../components/PendelApplet.astro';
+
 *In einem Satz: Aus dem zweiten Axiom folgt dieselbe Bewegungsgleichung wie in der Kinematik, und beim Pendel wird sie für kleine Winkel zur Schwingungsgleichung.*
 
 ## Der freie Fall aus dem zweiten Axiom
@@ -78,6 +80,12 @@ Bei einem Viertel der Länge ($\ell = 0{,}25\,\mathrm{m}$) halbiert sich die Per
 
 > [!CAUTION] Stolperstelle
 > Die Näherung $\sin\varphi \approx \varphi$ gilt nur für kleine Winkel, und der Winkel muss im Bogenmaß stehen. Bei $5^\circ$ beträgt der Fehler etwa $0{,}13\,\%$, bei $10^\circ$ etwa $0{,}5\,\%$ und bei $30^\circ$ schon etwa $4{,}7\,\%$. Die Aussage im Skriptum, dass bei bis zu $10^\circ$ der Fehler unter $5\,\%$ liegt, stimmt also, ist aber sehr großzügig.
+
+### Ausprobieren
+
+Die Simulation löst die volle Pendelgleichung numerisch und legt die Näherung für kleine Winkel darüber. Bei kleinen Startwinkeln liegen beide aufeinander, bei großen läuft die Näherung davon.
+
+<PendelApplet />
 
 ### Nachweis, dass die Lösung stimmt
 

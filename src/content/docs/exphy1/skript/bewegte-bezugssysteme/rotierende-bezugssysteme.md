@@ -64,6 +64,10 @@ $$
 
 *Die Drehscheibe aus der Vorlesung (eigenes Foto). Links die Schale mit der Kugel, mit der man die gekrümmte Spur auf der drehenden Scheibe zeigen kann.*
 
+![Links eine geradlinige Bahn aus Sicht eines ruhenden Beobachters, rechts dieselbe Bahn als gekrümmte Spur aus Sicht eines mitdrehenden Beobachters.](/images/exphy1/coriolis-spur.svg)
+
+*Eigene Zeichnung: Dieselbe Bewegung aus zwei Sichtweisen, die Krümmung ordnet man der Coriolis-Kraft zu.*
+
 ### Beispiel
 
 Auf einer Scheibe mit $\omega = 2\pi\,\mathrm{s^{-1}}$ rollt eine Kugel mit $m = 0{,}1\,\mathrm{kg}$ radial nach außen mit $v' = 1\,\mathrm{m/s}$. Die Coriolis-Kraft hat den Betrag

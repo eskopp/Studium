@@ -1,0 +1,69 @@
+<div class="applet" data-pendel>
+  <div class="applet-controls">
+    <label><span>Startwinkel φ<sub>0</sub>: <output data-o-a></output></span><input type="range" data-a min="1" max="90" step="1" value="30" /></label>
+    <label><span>Fadenlänge ℓ: <output data-o-l></output></span><input type="range" data-l min="0.2" max="3" step="0.05" value="1" /></label>
+  </div>
+  <canvas data-c height="320" role="img" aria-label="Winkel über der Zeit, exakt und in Kleinwinkelnäherung"></canvas>
+  <p class="applet-legend"><span class="applet-key" style="background:#2563eb"></span> exakte Lösung &nbsp; <span class="applet-key" style="background:#ea580c"></span> Kleinwinkelnäherung φ(t) = φ<sub>0</sub> cos(√(g/ℓ) t)</p>
+  <div class="applet-results" aria-live="polite">
+    <p>T nach Näherung 2π√(ℓ/g): <strong data-r-t0></strong></p>
+    <p>T exakt: <strong data-r-t1></strong></p>
+    <p>Abweichung: <strong data-r-d></strong></p>
+  </div>
+  <p class="applet-note">Die exakte Lösung der Gleichung φ'' + (g/ℓ) sin φ = 0 wird numerisch berechnet. Für kleine Winkel liegen beide Kurven übereinander, bei großen läuft die Näherung vor.</p>
+</div>
+
+<style is:global>
+  .applet { border: 1px solid rgba(128,128,128,.4); border-radius: .9rem; padding: 1.1rem; margin: 1.5rem 0; display: grid; gap: 1rem; }
+  .applet-controls { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet label { display: grid; gap: .25rem; font-size: .9rem; }
+  .applet input[type='range'], .applet select { width: 100%; }
+  .applet select { padding: .3rem; border: 1px solid rgba(128,128,128,.5); border-radius: .4rem; background: transparent; color: inherit; }
+  .applet select option { background: #fff; color: #111; }
+  .applet canvas { width: 100%; height: 320px; border-radius: .5rem; background: rgba(128,128,128,.06); display: block; }
+  .applet-results { display: grid; gap: .2rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet-results p, .applet-note { margin: 0; }
+  .applet-note { font-size: .85rem; opacity: .8; }
+
+  .applet-legend { margin: 0; font-size: .85rem; }
+  .applet-key { display: inline-block; width: 1.4rem; height: .35rem; border-radius: .2rem; vertical-align: middle; margin-right: .3rem; }
+</style>
+
+<script>
+  (function () {
+    document.querySelectorAll('[data-pendel]').forEach(function (root) {
+      if (root.dataset.ready) return; root.dataset.ready = '1';
+      var q = function (s) { return root.querySelector(s); };
+      var fmt = function (x, d) { return x.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d }); };
+      var cv = q('[data-c]'), ctx = cv.getContext('2d'), ia = q('[data-a]'), il = q('[data-l]'), g = 9.81;
+      function agm(a, b) { for (var i = 0; i < 30; i++) { var t = (a + b) / 2; b = Math.sqrt(a * b); a = t; } return a; }
+      function draw() {
+        var a0 = +ia.value * Math.PI / 180, L = +il.value, w = Math.sqrt(g / L);
+        var T0 = 2 * Math.PI / w, T1 = T0 / agm(1, Math.cos(a0 / 2));
+        q('[data-o-a]').textContent = fmt(+ia.value, 0) + '°'; q('[data-o-l]').textContent = fmt(L, 2) + ' m';
+        q('[data-r-t0]').textContent = fmt(T0, 3) + ' s'; q('[data-r-t1]').textContent = fmt(T1, 3) + ' s';
+        q('[data-r-d]').textContent = fmt((T1 / T0 - 1) * 100, 2) + ' %';
+        var tmax = 3 * T0, N = 1200, dt = tmax / N, ph = a0, om = 0, pts = [];
+        var f = function (p) { return -(g / L) * Math.sin(p); };
+        for (var i = 0; i <= N; i++) {
+          pts.push(ph);
+          var k1p = om, k1o = f(ph), k2p = om + dt / 2 * k1o, k2o = f(ph + dt / 2 * k1p), k3p = om + dt / 2 * k2o, k3o = f(ph + dt / 2 * k2p), k4p = om + dt * k3o, k4o = f(ph + dt * k3p);
+          ph += dt / 6 * (k1p + 2 * k2p + 2 * k3p + k4p); om += dt / 6 * (k1o + 2 * k2o + 2 * k3o + k4o);
+        }
+        var dpr = window.devicePixelRatio || 1, W = cv.clientWidth, H = 320;
+        cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        var col = getComputedStyle(root).color, mx = 46, aw = W - mx - 14, mid = H / 2, amp = H / 2 - 22;
+        var X = function (t) { return mx + t / tmax * aw; }, Y = function (p) { return mid - p / (Math.PI / 2) * amp; };
+        ctx.strokeStyle = 'rgba(128,128,128,.35)'; ctx.lineWidth = 1; ctx.fillStyle = col; ctx.font = '12px sans-serif';
+        [-90, -45, 0, 45, 90].forEach(function (d) { var y = Y(d * Math.PI / 180); ctx.beginPath(); ctx.moveTo(mx, y); ctx.lineTo(W - 14, y); ctx.stroke(); ctx.fillText(d + '°', 8, y + 4); });
+        for (var k = 0; k <= 3; k++) { ctx.beginPath(); ctx.moveTo(X(k * T0), mid - amp); ctx.lineTo(X(k * T0), mid + amp); ctx.stroke(); ctx.fillText(k + ' T₀', X(k * T0) - 10, H - 4); }
+        ctx.strokeStyle = '#ea580c'; ctx.lineWidth = 2.5; ctx.beginPath();
+        for (var j = 0; j <= N; j++) { var t = j * dt, p = a0 * Math.cos(w * t); if (j === 0) ctx.moveTo(X(t), Y(p)); else ctx.lineTo(X(t), Y(p)); } ctx.stroke();
+        ctx.strokeStyle = '#2563eb'; ctx.lineWidth = 3; ctx.beginPath();
+        for (var m = 0; m <= N; m++) { if (m === 0) ctx.moveTo(X(m * dt), Y(pts[m])); else ctx.lineTo(X(m * dt), Y(pts[m])); } ctx.stroke();
+      }
+      [ia, il].forEach(function (e) { e.addEventListener('input', draw); });
+      window.addEventListener('resize', draw); draw();
+    });
+  })();
+</script>
