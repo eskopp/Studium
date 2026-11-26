@@ -1,5 +1,5 @@
 ---
-title: Reduzierte Masse
+title: 4.2 Reduzierte Masse
 description: Wie man die Bewegung zweier Körper aufeinander zu einem Einkörperproblem macht.
 weight: 2
 ---

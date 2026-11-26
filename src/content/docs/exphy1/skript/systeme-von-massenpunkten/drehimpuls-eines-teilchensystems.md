@@ -1,5 +1,5 @@
 ---
-title: Drehimpuls eines Teilchensystems
+title: 4.3 Drehimpuls eines Teilchensystems
 description: Warum nur äußere Drehmomente den Gesamtdrehimpuls eines Systems ändern.
 weight: 3
 ---

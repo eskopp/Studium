@@ -1,5 +1,5 @@
 ---
-title: Massenmittelpunkt
+title: 4.1 Massenmittelpunkt
 description: Der Schwerpunkt eines Systems von Massenpunkten, abgeschlossene Systeme und das Schwerpunktsystem.
 weight: 1
 ---

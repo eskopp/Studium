@@ -1,5 +1,5 @@
 ---
-title: Foucault-Pendel und Zyklonen
+title: 3.2.2.3 Foucault-Pendel und 3.2.2.4 Zyklonen
 description: Zwei Anwendungen der Coriolis-Kraft, die Drehung der Pendelebene und die Drehrichtung von Tiefdruckgebieten.
 weight: 3
 ---

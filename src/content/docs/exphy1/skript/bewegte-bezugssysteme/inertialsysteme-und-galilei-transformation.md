@@ -1,5 +1,5 @@
 ---
-title: Inertialsysteme und Galilei-Transformation
+title: 3.1 Inertialsysteme und Galilei-Transformation
 description: Wie Bewegungen in zwei gleichförmig gegeneinander bewegten Systemen aussehen und wann Trägheitskräfte nötig werden.
 weight: 1
 ---
@@ -88,6 +88,6 @@ Eine wichtige Sorte beschleunigter Systeme sind Drehungen, siehe [Rotierende Bez
 
 ## Quellen
 
-- Vorlesung Experimentalphysik 1 (WS 2026), Folien Kapitel 3 und Skriptum Kapitel 3
+- Vorlesung Experimentalphysik 1 (WS 2026), Folien Kapitel 3 (Abschnitte 3.1 und 3.2.1) und Skriptum Kapitel 3
 - W. Demtröder, Experimentalphysik 1 (Springer, 2006), auf den Folien als Quelle der Bilder genannt
 - Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung.
