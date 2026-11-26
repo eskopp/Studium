@@ -18,13 +18,19 @@ Die Härte hat zwei Teile:
 
 | Art | Partner der Ionen | Verhalten beim Erhitzen |
 | --- | --- | --- |
-| temporäre Härte | Carbonat | fällt aus, es bleibt Kalk zurück |
-| permanente Härte | Sulfat | bleibt im Wasser gelöst |
+| temporäre Härte | Hydrogencarbonat | fällt aus, es bleibt Kalk zurück |
+| permanente Härte | Sulfat, Chlorid, Nitrat | bleibt im Wasser gelöst |
 
-Die **temporäre Härte** nennt man auch Carbonathärte. Beim Erhitzen entsteht $\mathrm{CO_2}$, und der Kalk setzt sich ab. Das ist der Kesselstein im Wasserkocher und in Durchlauferhitzern. Er verschlechtert die Wärmeübertragung. Die **permanente Härte** (Sulfathärte) lässt sich so nicht entfernen.
+Die **temporäre Härte** nennt man auch Carbonathärte. Beim Erhitzen entsteht $\mathrm{CO_2}$, und der Kalk setzt sich ab:
+
+$$ \mathrm{Ca^{2+} + 2\,HCO_3^- \;\rightarrow\; CaCO_3\downarrow + CO_2\uparrow + H_2O} $$
+
+Das ist der Kesselstein im Wasserkocher und in Durchlauferhitzern. Er verschlechtert die Wärmeübertragung. Die **permanente Härte** (Nichtcarbonathärte, in der Vorlesung als Sulfathärte genannt) lässt sich so nicht entfernen.
+
+In der Vorlesung wurde Wasser in vier Stufen eingeteilt. Nach dem Waschmittelgesetz gibt es seit 2007 offiziell drei Härtebereiche: weich, mittel und hart.
 
 > [!CAUTION] Stolperstelle
-> Möglichst weiches Wasser ist nicht automatisch besser. Wasser mit sehr wenigen Ionen kann Metalle in Leitungen angreifen, zum Beispiel Kupfer. Destilliertes Wasser ist für das Labor gedacht und nicht zum Trinken.
+> Möglichst weiches Wasser ist nicht automatisch besser. Wasser mit sehr wenigen Ionen kann Metalle in Leitungen angreifen, zum Beispiel Kupfer. Destilliertes Wasser ist für das Labor gedacht und nicht als Trinkwasser.
 
 Gegen Kalkablagerungen hilft nach der Vorlesung Essigsäure. Spezielle Kalkentferner sind dafür nicht nötig.
 
@@ -38,7 +44,9 @@ Gegen Kalkablagerungen hilft nach der Vorlesung Essigsäure. Spezielle Kalkentfe
 > [!TIP] In einfachen Worten
 > Das Harz ist wie ein Parkhaus mit festen Plätzen. Ein Calcium-Ion nimmt zwei Plätze und schiebt dafür zwei $\mathrm{H_3O^+}$ ins Wasser. Danach ist das Calcium aus dem Wasser weg. Die Ladung bleibt dabei erhalten: Ein $\mathrm{Ca^{2+}}$ ersetzt zwei einfach geladene $\mathrm{H_3O^+}$.
 
-Wenn alle Plätze belegt sind, ist das Harz erschöpft. Man **regeneriert** es mit einer Säure oder Lauge. Die gebundenen Ionen lösen sich ab, und das Harz kann wieder arbeiten.
+Wenn alle Plätze belegt sind, ist das Harz erschöpft. Man **regeneriert** es: Einen Kationenaustauscher in der $\mathrm{H^+}$-Form regeneriert man mit Säure, einen Anionenaustauscher mit Lauge. Die gebundenen Ionen lösen sich ab, und das Harz kann wieder arbeiten.
+
+Im Haushalt tauscht ein Enthärter Calcium meist gegen Natrium aus. Das Wasser bleibt dann ohne Kalk, enthält aber etwas mehr Natrium.
 
 Soll das Wasser vollständig entsalzt werden, braucht man zwei Austauscher: einen für positive und einen für negative Ionen.
 

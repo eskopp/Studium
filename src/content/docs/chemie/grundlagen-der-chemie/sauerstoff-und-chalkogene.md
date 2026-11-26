@@ -8,7 +8,7 @@ weight: 3
 
 ## Die Gruppe der Chalkogene
 
-Sauerstoff steht in der 6. Hauptgruppe des Periodensystems. Man nennt sie die **Chalkogene**. Dazu gehören O (Sauerstoff), S (Schwefel), Se (Selen), Te (Tellur) und Po (Polonium).
+Sauerstoff steht in der 6. Hauptgruppe des Periodensystems. Man nennt sie die **Chalkogene**. Dazu gehören O (Sauerstoff), S (Schwefel), Se (Selen), Te (Tellur) und Po (Polonium). Dazu kommt das künstlich erzeugte Livermorium (Lv).
 
 ## Wo Sauerstoff vorkommt
 
@@ -28,11 +28,11 @@ Die weiteren Hauptbestandteile:
 
 - **Erdkruste:** Silicium $28\,\%$, Aluminium $8{,}2\,\%$, Eisen $5{,}6\,\%$, Calcium $4{,}1\,\%$, Natrium $2{,}4\,\%$, Magnesium $2{,}3\,\%$, Kalium $2{,}1\,\%$, Titan $0{,}6\,\%$, Rest $0{,}7\,\%$.
 - **Ozeane:** Wasserstoff $11\,\%$, Chlor $1{,}9\,\%$, Natrium $1{,}1\,\%$, Rest $0{,}4\,\%$.
-- **Atmosphäre:** Stickstoff $78\,\%$, Argon $0{,}9\,\%$, Kohlenstoffdioxid $0{,}03\,\%$.
+- **Atmosphäre:** Stickstoff $78\,\%$, Argon $0{,}9\,\%$, Kohlenstoffdioxid $0{,}03\,\%$ (so steht es auf der Folie, heute sind es über $0{,}04\,\%$).
 
 Für die gesamte Erde einschließlich Erdkern liegt der Sauerstoffanteil bei etwa $29\,\%$.
 
-In der Atmosphäre war der Sauerstoffanteil vor etwa 700 Millionen Jahren noch unter $1\,\%$. Danach stieg er auf heute $21\,\%$. Die Photosynthese ist dafür eine wesentliche Ursache.
+In der Atmosphäre war der Sauerstoffanteil vor etwa 700 Millionen Jahren noch unter $1\,\%$. Danach stieg er auf heute $21\,\%$. Die Photosynthese ist dafür eine wesentliche Ursache. Die genauen Werte aus der frühen Erdgeschichte sind in der Forschung unsicher.
 
 Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für Ozon $\mathrm{O_3}$ etwa $-110\,^\circ\mathrm{C}$.
 
@@ -42,7 +42,7 @@ Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für 
 ## Sauerstoff aus Wasser: Elektrolyse
 
 > [!NOTE] Definition
-> Bei der **Elektrolyse** zerlegt ein elektrischer Strom eine Verbindung. Im Hoffmannschen Wasserzersetzer entsteht Wasserstoff an der Kathode und Sauerstoff an der Anode. Das Wasser enthält ein Leitsalz, weil reines Wasser kaum leitet.
+> Bei der **Elektrolyse** zerlegt ein elektrischer Strom eine Verbindung. Im Hoffmannschen Wasserzersetzer entsteht Wasserstoff an der Kathode und Sauerstoff an der Anode. Das Wasser enthält ein Leitsalz, weil reines Wasser kaum leitet. Die Gleichungen gelten für saure Lösung.
 >
 > $$ \text{Kathode } (-):\; 2\,\mathrm{H^+} + 2\,e^- \rightarrow \mathrm{H_2} $$
 >
@@ -51,7 +51,7 @@ Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für 
 > [!TIP] In einfachen Worten
 > Am Minuspol nehmen Wasserstoff-Ionen Elektronen auf und werden zu Wasserstoffgas. Am Pluspol geben Wassermoleküle Elektronen ab, dabei entsteht Sauerstoffgas. Für jedes $\mathrm{O_2}$ braucht man vier Elektronen, für jedes $\mathrm{H_2}$ nur zwei. Pro Sauerstoffmolekül entstehen also zwei Wasserstoffmoleküle.
 
-Daraus folgt das Volumenverhältnis $\mathrm{H_2} : \mathrm{O_2} = 2 : 1$, weil gleich viele Moleküle eines Gases gleich viel Volumen einnehmen.
+Daraus folgt das Volumenverhältnis $\mathrm{H_2} : \mathrm{O_2} = 2 : 1$, weil bei gleicher Temperatur und gleichem Druck gleich viele Moleküle eines Gases gleich viel Volumen einnehmen.
 
 Die Gase weist man so nach:
 
@@ -73,16 +73,16 @@ Die flüssige Luft wird anschließend **fraktioniert destilliert**. Die Bestandt
 ## Der Sauerstoff im Molekülorbital-Bild
 
 > [!NOTE] Definition
-> Ein **Molekülorbital** ist ein Zustand, den Elektronen im Molekül besetzen können. Jedes Orbital nimmt höchstens zwei Elektronen mit entgegengesetztem **Spin** auf. Gleich energiereiche Orbitale (**entartete Orbitale**) werden zuerst einzeln besetzt. Das ist die **Spinpaarungsenergie**: Zwei Elektronen im selben Orbital stoßen sich ab, deshalb paart man sie erst, wenn keine freien Plätze gleicher Energie mehr da sind.
+> Ein **Molekülorbital** ist ein Zustand, den Elektronen im Molekül besetzen können. Jedes Orbital nimmt höchstens zwei Elektronen mit entgegengesetztem **Spin** auf. Gleich energiereiche Orbitale (**entartete Orbitale**) werden zuerst einzeln besetzt, und zwar mit parallelem Spin. Das ist die **Hundsche Regel**. Der Grund ist die **Spinpaarungsenergie**: Zwei Elektronen im selben Orbital stoßen sich ab, das kostet Energie.
 
 > [!TIP] In einfachen Worten
-> Elektronen verhalten sich wie Fahrgäste im Bus: Erst setzt sich jeder auf einen freien Doppelsitz, und erst danach setzt sich jemand dazu. Der Spin ist eine Eigenschaft der Elektronen, die man sich wie Drehrichtung nach oben oder unten vorstellen kann.
+> Elektronen verhalten sich wie Fahrgäste im Bus: Erst setzt sich jeder auf einen freien Doppelsitz, und erst danach setzt sich jemand dazu. Der Spin ist eine Eigenschaft der Elektronen mit zwei möglichen Einstellungen, die man als Pfeil nach oben oder unten zeichnet. Er ist keine echte Drehung des Elektrons.
 
 Beim $\mathrm{O_2}$ bleiben zwei Elektronen für die beiden gleich hohen $\pi^*$-Orbitale. Nach der Regel besetzt jedes Elektron eines der beiden Orbitale mit parallelem Spin. Das sind zwei **ungepaarte Elektronen**. Dieser Grundzustand heißt **Triplett-Sauerstoff** $^3\mathrm{O_2}$. Man nennt das Molekül deshalb ein Diradikal. Trotzdem ist es stabil und macht $21\,\%$ der Luft aus.
 
 ![Drei Energieniveaus von O₂ in den π*-Orbitalen: Der Grundzustand hat zwei parallele Spins, der erste angeregte Zustand liegt 92 kJ/mol darüber, der zweite 155 kJ/mol.](/images/chemie/o2-zustaende.svg)
 
-Führt man Energie zu, entsteht **Singulett-Sauerstoff** $^1\mathrm{O_2}$. Das ist ein angeregter Zustand. Er liegt nach der Vorlesung $92\,\mathrm{kJ/mol}$ (erster Zustand) oder $155\,\mathrm{kJ/mol}$ (zweiter Zustand) über dem Grundzustand. Beim Zurückfallen wird die Energie wieder abgegeben.
+Führt man Energie zu, entsteht **Singulett-Sauerstoff** $^1\mathrm{O_2}$. Das ist ein angeregter Zustand. Er liegt nach der Vorlesung $92\,\mathrm{kJ/mol}$ (erster Zustand) oder $155\,\mathrm{kJ/mol}$ (zweiter Zustand) über dem Grundzustand. Die Literaturwerte sind etwa $94\,\mathrm{kJ/mol}$ und $157\,\mathrm{kJ/mol}$. Die Zeichnung ist ein vereinfachtes Modell: Ein Singulettzustand ist quantenmechanisch eine Überlagerung, zwei antiparallele Pfeile allein beschreiben ihn nicht vollständig. Beim Zurückfallen wird die Energie wieder abgegeben.
 
 ### Der Versuch: Leuchten von angeregtem Sauerstoff
 
@@ -93,7 +93,11 @@ In der Vorlesung regte eine chemische Reaktion Sauerstoff an, und beim Zurückfa
 >
 > $$ \lambda = \frac{h\,c\,N_\mathrm{A}}{E} = \frac{6{,}626\cdot10^{-34}\,\mathrm{J\,s}\cdot 2{,}998\cdot10^{8}\,\mathrm{m/s}\cdot 6{,}022\cdot10^{23}\,\mathrm{mol^{-1}}}{92\,000\,\mathrm{J/mol}} \approx 1300\,\mathrm{nm} , $$
 >
-> und das liegt im Infraroten und ist unsichtbar. Sichtbar rotes Licht von etwa $650\,\mathrm{nm}$ braucht etwa $184\,\mathrm{kJ/mol}$, also gerade doppelt so viel. Die Rechnung passt dazu, dass sich zwei angeregte Moleküle ihre Energie in einem Photon teilen.
+> und das liegt im Infraroten und ist unsichtbar. Sichtbar rotes Licht von etwa $650\,\mathrm{nm}$ braucht etwa $184\,\mathrm{kJ/mol}$, also gerade doppelt so viel. Dazu passt, dass zwei angeregte Moleküle gemeinsam ein Photon aussenden (Dimol-Emission):
+>
+> $$ 2\,{}^1\mathrm{O_2} \;\rightarrow\; 2\,{}^3\mathrm{O_2} + h\nu $$
+>
+> Gemessen werden dabei Banden bei etwa $634\,\mathrm{nm}$ und $703\,\mathrm{nm}$.
 
 ## Verwandte Artikel
 
