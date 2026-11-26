@@ -1,5 +1,5 @@
 ---
-title: Äquivalenz von schwerer und träger Masse
+title: 3.3 Äquivalenz von schwerer und träger Masse
 description: Warum alle Körper gleich schnell fallen, wie das Eötvös-Experiment es prüft und was das Äquivalenzprinzip bedeutet.
 weight: 4
 ---

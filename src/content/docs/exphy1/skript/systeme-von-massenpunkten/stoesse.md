@@ -1,5 +1,5 @@
 ---
-title: Stöße
+title: 4.4 Stöße
 description: Impuls- und Energieerhaltung beim Stoß, elastische, unelastische und superelastische Stöße und das ballistische Pendel.
 weight: 4
 ---
@@ -150,6 +150,12 @@ $$
 $$
 
 Alle Größen sind positiv, also ist $\Delta W > 0$.
+
+## Weiter
+
+- [Elastischer Stoß mit ruhendem Körper](/exphy1/skript/systeme-von-massenpunkten/elastischer-stoss/): zentraler und schräger Stoß, Schwerpunktsystem
+- [Maximal unelastischer Stoß](/exphy1/skript/systeme-von-massenpunkten/unelastischer-stoss/): die Körper bleiben zusammen
+- [Rutherford-Streuung](/exphy1/skript/systeme-von-massenpunkten/rutherford-streuung/): Streuung am Atomkern
 
 ## Quellen
 

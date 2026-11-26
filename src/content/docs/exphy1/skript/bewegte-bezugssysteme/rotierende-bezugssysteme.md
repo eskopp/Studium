@@ -1,5 +1,5 @@
 ---
-title: Rotierende Bezugssysteme
+title: 3.2.2 Rotierende Bezugssysteme
 description: Winkelgeschwindigkeit, Zentrifugalkraft und Coriolis-Kraft, mit Herleitung und zwei Beispielen.
 weight: 2
 ---
