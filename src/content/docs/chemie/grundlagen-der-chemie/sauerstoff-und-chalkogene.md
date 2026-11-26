@@ -38,6 +38,10 @@ Für die gesamte Erde einschließlich Erdkern liegt der Sauerstoffanteil bei etw
 
 In der Atmosphäre war der Sauerstoffanteil vor etwa 700 Millionen Jahren noch unter $1\,\%$. Danach stieg er auf heute $21\,\%$. Die Photosynthese ist dafür eine wesentliche Ursache. Die genauen Werte aus der frühen Erdgeschichte sind in der Forschung unsicher.
 
+![Schematischer Verlauf von Sauerstoff und Kohlenstoffdioxid in der Atmosphäre über die letzten 1000 Millionen Jahre: Der Sauerstoffanteil liegt lange unter einem Prozent, steigt vor etwa 650 bis 500 Millionen Jahren steil an und erreicht am Ende etwa 21 Prozent. Dazu die Stationen der Entwicklung des Lebens.](/images/chemie/sauerstoff-geschichte.svg)
+
+Die Grafik ist eine schematische Nachzeichnung nach der Folie der Vorlesung. Die Kurvenwerte sind grob abgelesen und keine Messdaten. Die obere Linie zeigt die Summe aus $\mathrm{O_2}$ und $\mathrm{CO_2}$.
+
 Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für Ozon $\mathrm{O_3}$ etwa $-110\,^\circ\mathrm{C}$.
 
 > [!CAUTION] Stolperstelle
