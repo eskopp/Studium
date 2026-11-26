@@ -24,6 +24,8 @@ Sauerstoff steht in der 6. Hauptgruppe des Periodensystems. Man nennt sie die **
 | Ozeane | $86\,\%$ | Massenanteil |
 | Atmosphäre | $21\,\%$ | Volumenanteil |
 
+Als Erdrinde gilt hier die Gesteinszone bis etwa 60 km Tiefe, dort sind es etwa $47\,\%$.
+
 Die weiteren Hauptbestandteile:
 
 - **Erdkruste:** Silicium $28\,\%$, Aluminium $8{,}2\,\%$, Eisen $5{,}6\,\%$, Calcium $4{,}1\,\%$, Natrium $2{,}4\,\%$, Magnesium $2{,}3\,\%$, Kalium $2{,}1\,\%$, Titan $0{,}6\,\%$, Rest $0{,}7\,\%$.
@@ -88,16 +90,18 @@ Beim $\mathrm{O_2}$ bleiben zwei Elektronen für die beiden gleich hohen $\pi^*$
 
 ![Drei Energieniveaus von O₂ in den π*-Orbitalen: Der Grundzustand hat zwei parallele Spins, der erste angeregte Zustand liegt 92 kJ/mol darüber, der zweite 155 kJ/mol.](/images/chemie/o2-zustaende.svg)
 
-Führt man Energie zu, entsteht **Singulett-Sauerstoff** $^1\mathrm{O_2}$. Das ist ein angeregter Zustand. Er liegt nach der Vorlesung $92\,\mathrm{kJ/mol}$ (erster Zustand) oder $155\,\mathrm{kJ/mol}$ (zweiter Zustand) über dem Grundzustand. Die Literaturwerte sind etwa $94\,\mathrm{kJ/mol}$ und $157\,\mathrm{kJ/mol}$. Die Zeichnung ist ein vereinfachtes Modell: Ein Singulettzustand ist quantenmechanisch eine Überlagerung, zwei antiparallele Pfeile allein beschreiben ihn nicht vollständig. Beim Zurückfallen wird die Energie wieder abgegeben.
+Führt man Energie zu, entsteht **Singulett-Sauerstoff** $^1\mathrm{O_2}$. Das ist ein angeregter Zustand. Er liegt nach der Vorlesung $92\,\mathrm{kJ/mol}$ (erster Zustand) oder $155\,\mathrm{kJ/mol}$ (zweiter Zustand) über dem Grundzustand. Die Literaturwerte sind etwa $94\,\mathrm{kJ/mol}$ und $157\,\mathrm{kJ/mol}$. Die Zeichnung ist ein vereinfachtes Modell: Ein Singulettzustand ist quantenmechanisch eine Überlagerung, zwei antiparallele Pfeile allein beschreiben ihn nicht vollständig. Der erste angeregte Zustand lebt nach der Vorlesung etwa $10^{-4}\,\mathrm{s}$, der zweite weniger als $10^{-9}\,\mathrm{s}$. Der zweite ist deshalb für den Versuch unwichtig. Beim Zurückfallen wird die Energie wieder abgegeben.
 
 ### Der Versuch: Leuchten von angeregtem Sauerstoff
 
-In der Vorlesung regte eine chemische Reaktion Sauerstoff an, und beim Zurückfallen leuchtete er rot. Der Raum musste abgedunkelt werden, weil das Leuchten schwach ist.
+In der Vorlesung regte eine chemische Reaktion Sauerstoff an. Dafür wird Salzsäure oxidiert, zum Beispiel mit Kaliumpermanganat, dabei entsteht Chlor. Das Chlor reagiert mit Peroxid, und es entsteht angeregter Sauerstoff. Beim Zurückfallen in den Grundzustand leuchtete er rot. Der Raum musste abgedunkelt werden, weil das Leuchten schwach ist.
 
-![Der Experimentiertisch in der Vorlesung: links der Hoffmannsche Wasserzersetzer, in der Mitte zwei Kolben an einem Stativ, rechts ein großer Glaskolben.](/images/chemie/versuchsaufbau.jpg)
+Es gab zwei Aufbauten. Der eine zeigt die ursprüngliche rote Emission. Im anderen war zusätzlich ein Fluoreszenzfarbstoff, der das Leuchten deutlicher macht. Dort war es blau bis violett.
+
+![Der Experimentiertisch in der Vorlesung: links der Hoffmannsche Wasserzersetzer, in der Mitte zwei Kolben an einem Stativ (die beiden Aufbauten für das Leuchten), rechts ein großer Glaskolben.](/images/chemie/versuchsaufbau.jpg)
 
 > [!CAUTION] Stolperstelle
-> Man kann die rote Farbe nicht direkt aus den $92\,\mathrm{kJ/mol}$ ablesen. Ein einzelnes Photon mit dieser Energie hätte die Wellenlänge
+> In der Vorlesung wurde die rote Emission den $92\,\mathrm{kJ/mol}$ zugeordnet. Rechnet man genau nach, geht das nicht ganz so einfach auf. Ein einzelnes Photon mit dieser Energie hätte die Wellenlänge
 >
 > $$ \lambda = \frac{h\,c\,N_\mathrm{A}}{E} = \frac{6{,}626\cdot10^{-34}\,\mathrm{J\,s}\cdot 2{,}998\cdot10^{8}\,\mathrm{m/s}\cdot 6{,}022\cdot10^{23}\,\mathrm{mol^{-1}}}{92\,000\,\mathrm{J/mol}} \approx 1300\,\mathrm{nm} , $$
 >
