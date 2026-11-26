@@ -55,7 +55,7 @@ Die Siedepunkte sind für $\mathrm{O_2}$ etwa $-183\,^\circ\mathrm{C}$ und für 
 
 Daraus folgt das Volumenverhältnis $\mathrm{H_2} : \mathrm{O_2} = 2 : 1$, weil bei gleicher Temperatur und gleichem Druck gleich viele Moleküle eines Gases gleich viel Volumen einnehmen.
 
-![Hoffmannscher Wasserzersetzer als Skizze: Am Minuspol sammeln sich zwei Teile Wasserstoff, am Pluspol ein Teil Sauerstoff.](/images/chemie/hoffmann-zersetzer.svg)
+![Hoffmannscher Wasserzersetzer als Skizze mit drei verbundenen Rohren und Spannungsquelle: Am Minuspol sammeln sich zwei Teile Wasserstoff, am Pluspol ein Teil Sauerstoff.](/images/chemie/hoffmann-zersetzer.svg)
 
 Die Gase weist man so nach:
 
@@ -69,10 +69,10 @@ Im Großen gewinnt man Sauerstoff aus Luft. Dafür verflüssigt man die Luft und
 1. Ein **Verdichter** komprimiert die Luft, ein **Kühler** nimmt die entstehende Wärme weg.
 2. Die komprimierte Luft läuft durch einen **Gegenstrom-Wärmeaustauscher**.
 3. Am **Drosselventil** entspannt sie sich und kühlt dabei weiter ab (Joule-Thomson-Effekt).
-4. Die entspannte, kalte Luft läuft im Gegenstrom zurück und kühlt die nachkommende Luft vor.
-5. Nach vielen Durchläufen ist die Luft so kalt, dass sie flüssig wird.
+4. Im Abscheider trennt sich der verflüssigte Teil vom Gas. Das kalte, nicht verflüssigte Gas läuft im Gegenstrom zurück und kühlt die nachkommende Luft vor.
+5. Nach vielen Durchläufen ist die Luft so kalt, dass ein Teil davon flüssig wird.
 
-![Schema des Linde-Verfahrens: Luft, Verdichter, Kühler, Gegenstrom-Wärmeaustauscher, Drosselventil und flüssige Luft, dazu der Rückweg der kalten Luft im Gegenstrom.](/images/chemie/linde-verfahren.svg)
+![Schema des Linde-Verfahrens: Luft, Verdichter, Kühler, Gegenstrom-Wärmeaustauscher, Drosselventil und Abscheider. Unten kommt die flüssige Luft heraus, das kalte Gas läuft im Gegenstrom zurück.](/images/chemie/linde-verfahren.svg)
 
 Die flüssige Luft wird anschließend **fraktioniert destilliert**. Die Bestandteile sieden bei unterschiedlichen Temperaturen und lassen sich so trennen.
 
