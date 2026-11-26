@@ -11,9 +11,11 @@ weight: 3
 Die Messwerte $x_1, \ldots, x_n$ eines Experiments heißen **Stichprobe**. Die dahinterliegende Wahrscheinlichkeitsdichte ist unbekannt. Ein mathematischer Satz hilft, zumindest die statistischen Fehler zu erfassen.
 
 > [!NOTE] Zentraler Grenzwertsatz
-> Die Summe $y = \sum_{i=1}^{n} x_i$ vieler Messwerte aus derselben beliebigen Wahrscheinlichkeitsdichte mit Erwartungswert $\langle x\rangle$ und Standardabweichung $\sigma$ ist für große $n$ gauß-verteilt mit
+> Die Summe $y = \sum_{i=1}^{n} x_i$ vieler voneinander unabhängiger Messwerte aus derselben beliebigen Wahrscheinlichkeitsdichte mit Erwartungswert $\langle x\rangle$ und Standardabweichung $\sigma$ ist für große $n$ gauß-verteilt mit
 >
 > $$ \langle y\rangle = n\,\langle x\rangle , \qquad \sigma_y = \sqrt{n}\,\sigma . $$
+>
+> Vorausgesetzt ist, dass die Messwerte unabhängig sind und die Standardabweichung $\sigma$ endlich ist.
 
 > [!TIP] In einfachen Worten
 > Viele kleine, unabhängige Störungen, die den Messwert mal nach oben, mal nach unten ziehen, ergeben zusammen immer eine Glockenkurve, egal wie die einzelnen Störungen verteilt sind. Deshalb ist die Gauß-Verteilung in der Physik so häufig.

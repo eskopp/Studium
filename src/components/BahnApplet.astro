@@ -32,8 +32,8 @@
         var col = getComputedStyle(root).color;
         var rmax = e < 0.8 ? 1 / (1 - e) : 5; var view = Math.min(rmax, 4.2);
         var s = Math.min((Wd / 2 - 16), (Ht / 2 - 16)) / Math.min(view, 2.2) * (e < 0.8 ? 1 : 0.9);
-        if (e < 0.95) s = Math.min((Wd - 40) / (1 / (1 - e) + 1 / (1 + e)), (Ht - 40) / (2 * Math.sqrt(1 / (1 - e * e)) * 1.0 + 0.01));
-        var fx = e < 0.95 ? 20 + (1 / (1 - e)) * s : Wd * 0.62, fy = Ht / 2;
+        if (e < 0.995) s = Math.min((Wd - 40) / (1 / (1 - e) + 1 / (1 + e)), (Ht - 40) / (2 * Math.sqrt(1 / (1 - e * e)) * 1.0 + 0.01));
+        var fx = e < 0.995 ? 20 + (1 / (1 - e)) * s : Wd * 0.62, fy = Ht / 2;
         ctx.strokeStyle = 'rgba(128,128,128,.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(10, fy); ctx.lineTo(Wd - 10, fy); ctx.stroke();
         ctx.strokeStyle = '#2563eb'; ctx.lineWidth = 3; ctx.beginPath(); var first = true;
         for (var i = -1800; i <= 1800; i++) {
@@ -47,7 +47,7 @@
         ctx.fillStyle = '#d97706'; ctx.beginPath(); ctx.arc(fx, fy, 8, 0, 7); ctx.fill();
         ctx.fillStyle = col; ctx.font = '12px sans-serif'; ctx.fillText('Sonne', fx - 16, fy + 24);
         var rp = 1 / (1 + e); ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(fx + rp * s, fy, 5, 0, 7); ctx.fill(); ctx.fillText('Perihel', fx + rp * s - 14, fy - 12);
-        if (e < 0.95) { ctx.beginPath(); ctx.arc(fx - s / (1 - e), fy, 5, 0, 7); ctx.fill(); ctx.fillText('Aphel', fx - s / (1 - e) + 4, fy - 12); }
+        if (e < 0.995) { ctx.beginPath(); ctx.arc(fx - s / (1 - e), fy, 5, 0, 7); ctx.fill(); ctx.fillText('Aphel', fx - s / (1 - e) + 4, fy - 12); }
       }
       ie.addEventListener('input', draw); window.addEventListener('resize', draw); draw();
     });

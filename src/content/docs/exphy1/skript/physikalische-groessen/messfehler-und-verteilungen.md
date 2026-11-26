@@ -47,7 +47,7 @@ Beim Münzwurf geht die relative Häufigkeit für "Kopf" bei großem $n$ gegen $
 
 ### Diskrete Verteilung
 
-Eine **diskrete Verteilung** hat nur endlich viele mögliche Werte $x_i$. Die Summe aller Wahrscheinlichkeiten ist $1$. Beim Würfel mit den Werten $1$ bis $6$ ist $P(x_i) = 1/6$.
+Eine **diskrete Verteilung** hat nur endlich oder abzählbar unendlich viele mögliche Werte $x_i$ (die Poisson-Verteilung weiter unten ist ein Beispiel für unendlich viele). Die Summe aller Wahrscheinlichkeiten ist $1$. Beim Würfel mit den Werten $1$ bis $6$ ist $P(x_i) = 1/6$.
 
 > [!NOTE] Definition
 > - **Erwartungswert:** $\langle x\rangle = \sum_i x_i\,P(x_i)$

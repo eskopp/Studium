@@ -80,7 +80,7 @@ Der Berührpunkt ruht also, sonst würde das Rad rutschen. Der höchste Punkt ha
 
 Beispiele sind ein Massenpunkt im Raum mit $3$ Freiheitsgraden und ein Massenpunkt in einer Ebene mit $2$. Für $N$ freie Massenpunkte sind es $3N$.
 
-Beim starren Körper wählt man drei Punkte aus:
+Beim starren Körper wählt man drei Punkte aus, die nicht auf einer gemeinsamen Geraden liegen:
 
 - **Punkt 1** braucht $3$ Koordinaten.
 - **Punkt 2** kann nur noch auf einer Kugeloberfläche um Punkt 1 liegen, weil der Abstand fest ist, also genügen $2$ Koordinaten.

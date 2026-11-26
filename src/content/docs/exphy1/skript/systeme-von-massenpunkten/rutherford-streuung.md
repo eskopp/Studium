@@ -15,7 +15,7 @@ Nach dem Rosinenkuchenmodell von Thomson (1904), bei dem die Elektronen in einem
 ## Das Potential und der Stoßparameter
 
 > [!NOTE] Definition
-> Die potentielle Energie im kugelsymmetrischen Potential ist $W_\mathrm{pot} = a/r$, die Kraft ist die Zentralkraft
+> Ein kugelsymmetrisches Potential hängt nur vom Abstand $r$ ab. Hier betrachtet man den wichtigen Spezialfall $W_\mathrm{pot} = a/r$ (Coulomb- oder Gravitationspotential), die Kraft ist die Zentralkraft
 >
 > $$ \mathbf{F} = -\nabla W_\mathrm{pot} = \frac{a}{r^2}\,\mathbf{e}_r . $$
 >
@@ -66,7 +66,7 @@ $$
 b = \frac{a}{2\,W_\mathrm{kin}}\cot\frac{\vartheta}{2} \approx 23\,\mathrm{fm}\cdot\cot\frac{\vartheta}{2} .
 $$
 
-Für $\vartheta = 90^\circ$ ist $\cot 45^\circ = 1$, also $b \approx 23\,\mathrm{fm}$. Für $\vartheta = 30^\circ$ ist $\cot 15^\circ \approx 3{,}73$, also $b \approx 85\,\mathrm{fm}$. Bei einem Frontalstoß ($b = 0$) ist $r_0 = a/W_\mathrm{kin} \approx 46\,\mathrm{fm}$. Ein Atom hat einen Durchmesser von etwa $10^{5}\,\mathrm{fm}$. Selbst bei einem Frontalstoß bleibt das Alphateilchen also weit außerhalb des Atoms, und der Kern muss viel kleiner sein.
+Für $\vartheta = 90^\circ$ ist $\cot 45^\circ = 1$, also $b \approx 23\,\mathrm{fm}$. Für $\vartheta = 30^\circ$ ist $\cot 15^\circ \approx 3{,}73$, also $b \approx 85\,\mathrm{fm}$. Bei einem Frontalstoß ($b = 0$) ist $r_0 = a/W_\mathrm{kin} \approx 46\,\mathrm{fm}$. Ein Atom hat einen Durchmesser von etwa $10^{5}\,\mathrm{fm}$. Selbst bei einem Frontalstoß dringt das Alphateilchen also tief in die Atomhülle ein, kommt dem Kern aber nur bis auf etwa $46\,\mathrm{fm}$ nahe. Es bleibt außerhalb des Kerns, und weil es trotzdem zurückgestreut wird, muss der Kern sehr viel kleiner als das Atom sein.
 
 Die Formel für den Streuwinkel habe ich zusätzlich mit einer numerischen Rechnung der Bahn geprüft: Sie liefert $89{,}7^\circ$ und $29{,}8^\circ$ für die beiden Werte, die Abweichung kommt von der endlichen Rechenstrecke.
 

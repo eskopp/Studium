@@ -45,7 +45,7 @@ Im ersten Semester braucht man vor allem Länge, Masse und Zeit. Seit dem 20. Ma
 > [!NOTE] Definitionen
 > - **Meter:** Ein Meter ist der Weg, den das Licht im Vakuum in $1/299\,792\,458$ Sekunden zurücklegt. Damit ist die Lichtgeschwindigkeit auf $c = 299\,792\,458\,\mathrm{m/s}$ festgelegt.
 > - **Sekunde:** Eine Sekunde ist das $9\,192\,631\,770$-fache der Periodendauer der Strahlung beim Übergang zwischen den beiden Hyperfeinstrukturniveaus des Grundzustands von Cs-133.
-> - **Kilogramm:** Das Plancksche Wirkungsquantum wird auf $h = 6{,}62607004\cdot 10^{-34}\,\mathrm{kg\,m^2/s}$ festgelegt, wobei Meter und Sekunde über $c$ und die Cs-Frequenz definiert sind.
+> - **Kilogramm:** Das Plancksche Wirkungsquantum wird auf $h = 6{,}62607015\cdot 10^{-34}\,\mathrm{kg\,m^2/s}$ exakt festgelegt (seit 2019, der Wert $6{,}62607004\cdot 10^{-34}$ auf älteren Unterlagen ist der Messwert davor), wobei Meter und Sekunde über $c$ und die Cs-Frequenz definiert sind.
 
 > [!TIP] In einfachen Worten
 > Früher gab es Urnormale: Der Meter war ein Stab aus Platin und Iridium in Paris, das Kilogramm ein Zylinder aus demselben Material. Beide können sich verändern. Eine Naturkonstante ist für jeden Ort und jede Zeit gleich, deshalb hat man die Einheiten auf sie zurückgeführt. Die Zahl $299\,792\,458$ ist dabei nicht gemessen, sondern festgelegt.

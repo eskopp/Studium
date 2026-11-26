@@ -26,8 +26,10 @@
         var p2 = [mu * (1 - Math.cos(th)), mu * Math.sin(th)], p1 = r;
         var t1 = Math.atan2(p2[1], p1 - p2[0]) * 180 / Math.PI, t2 = (180 - th * 180 / Math.PI) / 2;
         q('[data-o-m]').textContent = fmt(r, 2); q('[data-o-t]').textContent = fmt(+it.value, 0) + '°';
-        q('[data-r-t1]').textContent = fmt(t1, 1) + '°'; q('[data-r-t2]').textContent = fmt(t2, 1) + '°';
-        q('[data-r-s]').textContent = fmt(t1 + t2, 1) + '°';
+        var u1 = Math.hypot(p1 - p2[0], p2[1]) < 1e-9, u2 = Math.hypot(p2[0], p2[1]) < 1e-9;
+        q('[data-r-t1]').textContent = u1 ? 'nicht definiert (Körper 1 ruht)' : fmt(t1, 1) + '°';
+        q('[data-r-t2]').textContent = u2 ? 'nicht definiert (Körper 2 ruht)' : fmt(t2, 1) + '°';
+        q('[data-r-s]').textContent = (u1 || u2) ? 'nicht definiert' : fmt(t1 + t2, 1) + '°';
         q('[data-r-w]').textContent = fmt(2 * mu * (1 - Math.cos(th)) / M * 100, 1) + ' %';
         q('[data-r-extra]').textContent = r > 1 ? 'Größter möglicher Streuwinkel von Körper 1: ' + fmt(Math.asin(1 / r) * 180 / Math.PI, 1) + '°' : (r < 1 ? 'Körper 1 kann bis 180° zurückgestreut werden.' : 'Bei gleichen Massen ist θ₁ + θ₂ = 90°.');
         var dpr = window.devicePixelRatio || 1, W = cv.clientWidth, H = 320;

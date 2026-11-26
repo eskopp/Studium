@@ -30,7 +30,7 @@ Dafür muss man neben der Fallzeit auch die Fallstrecke messen, und beide sind f
 >
 > $$ \sigma_y = |f'(x_k)|\,\sigma_{x_k} . $$
 >
-> Setzt sich $y$ aus $n$ voneinander **unabhängigen** Messgrößen $x_k$ zusammen, addiert man die Beiträge quadratisch:
+> Setzt sich $y$ aus $n$ voneinander **unabhängigen** Messgrößen $x_k$ zusammen, addiert man die Beiträge quadratisch. Das ist eine Näherung erster Ordnung, die für kleine Fehler gilt:
 >
 > $$ \sigma_y^2 = \sum_{k=1}^{n}\left(\frac{\partial y}{\partial x_k}\bigg|_{\bar{x}_k}\right)^2\sigma_{x_k}^2 . $$
 
