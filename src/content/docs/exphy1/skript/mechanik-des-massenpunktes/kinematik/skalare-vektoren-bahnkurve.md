@@ -35,6 +35,10 @@ Vektoren unterscheidet man nach ihrem Verhalten bei einer Spiegelung am Ursprung
 > [!TIP] In einfachen Worten
 > Der Ortsvektor ist ein Pfeil vom Nullpunkt zum Körper. Wenn der Körper sich bewegt, wandert die Spitze des Pfeils, und die Spur der Spitze ist die Bahnkurve. Zu jedem Zeitpunkt gehört genau ein Pfeil.
 
+![Eine gekrümmte Bahn in der xy-Ebene mit dem Ortsvektor vom Ursprung zum Punkt P und dem Geschwindigkeitsvektor als Tangente an die Bahn.](/images/exphy1/ortsvektor-bahnkurve.svg)
+
+*Eigene Zeichnung: Ortsvektor, Bahnkurve und Geschwindigkeit.*
+
 Drei Beispiele für Bahnkurven mit konstanten Zahlen $a$, $b$, $R$:
 
 - **Gerade in einer Dimension:** $x(t) = a\,t$

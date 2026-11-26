@@ -22,6 +22,10 @@ weight: 2
 > [!TIP] In einfachen Worten
 > Der Tacho zeigt die momentane Geschwindigkeit, die Fahrtzeit von Ilmenau nach Erfurt geteilt durch die Strecke ergibt die mittlere. Die momentane Geschwindigkeit ist der Grenzfall, bei dem man die Zeitspanne immer kürzer macht, bis die Sekante zur Tangente wird.
 
+![Eine ansteigende Kurve x(t). Die Sekante durch zwei Punkte hat die Steigung der mittleren Geschwindigkeit, die Tangente im ersten Punkt die der momentanen Geschwindigkeit.](/images/exphy1/sekante-tangente.svg)
+
+*Eigene Zeichnung: Sekante und Tangente im Ort-Zeit-Diagramm.*
+
 ## Beschleunigung
 
 > [!NOTE] Definition

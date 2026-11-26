@@ -39,6 +39,10 @@ $$
 
 Daraus folgt $N = G - T\sin\theta$. Der senkrechte Teil der Seilkraft hilft also, den Block zu tragen, und die Normalkraft wird kleiner.
 
+![Ein Block auf glatter Unterlage wird mit einem Seil unter dem Winkel theta gezogen, mit Gewichtskraft, Normalkraft und den Komponenten der Seilkraft.](/images/exphy1/freischneiden-block.svg)
+
+*Eigene Zeichnung: Freischneiden des gezogenen Blocks mit gedachter Hülle.*
+
 #### Beispiel
 
 Ein Block mit $m = 4{,}0\,\mathrm{kg}$ wird mit $T = 20\,\mathrm{N}$ unter $\theta = 30^\circ$ gezogen. Die Zahlen sind frei gewählt. Dann ist
