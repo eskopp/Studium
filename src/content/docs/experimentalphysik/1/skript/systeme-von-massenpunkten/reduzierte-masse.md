@@ -49,7 +49,7 @@ $$
 
 Das ist $\mu\,\ddot{\mathbf{r}} = \mathbf{F}_{12}$.
 
-Für die kinetische Energie benutzt man, dass im Schwerpunktsystem $m_1\mathbf{v}_{1S} + m_2\mathbf{v}_{2S} = 0$ gilt (siehe [Massenmittelpunkt](/experimentalphysik/1-mechanik-und-thermodynamik/skript/systeme-von-massenpunkten/massenmittelpunkt/)). Daraus folgt
+Für die kinetische Energie benutzt man, dass im Schwerpunktsystem $m_1\mathbf{v}_{1S} + m_2\mathbf{v}_{2S} = 0$ gilt (siehe [Massenmittelpunkt](/experimentalphysik/1/skript/systeme-von-massenpunkten/massenmittelpunkt/)). Daraus folgt
 
 $$
 \mathbf{v}_{1S} = \frac{m_2}{m_1 + m_2}\,\mathbf{v}_{12}, \qquad \mathbf{v}_{2S} = -\frac{m_1}{m_1 + m_2}\,\mathbf{v}_{12} .
