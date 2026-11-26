@@ -1,0 +1,95 @@
+---
+title: 2.2.2.2 und 2.2.2.3 Freier Fall und mathematisches Pendel
+description: Der freie Fall aus dem zweiten Axiom, das mathematische Pendel mit der Kleinwinkelnäherung und die Schwingungsdauer.
+weight: 4
+---
+
+*In einem Satz: Aus dem zweiten Axiom folgt dieselbe Bewegungsgleichung wie in der Kinematik, und beim Pendel wird sie für kleine Winkel zur Schwingungsgleichung.*
+
+## Der freie Fall aus dem zweiten Axiom
+
+Der freie Fall war schon in der Kinematik ein Beispiel, siehe [2.1.5.1](/exphy1/skript/mechanik-des-massenpunktes/kinematik/gleichfoermig-beschleunigte-bewegung/). Jetzt folgt die Bewegungsgleichung aus der Kraft. Der Einfachheit halber ist $m_\mathrm{t} = m_\mathrm{s} = m$. Das homogene Feld wirkt entlang der $z$-Achse:
+
+$$
+m\begin{pmatrix}\ddot{x}\\ \ddot{y}\\ \ddot{z}\end{pmatrix} = m\begin{pmatrix}0\\ 0\\ -g\end{pmatrix} .
+$$
+
+Die Masse kürzt sich heraus. Zweimaliges Integrieren gibt
+
+$$
+v_z = -g\,t + v_{0z} , \qquad z = -\tfrac{1}{2} g t^2 + v_{0z}\,t + z_0 ,
+$$
+
+und in $x$ und $y$ bleiben die Geschwindigkeiten konstant. Die Integrationskonstanten legen die Anfangsbedingungen fest.
+
+> [!TIP] In einfachen Worten
+> Weil die Masse sich herauskürzt, fallen alle Körper gleich schnell. Eine schwere Kugel hat zwar die größere Gewichtskraft, aber auch die größere Trägheit, und beides gleicht sich genau aus.
+
+## Das mathematische Pendel
+
+> [!NOTE] Definition
+> Ein **mathematisches Pendel** ist ein Pendelkörper, den man als Massenpunkt ansieht, an einem Faden, dessen Masse viel kleiner ist als die des Körpers. Der Faden hat die Länge $\ell$, und der Körper läuft auf einem Kreisbogen. Der Bogenwinkel $\varphi$ wird von der Ruhelage aus gemessen.
+
+Die Gewichtskraft zerlegt man in einen Teil entlang des Fadens und einen Teil entlang der Bahn:
+
+$$
+\mathbf{G} = -m g\cos\varphi\,\mathbf{e}_n - m g\sin\varphi\,\mathbf{e}_t .
+$$
+
+Zusätzlich wirkt die Fadenkraft $\mathbf{Z}_n$ in Richtung des Fadens. Sie ist eine **Zwangskraft**, weil sie den Körper auf die Kreisbahn zwingt. Ohne sie fiele er frei nach unten. Das zweite Axiom, $\mathbf{F} = m(a_n\mathbf{e}_n + a_t\mathbf{e}_t)$, liefert für die beiden Richtungen getrennt
+
+$$
+a_n = -g\cos\varphi + \frac{Z_n}{m} = 0 , \qquad a_t = -g\sin\varphi .
+$$
+
+Die Tangentialbeschleunigung ist die zweite Ableitung des Bogens $b = \ell\varphi$ nach der Zeit, also $a_t = \ell\ddot{\varphi}$. Daraus folgt die **Pendelgleichung**
+
+$$
+\ddot{\varphi} + \frac{g}{\ell}\sin\varphi = 0 .
+$$
+
+Das ist eine nichtlineare Differentialgleichung zweiter Ordnung, weil $\varphi$ im Argument des Sinus steht.
+
+### Kleine Winkel
+
+Für kleine Winkel ersetzt man $\sin\varphi \approx \varphi$, denn nach der Taylor-Reihe ist $\sin\varphi = \varphi - \varphi^3/3! + \ldots$. Dann entsteht die lineare Gleichung der **harmonischen Schwingung**:
+
+> [!NOTE] Ergebnis
+> $$ \ddot{\varphi} + \frac{g}{\ell}\,\varphi = 0 , \qquad \varphi(t) = A\sin\!\left(\sqrt{\frac{g}{\ell}}\,t\right) , \qquad T = 2\pi\sqrt{\frac{\ell}{g}} . $$
+>
+> Dabei ist $A$ die **Amplitude** (größte Auslenkung) und $T$ die **Periodendauer**.
+
+> [!TIP] In einfachen Worten
+> Das Pendel schwingt wie eine Sinuskurve hin und her. Die Schwingungsdauer hängt nur von der Fadenlänge und von $g$ ab, nicht von der Masse und, in dieser Näherung, auch nicht von der Amplitude. Mit einem Pendel und einer Uhr kann man $g$ messen.
+
+### Beispiel
+
+Ein Pendel mit $\ell = 1{,}00\,\mathrm{m}$ hat die Periodendauer
+
+$$
+T = 2\pi\sqrt{\frac{1{,}00\,\mathrm{m}}{9{,}81\,\mathrm{m/s^2}}} \approx 2{,}01\,\mathrm{s} .
+$$
+
+Bei einem Viertel der Länge ($\ell = 0{,}25\,\mathrm{m}$) halbiert sich die Periodendauer auf etwa $1{,}00\,\mathrm{s}$. Die Zahlen sind frei gewählt.
+
+> [!CAUTION] Stolperstelle
+> Die Näherung $\sin\varphi \approx \varphi$ gilt nur für kleine Winkel, und der Winkel muss im Bogenmaß stehen. Bei $5^\circ$ beträgt der Fehler etwa $0{,}13\,\%$, bei $10^\circ$ etwa $0{,}5\,\%$ und bei $30^\circ$ schon etwa $4{,}7\,\%$. Die Aussage im Skriptum, dass bei bis zu $10^\circ$ der Fehler unter $5\,\%$ liegt, stimmt also, ist aber sehr großzügig.
+
+### Nachweis, dass die Lösung stimmt
+
+Man leitet $\varphi(t) = A\sin(\sqrt{g/\ell}\,t)$ zweimal ab:
+
+$$
+\dot{\varphi} = A\sqrt{\frac{g}{\ell}}\cos\!\left(\sqrt{\frac{g}{\ell}}\,t\right) , \qquad \ddot{\varphi} = -A\frac{g}{\ell}\sin\!\left(\sqrt{\frac{g}{\ell}}\,t\right) = -\frac{g}{\ell}\,\varphi .
+$$
+
+Also gilt $\ddot{\varphi} + (g/\ell)\,\varphi = 0$. Die Gleichung der harmonischen Schwingung begegnet uns im zweiten Semester immer wieder.
+
+## Weiter
+
+- [2.2.2.4 Die Raketengrundgleichung](/exphy1/skript/mechanik-des-massenpunktes/dynamik/raketengrundgleichung/)
+
+## Quellen
+
+- Vorlesung Experimentalphysik 1 (WS 2026), Folien Abschnitte 2.2.2.2 und 2.2.2.3 und Skriptum Kapitel 2
+- Eigene Ergänzungen: Die Kästen "In einfachen Worten" und die Rechenbeispiele mit eigenen Zahlen stammen nicht aus der Vorlesung. Die Fehlerwerte der Kleinwinkelnäherung habe ich nachgerechnet.
