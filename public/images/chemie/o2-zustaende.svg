@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" role="img" aria-labelledby="t d">
+  <title id="t">Elektronenzustände von O2 in den pi*-Orbitalen</title>
+  <desc id="d">Drei Energieniveaus: Grundzustand mit zwei parallelen Spins, erster angeregter Zustand bei 92 kJ/mol mit einem doppelt besetzten Orbital, zweiter angeregter Zustand bei 155 kJ/mol mit zwei antiparallelen Spins.</desc>
+  <rect width="780" height="400" rx="8" fill="#f7f8fa"/>
+  <g font-family="sans-serif" font-size="15" fill="#1f2933" stroke="#1f2933" stroke-width="2">
+    <line x1="60" y1="360" x2="60" y2="40"/><polyline points="55,46 60,40 65,46" fill="none"/>
+    <text x="30" y="28" stroke="none" font-size="14">Energie</text>
+    <line x1="240" y1="340" x2="290" y2="340"/><line x1="320" y1="340" x2="370" y2="340"/><line x1="265" y1="334" x2="265" y2="300"/><polyline points="260,306 265,300 270,306" fill="none"/><line x1="345" y1="334" x2="345" y2="300"/><polyline points="340,306 345,300 350,306" fill="none"/><text x="400" y="332" stroke="none">Grundzustand</text><text x="400" y="352" stroke="none" font-size="13">Triplett-Sauerstoff, zwei parallele Spins</text><line x1="240" y1="186" x2="290" y2="186"/><line x1="320" y1="186" x2="370" y2="186"/><line x1="257" y1="180" x2="257" y2="146"/><polyline points="252,152 257,146 262,152" fill="none"/><line x1="273" y1="146" x2="273" y2="180"/><polyline points="268,174 273,180 278,174" fill="none"/><text x="400" y="178" stroke="none">1. angeregter Zustand, +92 kJ/mol</text><text x="400" y="198" stroke="none" font-size="13">Singulett-Sauerstoff, ein Orbital doppelt besetzt</text><line x1="240" y1="80" x2="290" y2="80"/><line x1="320" y1="80" x2="370" y2="80"/><line x1="265" y1="74" x2="265" y2="40"/><polyline points="260,46 265,40 270,46" fill="none"/><line x1="345" y1="40" x2="345" y2="74"/><polyline points="340,68 345,74 350,68" fill="none"/><text x="400" y="72" stroke="none">2. angeregter Zustand, +155 kJ/mol</text><text x="400" y="92" stroke="none" font-size="13">Singulett-Sauerstoff, zwei antiparallele Spins</text>
+    <text x="240" y="372" stroke="none" font-size="13">zwei entartete π*-Orbitale</text>
+  </g>
+</svg>
