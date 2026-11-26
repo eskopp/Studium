@@ -36,9 +36,10 @@
         var fx = e < 0.995 ? 20 + (1 / (1 - e)) * s : Wd * 0.62, fy = Ht / 2;
         ctx.strokeStyle = 'rgba(128,128,128,.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(10, fy); ctx.lineTo(Wd - 10, fy); ctx.stroke();
         ctx.strokeStyle = '#2563eb'; ctx.lineWidth = 3; ctx.beginPath(); var first = true;
-        for (var i = -1800; i <= 1800; i++) {
-          var ph = i / 1800 * Math.PI, d = 1 + e * Math.cos(ph); if (d <= 0.05) { first = true; continue; }
-          var r = 1 / d; if (r > 6) { first = true; continue; }
+        var N = e < 0.995 ? 20000 : 1800, dmin = e < 0.995 ? 1e-4 : 0.05;
+        for (var i = -N; i <= N; i++) {
+          var ph = i / N * Math.PI, d = 1 + e * Math.cos(ph); if (d <= dmin) { first = true; continue; }
+          var r = 1 / d; if (e >= 0.995 && r > 6) { first = true; continue; }
           var x = fx + r * s * Math.cos(ph), y = fy - r * s * Math.sin(ph);
           if (x < -50 || x > Wd + 50 || y < -50 || y > Ht + 50) { first = true; continue; }
           if (first) { ctx.moveTo(x, y); first = false; } else ctx.lineTo(x, y);
@@ -46,7 +47,7 @@
         ctx.stroke();
         ctx.fillStyle = '#d97706'; ctx.beginPath(); ctx.arc(fx, fy, 8, 0, 7); ctx.fill();
         ctx.fillStyle = col; ctx.font = '12px sans-serif'; ctx.fillText('Sonne', fx - 16, fy + 24);
-        var rp = 1 / (1 + e); ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(fx + rp * s, fy, 5, 0, 7); ctx.fill(); ctx.fillText('Perihel', fx + rp * s - 14, fy - 12);
+        var rp = 1 / (1 + e); ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(fx + rp * s, fy, 5, 0, 7); ctx.fill(); ctx.textAlign = 'right'; ctx.fillText('Perihel', fx + rp * s + 6, fy - 12); ctx.textAlign = 'left';
         if (e < 0.995) { ctx.beginPath(); ctx.arc(fx - s / (1 - e), fy, 5, 0, 7); ctx.fill(); ctx.fillText('Aphel', fx - s / (1 - e) + 4, fy - 12); }
       }
       ie.addEventListener('input', draw); window.addEventListener('resize', draw); draw();
