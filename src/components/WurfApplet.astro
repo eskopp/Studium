@@ -1,0 +1,83 @@
+<div class="applet" data-wurf>
+  <div class="applet-controls">
+    <label><span>Anfangsgeschwindigkeit v<sub>0</sub>: <output data-o-v></output></span><input type="range" data-v min="5" max="30" step="0.5" value="15" /></label>
+    <label><span>Abschusswinkel φ: <output data-o-p></output></span><input type="range" data-p min="5" max="85" step="1" value="40" /></label>
+    <label><span>Starthöhe h: <output data-o-h></output></span><input type="range" data-h min="0" max="10" step="0.5" value="3" /></label>
+    <label><span>Ortsfaktor g</span>
+      <select data-g>
+        <option value="9.81">Erde, 9,81 m/s²</option>
+        <option value="3.71">Mars, 3,71 m/s²</option>
+        <option value="1.62">Mond, 1,62 m/s²</option>
+      </select>
+    </label>
+  </div>
+  <canvas data-c height="320" role="img" aria-label="Wurfparabel mit Wurfhöhe und Wurfweite"></canvas>
+  <div class="applet-results" aria-live="polite">
+    <p>Wurfweite x<sub>w</sub>: <strong data-r-xw></strong></p>
+    <p>Wurfhöhe H: <strong data-r-h></strong></p>
+    <p>Wurfdauer T: <strong data-r-t></strong></p>
+    <p>Aufprallgeschwindigkeit: <strong data-r-v></strong></p>
+  </div>
+  <p class="applet-note">Die Bahn folgt x(t) = v<sub>0</sub> cos φ · t und z(t) = h + v<sub>0</sub> sin φ · t − ½ g t². Ohne Luftwiderstand. Bei h = 0 ist 45° der Winkel für die größte Weite.</p>
+</div>
+
+<style is:global>
+  .applet { border: 1px solid rgba(128,128,128,.4); border-radius: .9rem; padding: 1.1rem; margin: 1.5rem 0; display: grid; gap: 1rem; }
+  .applet-controls { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet label { display: grid; gap: .25rem; font-size: .9rem; }
+  .applet input[type='range'], .applet select { width: 100%; }
+  .applet select { padding: .3rem; border: 1px solid rgba(128,128,128,.5); border-radius: .4rem; background: transparent; color: inherit; }
+  .applet select option { background: #fff; color: #111; }
+  .applet canvas { width: 100%; height: 320px; border-radius: .5rem; background: rgba(128,128,128,.06); display: block; }
+  .applet-results { display: grid; gap: .2rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet-results p, .applet-note { margin: 0; }
+  .applet-note { font-size: .85rem; opacity: .8; }
+</style>
+
+<script>
+  (function () {
+    document.querySelectorAll('[data-wurf]').forEach(function (root) {
+      if (root.dataset.ready) return; root.dataset.ready = '1';
+      var q = function (s) { return root.querySelector(s); };
+      var fmt = function (x, d) { return x.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d }); };
+      var cv = q('[data-c]'), ctx = cv.getContext('2d');
+      var iv = q('[data-v]'), ip = q('[data-p]'), ih = q('[data-h]'), ig = q('[data-g]');
+      function draw() {
+        var v0 = +iv.value, ph = +ip.value * Math.PI / 180, h = +ih.value, g = +ig.value;
+        var vx = v0 * Math.cos(ph), vz = v0 * Math.sin(ph);
+        var xw = vx * vz / g * (1 + Math.sqrt(1 + 2 * g * h / (vz * vz)));
+        var H = h + vz * vz / (2 * g), T = xw / vx, vend = Math.sqrt(v0 * v0 + 2 * g * h);
+        q('[data-o-v]').textContent = fmt(v0, 1) + ' m/s';
+        q('[data-o-p]').textContent = fmt(+ip.value, 0) + '°';
+        q('[data-o-h]').textContent = fmt(h, 1) + ' m';
+        q('[data-r-xw]').textContent = fmt(xw, 2) + ' m';
+        q('[data-r-h]').textContent = fmt(H, 2) + ' m';
+        q('[data-r-t]').textContent = fmt(T, 2) + ' s';
+        q('[data-r-v]').textContent = fmt(vend, 2) + ' m/s';
+        var dpr = window.devicePixelRatio || 1, W = cv.clientWidth, Hh = 320;
+        cv.width = W * dpr; cv.height = Hh * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        var col = getComputedStyle(root).color;
+        var mx = 44, my = 28, aw = W - mx - 16, ah = Hh - my - 40;
+        var xmax = Math.max(xw * 1.1, 5), zmax = Math.max(H * 1.2, 2);
+        var s = Math.min(aw / xmax, ah / zmax);
+        var X = function (x) { return mx + x * s; }, Z = function (z) { return Hh - 40 - z * s; };
+        ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(128,128,128,.35)'; ctx.fillStyle = col; ctx.font = '12px sans-serif';
+        var step = Math.pow(10, Math.floor(Math.log10(xmax / 5))); if (xmax / step > 10) step *= 2;
+        for (var gx = 0; gx <= xmax; gx += step) { ctx.beginPath(); ctx.moveTo(X(gx), Z(0)); ctx.lineTo(X(gx), my); ctx.stroke(); ctx.fillText(fmt(gx, 0), X(gx) - 6, Z(0) + 16); }
+        for (var gz = 0; gz <= zmax; gz += step) { ctx.beginPath(); ctx.moveTo(X(0), Z(gz)); ctx.lineTo(W - 16, Z(gz)); ctx.stroke(); ctx.fillText(fmt(gz, 0), 14, Z(gz) + 4); }
+        ctx.strokeStyle = col; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(X(0), Z(0)); ctx.lineTo(W - 16, Z(0)); ctx.moveTo(X(0), Z(0)); ctx.lineTo(X(0), my); ctx.stroke();
+        ctx.fillText('x in m', W - 56, Z(0) + 30); ctx.fillText('z in m', 6, 16);
+        ctx.strokeStyle = '#2563eb'; ctx.lineWidth = 3; ctx.beginPath();
+        for (var i = 0; i <= 200; i++) { var x = xw * i / 200, z = h + Math.tan(ph) * x - g * x * x / (2 * vx * vx); if (i === 0) ctx.moveTo(X(x), Z(z)); else ctx.lineTo(X(x), Z(z)); }
+        ctx.stroke();
+        var xH = vx * vz / g;
+        ctx.setLineDash([5, 5]); ctx.strokeStyle = '#ea580c'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(X(xH), Z(0)); ctx.lineTo(X(xH), Z(H)); ctx.stroke(); ctx.setLineDash([]);
+        ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(X(xH), Z(H), 5, 0, 7); ctx.fill(); ctx.fillText('H', X(xH) + 8, Z(H) - 6);
+        ctx.fillStyle = col; ctx.beginPath(); ctx.arc(X(xw), Z(0), 5, 0, 7); ctx.fill(); ctx.beginPath(); ctx.arc(X(0), Z(h), 5, 0, 7); ctx.fill();
+        ctx.strokeStyle = '#ea580c'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.moveTo(X(0), Z(h)); ctx.lineTo(X(0) + 40 * Math.cos(ph), Z(h) - 40 * Math.sin(ph)); ctx.stroke();
+      }
+      [iv, ip, ih, ig].forEach(function (e) { e.addEventListener('input', draw); });
+      window.addEventListener('resize', draw); draw();
+    });
+  })();
+</script>

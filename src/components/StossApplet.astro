@@ -1,0 +1,68 @@
+<div class="applet" data-stoss>
+  <div class="applet-controls">
+    <label><span>Massenverhältnis m<sub>1</sub> / m<sub>2</sub>: <output data-o-m></output></span><input type="range" data-m min="-1" max="1" step="0.01" value="0" /></label>
+    <label><span>Streuwinkel im Schwerpunktsystem ϑ: <output data-o-t></output></span><input type="range" data-t min="0" max="180" step="1" value="100" /></label>
+  </div>
+  <canvas data-c height="320" role="img" aria-label="Impulsdiagramm eines elastischen Stoßes mit ruhendem Körper"></canvas>
+  <div class="applet-results" aria-live="polite">
+    <p>Streuwinkel von Körper 1 im Labor θ<sub>1</sub>: <strong data-r-t1></strong></p>
+    <p>Rückstoßwinkel von Körper 2 θ<sub>2</sub>: <strong data-r-t2></strong></p>
+    <p>Winkel zwischen p<sub>1</sub>′ und p<sub>2</sub>′: <strong data-r-s></strong></p>
+    <p>Energie, die auf Körper 2 übergeht: <strong data-r-w></strong></p>
+    <p data-r-extra></p>
+  </div>
+  <p class="applet-note">Körper 2 ruht, m<sub>2</sub> = 1 und v<sub>1</sub> = 1. Die Spitze von p<sub>2</sub>′ liegt auf dem Kreis um (μ v<sub>1</sub>, 0) mit Radius μ v<sub>1</sub>. Der Anteil der Energie ist 2μ(1 − cos ϑ)/(m<sub>1</sub> + m<sub>2</sub>). Bei gleichen Massen stehen die beiden Endimpulse immer senkrecht aufeinander.</p>
+</div>
+
+<script>
+  (function () {
+    document.querySelectorAll('[data-stoss]').forEach(function (root) {
+      if (root.dataset.ready) return; root.dataset.ready = '1';
+      var q = function (s) { return root.querySelector(s); };
+      var fmt = function (x, d) { return x.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d }); };
+      var cv = q('[data-c]'), ctx = cv.getContext('2d'), im = q('[data-m]'), it = q('[data-t]');
+      function draw() {
+        var r = Math.pow(10, +im.value), th = +it.value * Math.PI / 180, mu = r / (1 + r), M = r + 1;
+        var p2 = [mu * (1 - Math.cos(th)), mu * Math.sin(th)], p1 = r;
+        var t1 = Math.atan2(p2[1], p1 - p2[0]) * 180 / Math.PI, t2 = (180 - th * 180 / Math.PI) / 2;
+        q('[data-o-m]').textContent = fmt(r, 2); q('[data-o-t]').textContent = fmt(+it.value, 0) + '°';
+        q('[data-r-t1]').textContent = fmt(t1, 1) + '°'; q('[data-r-t2]').textContent = fmt(t2, 1) + '°';
+        q('[data-r-s]').textContent = fmt(t1 + t2, 1) + '°';
+        q('[data-r-w]').textContent = fmt(2 * mu * (1 - Math.cos(th)) / M * 100, 1) + ' %';
+        q('[data-r-extra]').textContent = r > 1 ? 'Größter möglicher Streuwinkel von Körper 1: ' + fmt(Math.asin(1 / r) * 180 / Math.PI, 1) + '°' : (r < 1 ? 'Körper 1 kann bis 180° zurückgestreut werden.' : 'Bei gleichen Massen ist θ₁ + θ₂ = 90°.');
+        var dpr = window.devicePixelRatio || 1, W = cv.clientWidth, H = 320;
+        cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        var col = getComputedStyle(root).color, ext = Math.max(p1, 2 * mu), s = Math.min((W - 80) / ext, (H - 110) / (mu + 0.001));
+        var ox = 36, oy = H / 2 + 20 - Math.min(mu * s, H / 2 - 40) * 0 , X = function (x) { return ox + x * s; }, Y = function (y) { return H - 50 - y * s; };
+        ox = 36; var base = H - 50;
+        ctx.strokeStyle = 'rgba(128,128,128,.4)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(10, base); ctx.lineTo(W - 10, base); ctx.stroke();
+        ctx.setLineDash([6, 5]); ctx.strokeStyle = '#9ca3af'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(X(mu), base, mu * s, Math.PI, 2 * Math.PI); ctx.stroke(); ctx.setLineDash([]);
+        function arrow(x1, y1, x2, y2, c, lbl) {
+          ctx.strokeStyle = c; ctx.fillStyle = c; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+          var a = Math.atan2(y2 - y1, x2 - x1); ctx.beginPath(); ctx.moveTo(x2, y2); ctx.lineTo(x2 - 11 * Math.cos(a - .4), y2 - 11 * Math.sin(a - .4)); ctx.lineTo(x2 - 11 * Math.cos(a + .4), y2 - 11 * Math.sin(a + .4)); ctx.closePath(); ctx.fill();
+          ctx.font = '14px sans-serif'; ctx.fillText(lbl, (x1 + x2) / 2 + 6, (y1 + y2) / 2 - 8);
+        }
+        arrow(X(0), base, X(p1) - 3, base, '#2563eb', 'p₁');
+        arrow(X(0), base, X(p2[0]), Y(p2[1]), '#ea580c', 'p₂′');
+        arrow(X(p2[0]), Y(p2[1]), X(p1) - 3, base, '#16a34a', 'p₁′');
+        ctx.fillStyle = col; ctx.beginPath(); ctx.arc(X(p2[0]), Y(p2[1]), 5, 0, 7); ctx.fill();
+        ctx.font = '12px sans-serif'; ctx.fillStyle = col; ctx.fillText('Kreis: Mittelpunkt (μ v₁, 0), Radius μ v₁', 12, 20);
+      }
+      [im, it].forEach(function (e) { e.addEventListener('input', draw); });
+      window.addEventListener('resize', draw); draw();
+    });
+  })();
+</script>
+
+<style is:global>
+  .applet { border: 1px solid rgba(128,128,128,.4); border-radius: .9rem; padding: 1.1rem; margin: 1.5rem 0; display: grid; gap: 1rem; }
+  .applet-controls { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet label { display: grid; gap: .25rem; font-size: .9rem; }
+  .applet input[type='range'], .applet select { width: 100%; }
+  .applet select { padding: .3rem; border: 1px solid rgba(128,128,128,.5); border-radius: .4rem; background: transparent; color: inherit; }
+  .applet select option { background: #fff; color: #111; }
+  .applet canvas { width: 100%; height: 320px; border-radius: .5rem; background: rgba(128,128,128,.06); display: block; }
+  .applet-results { display: grid; gap: .2rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .applet-results p, .applet-note { margin: 0; }
+  .applet-note { font-size: .85rem; opacity: .8; }
+</style>

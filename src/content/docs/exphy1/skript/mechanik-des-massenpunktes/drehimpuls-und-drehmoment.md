@@ -18,6 +18,10 @@ weight: 4
 > [!TIP] In einfachen Worten
 > Der Drehimpuls sagt, wie viel "Drehschwung" ein Körper um einen Punkt hat. Er hängt vom gewählten Punkt ab. Auch ein Körper, der geradeaus fliegt, hat bezüglich eines Punktes neben seiner Bahn einen Drehimpuls, denn aus Sicht dieses Punktes dreht sich der Pfeil zum Körper.
 
+![Ein Körper bewegt sich auf einer Geraden mit Impuls p. Bezogen auf einen Punkt im Abstand d hat er den Drehimpuls m v d, der aus der Zeichenebene zeigt.](/images/exphy1/drehimpuls-geradlinig.svg)
+
+*Eigene Zeichnung: Auch eine geradlinige Bewegung hat einen Drehimpuls.*
+
 Bei einer ebenen Bewegung zeigt $\mathbf{L}$ immer in Richtung der Ebenennormalen. Zerlegt man die Geschwindigkeit in $\mathbf{v} = \mathbf{v}_r + \mathbf{v}_\varphi$ mit $\mathbf{v}_r \parallel \mathbf{r}$ und $\mathbf{v}_\varphi \perp \mathbf{r}$, dann gilt
 
 $$

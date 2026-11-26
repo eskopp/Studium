@@ -29,6 +29,10 @@ Außerhalb der Kugel sind Energie und Kraft **dieselben wie bei einem Massenpunk
 
 Das Ergebnis ist stetig: An der Oberfläche $r = R$ ergeben beide Zeilen $-\gamma m M/R$ für die Energie.
 
+![Zwei Diagramme der Kraft in Abhängigkeit vom Abstand zum Mittelpunkt, links für die Vollkugel, rechts für die Hohlkugel.](/images/exphy1/kugel-kraft.svg)
+
+*Eigene Zeichnung: Kraft auf eine Probemasse bei Voll- und Hohlkugel.*
+
 ## Die Hohlkugel
 
 Bei einer dünnen Kugelschale mit dem Radius $R$ liegt die gesamte Masse $M$ homogen auf der Schale:
@@ -53,6 +57,10 @@ $$
 $$
 
 Beide Kräfte sind gleich groß und zeigen in entgegengesetzte Richtungen. Das gilt für jeden Doppelkegel, deshalb heben sich alle Beiträge auf.
+
+![Ein Punkt P in einer Kugelschale mit einem Doppelkegel, der die Flächenstücke A1 und A2 herausschneidet.](/images/exphy1/doppelkegel.svg)
+
+*Eigene Zeichnung: Der Doppelkegel in der Hohlkugel.*
 
 > [!CAUTION] Stolperstelle
 > Das gilt nur für Kräfte, die genau wie $1/r^2$ mit dem Abstand abnehmen. Bei einem anderen Kraftgesetz würde die Hohlkugel im Inneren eine Kraft ausüben. Das Ergebnis ist also eine Besonderheit der $1/r^2$-Abhängigkeit.

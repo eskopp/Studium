@@ -66,6 +66,10 @@ $$
 
 Der Berührpunkt ruht also, sonst würde das Rad rutschen. Der höchste Punkt hat dagegen $\mathbf{r}_{iS} = +R\,\mathbf{e}_z$ und die doppelte Geschwindigkeit $2\,v_S = 4{,}0\,\mathrm{m/s}$.
 
+![Ein rollendes Rad mit den Geschwindigkeiten des Mittelpunkts, des höchsten Punkts und des ruhenden Berührpunkts.](/images/exphy1/rollendes-rad.svg)
+
+*Eigene Zeichnung: Beim Rollen ruht der Berührpunkt, der höchste Punkt hat die doppelte Geschwindigkeit.*
+
 > [!CAUTION] Stolperstelle
 > Die Zerlegung ist am einfachsten, wenn man die Drehachse durch den Schwerpunkt legt. Man kann die Drehachse auch an einen anderen Punkt legen, aber dann ändert sich die Translation, die man dazurechnen muss. Und aus $\mathbf{v}_{iS} \perp \mathbf{r}_{iS}$ allein folgt noch nicht, dass die Bewegung eine Drehung ist. Dafür steht das Euler-Theorem.
 

@@ -20,6 +20,10 @@ weight: 1
 > [!TIP] In einfachen Worten
 > Der Schwerpunkt ist der gewichtete Mittelwert aller Orte, wobei schwere Körper mehr zählen. Zwei Körper mit gleicher Masse haben ihren Schwerpunkt in der Mitte zwischen sich. Ist einer dreimal so schwer, liegt der Schwerpunkt dreimal näher an ihm.
 
+![Zwei Massen mit Ortsvektoren und der Schwerpunkt S auf ihrer Verbindungslinie.](/images/exphy1/schwerpunkt-zweikoerper.svg)
+
+*Eigene Zeichnung: Der Massenmittelpunkt zweier Körper.*
+
 ### Beispiel
 
 Zwei Kugeln liegen auf einer Geraden: $m_1 = 2\,\mathrm{kg}$ bei $x_1 = 0$ und $m_2 = 1\,\mathrm{kg}$ bei $x_2 = 3\,\mathrm{m}$. Dann ist

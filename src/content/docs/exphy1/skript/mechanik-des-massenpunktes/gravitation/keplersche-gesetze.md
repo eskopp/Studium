@@ -19,6 +19,10 @@ Johannes Kepler hat sie aus den Beobachtungen von Tycho Brahe gefunden.
 
 Zur Ellipse gehören die **große Halbachse** $a$ und die **kleine Halbachse** $b$. Die **Exzentrizität** $\varepsilon$ gibt an, wie weit die Bahn von einem Kreis abweicht ($\varepsilon = 0$ ist ein Kreis). Der sonnennächste Punkt heißt **Perihel**, der sonnenfernste **Aphel**. Der **Fahrstrahl** ist der Ortsvektor von der Sonne zum Planeten.
 
+![Eine Ellipse mit der Sonne in einem Brennpunkt. Zwei Sektoren am Perihel und am Aphel haben dieselbe Fläche.](/images/exphy1/kepler-ellipse.svg)
+
+*Eigene Zeichnung: Ellipsenbahn mit der Sonne im Brennpunkt. Die beiden Sektoren haben dieselbe Fläche und werden in gleicher Zeit überstrichen.*
+
 > [!TIP] In einfachen Worten
 > Eine Ellipse ist ein gestauchter Kreis. Nahe der Sonne läuft der Planet schneller, weit weg langsamer, so dass der Fahrstrahl in jeder Sekunde dieselbe Fläche wie ein Tortenstück überstreicht. Und ein Planet mit dem vierfachen Abstand braucht nicht die vierfache, sondern die achtfache Umlaufzeit, denn $4^{3/2} = 8$.
 

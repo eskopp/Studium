@@ -31,6 +31,10 @@ Das sind drei verschiedene Begriffe. Man erklärt sie am besten mit einer Zielsc
 | **Richtigkeit** | Der **Mittelwert** der Messwerte liegt nahe am wahren Wert. | Der Schwerpunkt der Einschüsse liegt nahe am Zentrum. |
 | **Genauigkeit** | Die Messwerte, inklusive ihrer statistischen und systematischen Fehler, liegen nahe am wahren Wert. | Die Einschüsse liegen nahe am Zentrum. |
 
+![Vier Zielscheiben mit Einschüssen: eng beisammen aber daneben, eng beisammen und mittig, weit gestreut aber im Mittel mittig, weit gestreut und daneben.](/images/exphy1/zielscheiben.svg)
+
+*Eigene Zeichnung: Präzision und Richtigkeit an Zielscheiben.*
+
 > [!CAUTION] Stolperstelle
 > Hohe Präzision bedeutet nicht hohe Genauigkeit. Ein defektes Messgerät kann sehr gleichmäßige, aber falsche Werte liefern. Umgekehrt kann eine Messreihe richtig sein, weil sich die Fehler im Mittel aufheben, und trotzdem stark streuen.
 
@@ -80,6 +84,10 @@ Erwartungswert und Varianz sind $\langle x\rangle = \int x\,f(x)\,\mathrm{d}x$ u
 
 Bei Uran gibt es im Mittel $\mu = 4{,}5$ Kernzerfälle je Sekunde. Dann ist die Wahrscheinlichkeit für genau $k = 4$ Zerfälle $P(4) = \mathrm{e}^{-4{,}5}\cdot 4{,}5^4/4! \approx 0{,}19$, also $19\,\%$. Für $k = 10$ sind es nur noch etwa $1\,\%$. Unter $10^{-6}$ fällt die Wahrscheinlichkeit erst ab $k = 18$.
 
+![Säulendiagramm der Poisson-Verteilung mit dem Mittelwert 4,5. Das Maximum liegt bei k gleich 4 mit etwa 19 Prozent.](/images/exphy1/poisson-verteilung.svg)
+
+*Eigene Zeichnung: Poisson-Verteilung für µ = 4,5.*
+
 ### Die Gauß-Verteilung
 
 > [!NOTE] Definition
@@ -90,6 +98,10 @@ Bei Uran gibt es im Mittel $\mu = 4{,}5$ Kernzerfälle je Sekunde. Dann ist die 
 > Dabei ist $\mu$ der Erwartungswert und $\sigma$ die Standardabweichung. Im Abstand $|x - \mu| = \sigma$ ist die Kurve auf den $1/\sqrt{\mathrm{e}}$-ten Teil ihres Maximums abgefallen, also auf etwa $61\,\%$. Die Wahrscheinlichkeit für $\mu - \sigma \le x \le \mu + \sigma$ ist etwa $68{,}3\,\%$.
 
 Etwa zwei Drittel aller Werte liegen innerhalb von $\pm\sigma$ um den Mittelwert und ein Drittel außerhalb. Innerhalb von $\pm 2\sigma$ liegen etwa $95{,}4\,\%$, innerhalb von $\pm 3\sigma$ etwa $99{,}7\,\%$.
+
+![Glockenkurve der Gauß-Verteilung. Etwa 68 Prozent der Fläche liegen innerhalb von plus minus einer Standardabweichung, 95 Prozent innerhalb von zwei und 99,7 Prozent innerhalb von drei.](/images/exphy1/gauss-verteilung.svg)
+
+*Eigene Zeichnung: Die Gauß-Verteilung mit den Bereichen $\pm\sigma$, $\pm 2\sigma$ und $\pm 3\sigma$.*
 
 > [!CAUTION] Stolperstelle
 > Die $68\,\%$ gelten nur für die Gauß-Verteilung. Und $\sigma$ ist nicht die Wahrscheinlichkeit selbst, sondern die Breite der Verteilung. Eine kleine Standardabweichung heißt eine scharfe Messung.
