@@ -63,6 +63,10 @@ Daraus folgt das Volumenverhältnis $\mathrm{H_2} : \mathrm{O_2} = 2 : 1$, weil 
 
 ![Hoffmannscher Wasserzersetzer als Skizze mit drei verbundenen Rohren und Spannungsquelle: Am Minuspol sammeln sich zwei Teile Wasserstoff, am Pluspol ein Teil Sauerstoff.](/images/chemie/hoffmann-zersetzer.svg)
 
+<img src="/images/chemie/elektrolyse-versuch.jpg" alt="Der Hoffmannsche Wasserzersetzer in der Vorlesung: zwei senkrechte Rohre mit Hähnen, ein Ausgleichsgefäß und rote und grüne Kabel an den Elektroden." width="260" />
+
+*Der Hoffmannsche Wasserzersetzer in der Vorlesung (eigenes Foto).*
+
 Die Gase weist man so nach:
 
 - **Wasserstoff:** Knallgasprobe.
@@ -103,6 +107,10 @@ In der Vorlesung regte eine chemische Reaktion Sauerstoff an. Dafür wird Salzs�
 Es gab zwei Aufbauten. Der eine zeigt die ursprüngliche rote Emission. Im anderen war zusätzlich ein Fluoreszenzfarbstoff, der das Leuchten deutlicher macht. Dort war es blau bis violett.
 
 ![Der Experimentiertisch in der Vorlesung: links der Hoffmannsche Wasserzersetzer, in der Mitte zwei Kolben an einem Stativ (die beiden Aufbauten für das Leuchten), rechts ein großer Glaskolben.](/images/chemie/versuchsaufbau.jpg)
+
+![Die zwei Kolben mit Glasaufsätzen am Stativ, daneben Bechergläser und eine Flasche.](/images/chemie/leuchtversuch-aufbau.jpg)
+
+*Die beiden Aufbauten für den Leuchtversuch aus der Nähe (eigenes Foto). Welche Stoffe in welchem Kolben waren, ist auf dem Foto nicht zu erkennen.*
 
 > [!CAUTION] Stolperstelle
 > In der Vorlesung wurde die rote Emission den $92\,\mathrm{kJ/mol}$ zugeordnet. Rechnet man genau nach, geht das nicht ganz so einfach auf. Ein einzelnes Photon mit dieser Energie hätte die Wellenlänge
