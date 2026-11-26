@@ -1,5 +1,5 @@
 ---
-title: 4.4 Stöße
+title: 4.4 und 4.4.1 Stöße, Energie- und Impulserhaltung
 description: Impuls- und Energieerhaltung beim Stoß, elastische, unelastische und superelastische Stöße und das ballistische Pendel.
 weight: 4
 ---
