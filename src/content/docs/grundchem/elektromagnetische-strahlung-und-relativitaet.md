@@ -22,6 +22,8 @@ Elektromagnetische Strahlung ist die Quelle der Informationen, die man aus Atome
 > Dabei ist $h$ das **Plancksche Wirkungsquantum**. Dazu kommt die Beziehung von Einstein, die Energie und Masse verknüpft:
 >
 > $$ E = m\cdot c^2 . $$
+>
+> Genau genommen ist $E_0 = m\,c^2$ die **Ruheenergie** eines Körpers mit der Masse $m$. Ein bewegtes Teilchen hat zusätzlich Bewegungsenergie. Allgemein gilt $E^2 = p^2 c^2 + m^2 c^4$ mit dem Impuls $p$. Für ein Photon ohne Masse folgt daraus $E = p\,c$.
 
 > [!TIP] In einfachen Worten
 > Eine Welle hat einen Abstand von Berg zu Berg ($\lambda$) und eine Zahl von Bergen pro Sekunde ($\nu$). Das Produkt ist die Geschwindigkeit. Je kürzer die Welle, desto mehr Berge pro Sekunde und desto mehr Energie pro Photon. Und Masse ist nichts anderes als sehr konzentrierte Energie.
@@ -52,7 +54,7 @@ Die Vorlesung unterscheidet drei Fälle. In keinem wird Information schneller al
 
 ## Raumzeit und GPS
 
-Nach der allgemeinen Relativitätstheorie von Einstein sind Raum, Zeit und Materie miteinander verknüpft. Die vierdimensionale Raumzeit wird durch Masse gekrümmt, und ohne Materie gäbe es weder Raum noch Zeit.
+Nach der allgemeinen Relativitätstheorie von Einstein sind Raum, Zeit und Materie miteinander verknüpft. Die vierdimensionale Raumzeit wird durch Masse gekrümmt, und Raum und Zeit sind keine feste Bühne, auf der die Materie nur auftritt. Die Vorlesung sagte dazu, ohne Materie gäbe es weder Raum noch Zeit. Streng gilt das nicht: Die Theorie lässt auch leere Raumzeiten zu, zum Beispiel die ebene Raumzeit der speziellen Relativitätstheorie. Gemeint ist, dass Raum, Zeit und Materie sich gegenseitig bestimmen.
 
 Zu Einsteins Zeit hatte die Theorie keine praktische Anwendung. Heute braucht sie jeder, der ein Navigationsgerät benutzt. Die Satelliten des GPS sind weit weg von der Erde, dort ist die Gravitation schwächer, und sie bewegen sich schnell. Beides verändert den Gang ihrer Uhren. Will man den Ort auf etwa einen Meter genau bestimmen, muss man das einrechnen.
 
@@ -69,7 +71,7 @@ Zusammen geht sie pro Tag um etwa $38{,}5\,\mu\mathrm{s}$ vor. Das entspricht ei
 
 Die Vorlesung ist auch kurz auf Fragen eingegangen, die über den Stoff hinausgehen. Sie sind Ausblick und keine Prüfungsthemen:
 
-- **Kosmologie.** Das Universum dehnt sich entweder immer weiter aus, bis kaum noch Wechselwirkungen stattfinden, oder die Ausdehnung kehrt sich um und endet in einer Singularität. Das hängt unter anderem von der Menge der Dunklen Materie ab, und das ist nicht geklärt. Ein sich wiederholendes (zyklisches) Universum ist eine mögliche Vorstellung.
+- **Kosmologie.** Das Universum dehnt sich entweder immer weiter aus, bis kaum noch Wechselwirkungen stattfinden, oder die Ausdehnung kehrt sich um und endet in einer Singularität. Das hängt unter anderem von der Menge der Dunklen Materie und von der kosmologischen Konstanten (Dunkle Energie) ab, und das ist nicht geklärt. Ein sich wiederholendes (zyklisches) Universum ist eine mögliche Vorstellung.
 - **Raumfahrt.** Der nächste Stern ist so weit weg, dass man mit herkömmlichen Mitteln Generationen bräuchte. In der Science-Fiction gibt es Wurmlöcher als Abkürzung und Warp-Blasen, in denen sich das Raumschiff in einer eigenen Raumblase bewegt. Ein "Strukturintegritätsfeld" soll das Schiff bei der Beschleunigung zusammenhalten. Das sind erfundene Konzepte, auch wenn sie manchmal an echte Physik angelehnt sind.
 - **Grundlagenforschung.** Viele wichtige Entdeckungen entstanden ohne ein Anwendungsziel. Die Relativitätstheorie ist dafür ein Beispiel.
 

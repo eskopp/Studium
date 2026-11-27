@@ -21,7 +21,7 @@ Beim Wasserstoffatom sortiert man die Übergänge nach dem Niveau, auf das das E
 | Serie | Rückfall auf | Bereich | Wellenlängen (nachgerechnet) |
 | --- | --- | --- | --- |
 | Lyman | $n = 1$ | ultraviolett | $91$ bis $122\,\mathrm{nm}$ |
-| Balmer | $n = 2$ | sichtbar | $365$ bis $656\,\mathrm{nm}$ |
+| Balmer | $n = 2$ | größtenteils sichtbar, nahe der Grenze ultraviolett | $365$ bis $656\,\mathrm{nm}$ |
 | Paschen | $n = 3$ | infrarot | $820$ bis $1875\,\mathrm{nm}$ |
 
 Die Grafik dazu steht im Artikel [Das Bohrsche Atommodell](/grundchem/bohrsches-atommodell/).
@@ -50,11 +50,11 @@ So kann man die Zusammensetzung von Sternen und von Atmosphären fremder Planete
 Licht verhält sich je nach Experiment wie eine Welle oder wie ein Teilchen. Die Vorlesung leitet daraus ab, dass auch Teilchen Wellen sind.
 
 > [!NOTE] de-Broglie-Beziehung
-> Aus $c = \lambda\,\nu$ folgt $\nu = c/\lambda$. Setzt man das in $E = h\,\nu$ ein, ist $E = h\,c/\lambda$. Mit $E = m\,c^2$ ergibt sich $h\,c/\lambda = m\,c^2$, also $\lambda = h/(m\,c)$. Für beliebige Geschwindigkeit $v$ schreibt man
+> Für ein Photon gilt $E = h\,\nu = h\,c/\lambda$ und $E = p\,c$. Daraus folgt der Impuls des Photons $p = h/\lambda$. Dieselbe Beziehung überträgt man auf alle Teilchen. Jedes bewegte Objekt hat die Wellenlänge
 >
-> $$ \lambda = \frac{h}{m\,v} = \frac{h}{p} . $$
+> $$ \lambda = \frac{h}{p} . $$
 >
-> Hier ist $p = m\,v$ der **Impuls**. Jedes bewegte Objekt lässt sich als Welle beschreiben, und die Umrechnung zwischen beiden Bildern ist das Plancksche Wirkungsquantum $h$.
+> Bei Geschwindigkeiten weit unter der Lichtgeschwindigkeit ist $p = m\,v$, also $\lambda = h/(m\,v)$. Dabei ist $p$ der **Impuls**. Die Umrechnung zwischen Wellen- und Teilchenbild ist das Plancksche Wirkungsquantum $h$.
 
 > [!TIP] In einfachen Worten
 > Je größer der Impuls, desto kürzer die Welle. Ein schnelles, schweres Teilchen hat eine winzige Wellenlänge und verhält sich wie ein Teilchen. Ein leichtes Teilchen wie das Elektron hat eine Wellenlänge, die so groß ist wie ein Atom, und zeigt deutlich Welleneigenschaften.
@@ -76,7 +76,7 @@ $$
 Das ist genau der Umfang der ersten Bahn, $2\pi\,r_1 = 0{,}333\,\mathrm{nm}$. Das ist kein Zufall: Die Drehimpulsbedingung $m\,v\,r = n\,h/2\pi$ lässt sich als $2\pi\,r = n\,\lambda$ schreiben. Auf der $n$-ten Bahn passen also genau $n$ Wellenlängen um den Kern. Diese Überlegung habe ich selbst ergänzt, sie stand nicht in der Vorlesung.
 
 > [!CAUTION] Stolperstelle
-> Die Herleitung oben ist eine Merkhilfe. Sie benutzt $E = m\,c^2$ für ein Photon, das keine Ruhemasse hat, und ersetzt dann $c$ durch $v$. Die Beziehung $\lambda = h/p$ gilt trotzdem allgemein und wurde von de Broglie auf alle Teilchen übertragen. Für ein Photon ist $p = h/\lambda$.
+> Die Vorlesung kommt auf $\lambda = h/(m\,v)$, indem sie $E = m\,c^2$ und $E = h\,c/\lambda$ gleichsetzt und dann $c$ durch $v$ ersetzt. Das ist nur eine Merkhilfe und keine saubere Herleitung. Die Beziehung $\lambda = h/p$ ist eine eigene Aussage, die de Broglie für alle Teilchen vorgeschlagen hat und die Experimente bestätigen. Außerdem ist $p = m\,v$ nur für kleine Geschwindigkeiten richtig. Allgemein ist $p = \gamma\,m\,v$ mit dem Lorentzfaktor $\gamma$.
 
 ### Welle oder Teilchen?
 

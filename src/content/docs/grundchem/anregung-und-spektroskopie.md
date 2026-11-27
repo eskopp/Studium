@@ -44,11 +44,11 @@ Die Vorlesung ordnet die Rotation den Mikrowellen zu. Bei den kleinsten Rotation
 
 ## Schwingung: Infrarot und Raman
 
-Zwei Atome in einem Molekül verhalten sich wie zwei Kugeln an einer Feder. Es gibt eine Energie, bei der das System in Resonanz kommt, und sie hängt von der Stärke der Bindung ab (der Federkonstanten). Daran kann man Moleküle erkennen, denn jede Schwingung hat ihre **Bande** im Spektrum.
+Zwei Atome in einem Molekül verhalten sich wie zwei Kugeln an einer Feder. Es gibt eine Energie, bei der das System in Resonanz kommt, und sie hängt von der Stärke der Bindung ab (der Federkonstanten $k$) und von den Massen der Atome. Für zwei Atome gilt $\nu = \frac{1}{2\pi}\sqrt{k/\mu}$ mit der reduzierten Masse $\mu = \frac{m_1 m_2}{m_1 + m_2}$. Schwerere Atome schwingen deshalb langsamer. Daran kann man Moleküle erkennen, denn jede Schwingung hat ihre **Bande** im Spektrum.
 
 > [!NOTE] Zwei Verfahren
 > - **Infrarotspektroskopie (IR):** Man strahlt Infrarot durch die Probe und misst, welche Anteile absorbiert werden. Das klappt, wenn sich bei der Schwingung das Dipolmoment des Moleküls ändert.
-> - **Raman-Spektroskopie:** Man strahlt Licht ein und misst das gestreute Licht senkrecht zur Einstrahlung. Das Licht wird dabei unelastisch gestreut, es verliert oder gewinnt Energie. Dafür muss sich die **Polarisierbarkeit** des Moleküls ändern.
+> - **Raman-Spektroskopie:** Man strahlt Licht ein und misst das gestreute Licht, in der Vorlesung senkrecht zur Einstrahlung (üblich sind auch andere Winkel, zum Beispiel die Rückstreuung). Das Licht wird dabei unelastisch gestreut, es verliert oder gewinnt Energie. Dafür muss sich die **Polarisierbarkeit** des Moleküls ändern.
 
 > [!TIP] In einfachen Worten
 > Bei IR schaut man, was hinten durch die Probe kommt und was fehlt. Bei Raman schaut man von der Seite auf das, was die Probe zerstreut. Welches Verfahren besser passt, hängt vom Molekül ab, und oft ergänzen sie sich.
@@ -65,7 +65,7 @@ Je symmetrischer ein Molekül ist, desto mehr Schwingungen fallen im Spektrum au
 
 ## Elektronische Anregung und UV-Strahlung
 
-Elektronische Anregung braucht die höchsten Energien, also Ultraviolett mit kurzer Wellenlänge und hoher Frequenz. Weiße Stoffe absorbieren im UV und nicht im Sichtbaren. Bei sehr hoher Energie wird ein Elektron ganz aus dem Molekül gelöst.
+Elektronische Anregung braucht die höchsten Energien, also Ultraviolett mit kurzer Wellenlänge und hoher Frequenz. Farblose Stoffe absorbieren kein sichtbares Licht, ihre elektronischen Anregungen liegen im UV. Farbige Stoffe lassen sich dagegen schon mit sichtbarem Licht elektronisch anregen. Bei sehr hoher Energie wird ein Elektron ganz aus dem Molekül gelöst.
 
 > [!CAUTION] Stolperstelle
 > Kurzwellige Strahlung ist gefährlich, weil sie Bindungen zerstören kann. Trifft sie das Erbgut (DNA), entstehen Schäden. Ein Sonnenbrand ist ein solcher Strahlenschaden. Nach vielen Jahren kann daraus Hautkrebs werden, das hängt von der Dosis und vom Immunsystem ab. Deshalb ist Sonnenschutz gerade in der Mittagssonne sinnvoll. Wärmestrahlung, also Infrarot, hat diese Wirkung nicht, weil ihre Energie viel zu klein ist.
