@@ -6,6 +6,10 @@ weight: 1
 
 *In einem Satz: Sauerstoff ist das häufigste Element der Erdkruste, und sein Molekül O₂ hat im Grundzustand zwei ungepaarte Elektronen.*
 
+<img src="/images/chemie/sauerstoff-fluessig.jpg" alt="Ein Mensch mit Handschuh hält ein Gefäß mit hellblauer flüssiger Luft oder flüssigem Sauerstoff." width="240" />
+
+*Flüssiger Sauerstoff ist hellblau. Foto: U.S. Air Force/Staff Sgt. Jim Araos, gemeinfrei, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Liquid_oxygen_in_a_beaker_4.jpg), verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - **Vorkommen:** $46\,\%$ der Erdkruste (Masse), $86\,\%$ des Meerwassers (Masse), $21\,\%$ der Luft (Volumen), etwa $29\,\%$ der gesamten Erde. Vor etwa 700 Millionen Jahren lag der Anteil in der Luft noch unter $1\,\%$.

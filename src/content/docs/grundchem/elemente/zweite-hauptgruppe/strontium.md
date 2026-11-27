@@ -6,6 +6,10 @@ weight: 2
 
 *In einem Satz: Strontium kommt selten vor, färbt Feuerwerk rot und verhält sich im Körper ähnlich wie Calcium.*
 
+![Eine Strontium-Probe in einer Glasampulle, eingegossen in einen durchsichtigen Acrylwürfel mit der Aufschrift Sr Strontium 38.](/images/chemie/strontium.jpg)
+
+*Strontium-Probe in einem Acrylwürfel. Foto: Rasiel Suarez (Luciteria LLC), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:An_acrylic_cube_specially_prepared_for_element_collectors_containing_a_sample_of_pure_strontium.JPG), verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - Strontium findet man vor allem als Sulfat und als Carbonat in Mineralen. Es hat kaum technische Anwendungen.

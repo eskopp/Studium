@@ -6,6 +6,10 @@ weight: 1
 
 *In einem Satz: Wasserstoff ist das einfachste Atom, ein Proton mit einem Elektron, und dient in der Vorlesung als Beispiel für das Bohrsche Modell.*
 
+![Eine waagerechte Glasröhre mit Wasserstoff, die in einer Gasentladung blauviolett und in der Mitte rosa leuchtet, vor schwarzem Hintergrund.](/images/chemie/wasserstoff-entladungsroehre.jpg)
+
+*Wasserstoff-Entladungsröhre. Foto: Alchemist-hp ([pse-mendelejew.de](http://www.pse-mendelejew.de)), [Free Art License](http://artlibre.org/licence/lal/en), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg), verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - **Atombau:** Im Bohrschen Modell läuft das Elektron auf Kreisbahnen. Die erste Bahn hat den Radius $0{,}053\,\mathrm{nm}$, die Energie im Grundzustand ist $-13{,}6\,\mathrm{eV}$. Siehe [Das Bohrsche Atommodell](/grundchem/atombau/bohrsches-atommodell/).

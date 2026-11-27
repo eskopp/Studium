@@ -6,6 +6,10 @@ weight: 4
 
 *In einem Satz: Radium ist radioaktiv, entsteht beim Zerfall von Uran und wird heute nicht mehr zur Bestrahlung von Tumoren eingesetzt.*
 
+![Ein Glasfläschchen mit einer kleinen metallischen Radium-Probe vor Millimeterpapier.](/images/chemie/radium.jpg)
+
+*Radium-Probe, laut Bildbeschreibung aus einem alten Leuchtstab eines Flugzeugs. Foto: 范皓程, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Radium_source.jpg), gespiegelt und verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - **Vorkommen:** Radium kommt in Uranerzen vor, vor allem in der Pechblende ($\mathrm{UO_2}$), etwa $0{,}34\,\mathrm{g}$ pro Tonne Uran.

@@ -6,6 +6,10 @@ weight: 2
 
 *In einem Satz: Natrium färbt jede Flamme gelb, weil es überall vorkommt und seine Spektrallinie sehr intensiv ist.*
 
+<img src="/images/chemie/natrium.jpg" alt="Silbrig glänzende Natriumstücke in einem Glasgefäß mit grünem Deckel, bedeckt von einer klaren Flüssigkeit." width="220" />
+
+*Natrium, unter einer Flüssigkeit aufbewahrt. Foto: Greenhorn1, gemeinfrei, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sodium.jpg), verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - **Spektrum:** Natrium hat eine sehr intensive gelbe Linie. Weil es im Staub und in Salzen steckt, färbt es fast jede Flamme gelb, und beim Nachweis anderer Elemente muss man das Gerät gründlich reinigen. Auch die gelben Natriumdampflampen nutzen die Linie. Siehe [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/atombau/linienspektren-und-welle-teilchen/).
