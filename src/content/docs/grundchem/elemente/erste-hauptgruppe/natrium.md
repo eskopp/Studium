@@ -4,7 +4,7 @@ description: "Die gelbe Flammenfarbe, das Vorkommen und der Haushalts-Enthärter
 weight: 2
 ---
 
-*In einem Satz: Natrium färbt jede Flamme gelb, weil es überall vorkommt und seine Spektrallinie sehr intensiv ist.*
+*In einem Satz: Natrium färbt fast jede Flamme gelb, weil es überall vorkommt und seine Spektrallinie sehr intensiv ist.*
 
 <img src="/images/chemie/natrium.jpg" alt="Silbrig glänzende Natriumstücke in einem Glasgefäß mit grünem Deckel, bedeckt von einer klaren Flüssigkeit." width="220" />
 

@@ -8,7 +8,7 @@ weight: 2
 
 ## Strontium
 
-Strontium kommt selten vor. Man findet es vor allem als Sulfat und als Carbonat in Mineralen. Es hat kaum technische Anwendungen. Strontiumverbindungen färben aber Feuerwerk rot (Rotfeuer). Manche Isotope sind radioaktiv.
+Strontium kommt selten vor. Man findet es vor allem als Sulfat und als Carbonat in Mineralen. Nach der Vorlesung hat es kaum technische Anwendungen. Strontiumverbindungen werden aber zum Beispiel in Ferritmagneten verwendet (eigene Ergänzung). Strontiumverbindungen färben aber Feuerwerk rot (Rotfeuer). Manche Isotope sind radioaktiv.
 
 ![Eine Strontium-Probe in einer Glasampulle, eingegossen in einen durchsichtigen Acrylwürfel mit der Aufschrift Sr Strontium 38.](/images/chemie/strontium.jpg)
 
@@ -52,7 +52,7 @@ Nach der Vorlesung schmilzt man ein Radiumsalz und elektrolysiert die Schmelze a
 
 *Radium-Probe, laut Bildbeschreibung aus einem alten Leuchtstab eines Flugzeugs. Foto: 范皓程, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Radium_source.jpg), gespiegelt und verkleinert.*
 
-Früher bestrahlte man damit Tumoren, zum Beispiel an der Schilddrüse oder am Gebärmutterhals. Die Bestrahlung ließ sich schwer kontrollieren und verursachte schwere Strahlenschäden, darunter Vernarbungen und Gefäßschäden. Heute setzt man Radium dafür nicht mehr ein.
+Früher bestrahlte man damit Tumoren, zum Beispiel an der Schilddrüse oder am Gebärmutterhals. Die Bestrahlung ließ sich schwer kontrollieren und verursachte schwere Strahlenschäden, darunter Vernarbungen und Gefäßschäden. Diese Form der Bestrahlung setzt man heute nicht mehr ein. Das Isotop Radium-223 wird allerdings noch gezielt gegen bestimmte Knochenmetastasen verwendet (eigene Ergänzung, nicht aus der Vorlesung).
 
 ## Exkurs: Technetium in der Medizin
 
@@ -70,3 +70,4 @@ Technetium ist kein Erdalkalimetall. Es steht hier, weil es in der Vorlesung im 
 ## Quellen
 
 - Mitschrift der Vorlesung Chemie vom 25.11.2026, in eigenen Worten zusammengefasst.
+- Eigene Ergänzungen: die Hinweise auf Ferritmagnete (Strontium) und auf Radium-223 stammen nicht aus der Vorlesung

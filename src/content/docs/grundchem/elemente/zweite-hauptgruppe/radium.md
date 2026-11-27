@@ -4,7 +4,7 @@ description: "Radioaktives Erdalkalimetall aus Uranerzen und seine frühere Verw
 weight: 4
 ---
 
-*In einem Satz: Radium ist radioaktiv, entsteht beim Zerfall von Uran und wird heute nicht mehr zur Bestrahlung von Tumoren eingesetzt.*
+*In einem Satz: Radium ist radioaktiv, entsteht beim Zerfall von Uran und wird in der alten Form der Tumorbestrahlung nicht mehr eingesetzt.*
 
 ![Ein Glasfläschchen mit einer kleinen metallischen Radium-Probe vor Millimeterpapier.](/images/chemie/radium.jpg)
 
@@ -15,10 +15,11 @@ weight: 4
 - **Vorkommen:** Radium kommt in Uranerzen vor, vor allem in der Pechblende ($\mathrm{UO_2}$), etwa $0{,}34\,\mathrm{g}$ pro Tonne Uran.
 - **Gewinnung:** Man elektrolysiert die Schmelze eines Radiumsalzes an einer Quecksilberelektrode.
 - **Eigenschaften:** silberweißes Metall, Schmelzpunkt etwa $700\,^\circ\mathrm{C}$, ähnliche Chemie wie Barium.
-- **Medizin:** Früher bestrahlte man damit Tumoren. Das ließ sich schwer kontrollieren und verursachte schwere Strahlenschäden, deshalb wird es nicht mehr eingesetzt.
+- **Medizin:** Früher bestrahlte man damit Tumoren. Das ließ sich schwer kontrollieren und verursachte schwere Strahlenschäden, deshalb wird es so nicht mehr eingesetzt. Das Isotop Radium-223 wird heute allerdings noch gezielt gegen bestimmte Knochenmetastasen eingesetzt (eigene Ergänzung, nicht aus der Vorlesung).
 
 Ausführlich: [Strontium, Barium und Radium](/grundchem/wasser-und-sauerstoff/strontium-barium-radium/).
 
 ## Quellen
 
 - Zusammenstellung aus den Artikeln zu den Vorlesungen vom 25.11.2026 und 27.11.2026. Neues Material kommt hier nicht dazu.
+- Eigene Ergänzung: der Hinweis auf Radium-223, er stammt nicht aus der Vorlesung
