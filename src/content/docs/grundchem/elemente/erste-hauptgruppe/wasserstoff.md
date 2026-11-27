@@ -4,7 +4,7 @@ description: "Wasserstoff im Bohrschen Modell, in den Spektralserien, bei der El
 weight: 1
 ---
 
-*In einem Satz: Wasserstoff ist das einfachste Atom, ein Proton mit einem Elektron, und dient in der Vorlesung als Beispiel für das Bohrsche Modell.*
+*In einem Satz: Wasserstoff ist das einfachste Atom, im häufigsten Fall ein Proton mit einem Elektron, und dient in der Vorlesung als Beispiel für das Bohrsche Modell.*
 
 ![Eine waagerechte Glasröhre mit Wasserstoff, die in einer Gasentladung blauviolett und in der Mitte rosa leuchtet, vor schwarzem Hintergrund.](/images/chemie/wasserstoff-entladungsroehre.jpg)
 

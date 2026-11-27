@@ -4,7 +4,7 @@ description: "Schwerspat, Bariumsulfat als Kontrastmittel und die giftigen lösl
 weight: 3
 ---
 
-*In einem Satz: Barium ist ein schweres Metall, und ob eine Verbindung harmlos oder giftig ist, hängt an ihrer Löslichkeit.*
+*In einem Satz: Barium ist ein schweres Metall, und ob eine Verbindung harmlos oder giftig ist, hängt oft an ihrer Löslichkeit.*
 
 ![Ein graues Stück Barium-Metall in einer Glasampulle.](/images/chemie/barium.jpg)
 
