@@ -1,6 +1,6 @@
 ---
 title: "Grundlagen der Chemie"
-description: "Wasser, Elemente, Sauerstoff, Atombau und Spektroskopie aus der Vorlesung Chemie."
+description: "Mittwochs die Elemente kennenlernen, freitags Chemie mit Mathe und Physik."
 weight: 1
 bereich: "chemie"
 aliases: ["grundlagen-der-chemie"]
