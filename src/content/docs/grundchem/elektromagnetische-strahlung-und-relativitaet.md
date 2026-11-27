@@ -47,7 +47,7 @@ Die Vorlesung unterscheidet drei Fälle. In keinem wird Information schneller al
 
 1. **Licht in Materie.** Dort ist Licht langsamer als im Vakuum. Elektronen, die man in ein Medium schießt, können dort schneller sein als das Licht in diesem Medium, aber nicht schneller als $c$ im Vakuum.
 2. **Scheinbare Überlichtgeschwindigkeit.** Man richtet einen starken Laser auf den Mond und schwenkt ihn. Der Lichtpunkt auf dem Mond kann sich schneller bewegen als das Licht. Es wandert aber nichts von einem Punkt zum anderen, deshalb lässt sich damit keine Information senden.
-3. **Ausdehnung des Raumes.** Weit entfernte Galaxien entfernen sich von uns, weil der Raum selbst wächst. Diese Ausdehnung unterliegt der Grenze nicht, denn die Grenze gilt für Bewegung im Raum und nicht für den Raum. Galaxien jenseits des **beobachtbaren Universums** entfernen sich so schnell, dass ihr Licht uns nie erreicht.
+3. **Ausdehnung des Raumes.** Weit entfernte Galaxien entfernen sich von uns, weil der Raum selbst wächst. Diese Ausdehnung unterliegt der Grenze nicht, denn die Grenze gilt für Bewegung im Raum und nicht für den Raum. Weit genug entfernte Galaxien entfernen sich dadurch schneller als das Licht. Das **beobachtbare Universum** ist die Kugel, aus der uns seit dem Urknall überhaupt Licht erreichen konnte. Ob das Licht, das eine Galaxie heute aussendet, uns jemals erreicht, hängt davon ab, wie sich die Ausdehnung weiterentwickelt. Beschleunigt sie sich, gibt es einen **Ereignishorizont**: Licht von jenseits davon erreicht uns nie. Die Vorlesung hat das vereinfacht so dargestellt, dass solche Galaxien aus unserer Sicht verschwinden.
 
 > [!NOTE] Merke
 > Die Vakuumlichtgeschwindigkeit ist die höchste Geschwindigkeit, mit der Information übertragen werden kann.
