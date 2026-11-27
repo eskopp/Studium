@@ -9,7 +9,7 @@ weight: 4
 ## Das Modell
 
 > [!NOTE] Definition
-> Das **Bohrsche Atommodell** beschreibt das Wasserstoffatom als Proton in der Mitte und ein Elektron auf einer Kreisbahn mit dem Radius $r$. Zwei Kräfte halten sich das Gleichgewicht: die elektrische Anziehung zwischen Proton und Elektron und die Zentrifugalkraft der Kreisbewegung. Erlaubt sind nur Bahnen, für die der Drehimpuls ein ganzzahliges Vielfaches von $h/2\pi$ ist:
+> Das **Bohrsche Atommodell** beschreibt das Wasserstoffatom als Proton in der Mitte und ein Elektron auf einer Kreisbahn mit dem Radius $r$. Zwei Kräfte halten sich das Gleichgewicht: die elektrische Anziehung zwischen Proton und Elektron und die Zentrifugalkraft der Kreisbewegung. Von außen betrachtet liefert die elektrische Anziehung die Kraft, die das Elektron auf der Kreisbahn hält (Zentripetalkraft). Die Zentrifugalkraft gibt es nur aus Sicht des mitkreisenden Elektrons. Erlaubt sind nur Bahnen, für die der Drehimpuls ein ganzzahliges Vielfaches von $h/2\pi$ ist:
 >
 > $$ m\,v\,r = n\,\frac{h}{2\pi} , \qquad n = 1, 2, 3, \ldots $$
 >
@@ -44,12 +44,12 @@ Für $n = 2$ ist der Radius viermal so groß, also $0{,}21\,\mathrm{nm}$, und di
 
 *Eigene Zeichnung: Bahnen und Energieniveaus des Wasserstoffatoms. Die Zahlen habe ich mit den Formeln oben nachgerechnet.*
 
-Die Abstände der Bahnen werden nach außen größer, die Abstände der Energieniveaus dagegen kleiner. Sie laufen auf die **Seriengrenze** bei $n \to \infty$ zu, wo das Elektron das Atom verlässt (Ionisation). Der Wert $E_1 = -1313\,\mathrm{kJ/mol}$ ist deshalb die Energie, die man für die Ionisation eines Wasserstoffatoms im Grundzustand braucht.
+Die Abstände der Bahnen werden nach außen größer, die Abstände der Energieniveaus dagegen kleiner. Sie laufen auf die **Seriengrenze** bei $n \to \infty$ zu, wo das Elektron das Atom verlässt (Ionisation). Man muss dem Elektron im Grundzustand also die Energie $+1313\,\mathrm{kJ/mol}$ zuführen, um es vom Atom zu lösen. Diese **Ionisierungsenergie** ist positiv, der Betrag von $E_1$. Die Energie $E_1$ selbst ist negativ, weil das Elektron im Atom gebunden ist.
 
 > [!CAUTION] Stolperstelle
 > Das Postulat der strahlungslosen Bahn widerspricht der klassischen Elektrodynamik. Dort strahlt jede beschleunigte Ladung, verliert Energie und stürzt spiralförmig in den Kern. Das hat man nie beobachtet, also braucht das Modell diese Zusatzannahme, damit es funktioniert. Befriedigend ist das nicht. Trotzdem rechnet man mit dem Modell viele Dinge richtig, bis man an seine Grenzen stößt. Das ist bei wissenschaftlichen Modellen häufig so.
 
-Aus der Energieformel folgt auch, warum bei einem Atom mit mehreren Elektronen zuerst ein äußeres Elektron entfernt wird. Es ist weniger fest gebunden als ein Elektron auf einer inneren Bahn.
+Die Vorlesung nutzt das auch, um zu erklären, warum man bei einem Atom mit mehreren Elektronen zuerst ein äußeres Elektron entfernt: Es ist weniger fest gebunden als ein inneres. Die Formeln oben gelten aber genau nur für Wasserstoff, also für ein Elektron. Bei mehreren Elektronen stoßen sich diese gegenseitig ab, und die Rechnung wird komplizierter. Als Bild bleibt es richtig.
 
 ### Herleitung
 
