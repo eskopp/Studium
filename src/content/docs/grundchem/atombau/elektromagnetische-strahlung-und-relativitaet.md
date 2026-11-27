@@ -36,7 +36,7 @@ $$
 \nu = \frac{c}{\lambda} = \frac{3{,}00\cdot 10^{8}\,\mathrm{m/s}}{532\cdot 10^{-9}\,\mathrm{m}} \approx 5{,}64\cdot 10^{14}\,\mathrm{Hz} , \qquad E = h\,\nu \approx 3{,}73\cdot 10^{-19}\,\mathrm{J} \approx 2{,}33\,\mathrm{eV} .
 $$
 
-Für ein Mol solcher Photonen sind das etwa $225\,\mathrm{kJ/mol}$. Mit dieser Einheit rechnet die Chemie, und in ihr stehen auch die Energiebereiche im Artikel [Molekülanregung und Spektroskopie](/grundchem/anregung-und-spektroskopie/).
+Für ein Mol solcher Photonen sind das etwa $225\,\mathrm{kJ/mol}$. Mit dieser Einheit rechnet die Chemie, und in ihr stehen auch die Energiebereiche im Artikel [Molekülanregung und Spektroskopie](/grundchem/atombau/anregung-und-spektroskopie/).
 
 > [!CAUTION] Stolperstelle
 > Die Gleichung $c = \lambda\,\nu$ gilt in dieser Form für das Vakuum. In Materie ist die Lichtgeschwindigkeit kleiner. Die Frequenz bleibt beim Eintritt in ein Medium gleich, die Wellenlänge wird kürzer. Auf der Folie der Vorlesung steht außerdem $c = 299\,792\,658\,\mathrm{m/s}$. Das ist ein Zahlendreher, richtig ist $299\,792\,458\,\mathrm{m/s}$.
@@ -77,8 +77,8 @@ Die Vorlesung ist auch kurz auf Fragen eingegangen, die über den Stoff hinausge
 
 ## Verwandte Artikel
 
-- [Das Bohrsche Atommodell](/grundchem/bohrsches-atommodell/)
-- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/linienspektren-und-welle-teilchen/): Hier folgt aus diesen Gleichungen die Wellenlänge von Teilchen
+- [Das Bohrsche Atommodell](/grundchem/atombau/bohrsches-atommodell/)
+- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/atombau/linienspektren-und-welle-teilchen/): Hier folgt aus diesen Gleichungen die Wellenlänge von Teilchen
 
 ## Quellen
 

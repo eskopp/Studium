@@ -64,8 +64,8 @@ Technetium ist kein Erdalkalimetall. Es steht hier, weil es in der Vorlesung im 
 
 ## Verwandte Artikel
 
-- [Wasserhärte und Ionenaustausch](/grundchem/wasserhaerte-und-ionenaustausch/): Calcium und Magnesium im Wasser
-- [Sauerstoff und die Chalkogene](/grundchem/sauerstoff-und-chalkogene/)
+- [Wasserhärte und Ionenaustausch](/grundchem/wasser-und-sauerstoff/wasserhaerte-und-ionenaustausch/): Calcium und Magnesium im Wasser
+- [Sauerstoff und die Chalkogene](/grundchem/wasser-und-sauerstoff/sauerstoff-und-chalkogene/)
 
 ## Quellen
 

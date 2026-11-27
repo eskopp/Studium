@@ -72,8 +72,8 @@ Elektronische Anregung braucht die höchsten Energien, also Ultraviolett mit kur
 
 ## Verwandte Artikel
 
-- [Elektromagnetische Strahlung und Relativität](/grundchem/elektromagnetische-strahlung-und-relativitaet/): die Gleichungen $c = \lambda\,\nu$ und $E = h\,\nu$
-- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/linienspektren-und-welle-teilchen/)
+- [Elektromagnetische Strahlung und Relativität](/grundchem/atombau/elektromagnetische-strahlung-und-relativitaet/): die Gleichungen $c = \lambda\,\nu$ und $E = h\,\nu$
+- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/atombau/linienspektren-und-welle-teilchen/)
 
 ## Quellen
 

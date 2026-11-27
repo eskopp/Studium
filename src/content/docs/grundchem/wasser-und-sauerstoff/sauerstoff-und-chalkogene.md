@@ -125,8 +125,8 @@ Es gab zwei Aufbauten. Der eine zeigt die ursprüngliche rote Emission. Im ander
 
 ## Verwandte Artikel
 
-- [Wasserhärte und Ionenaustausch](/grundchem/wasserhaerte-und-ionenaustausch/)
-- [Strontium, Barium und Radium](/grundchem/strontium-barium-radium/)
+- [Wasserhärte und Ionenaustausch](/grundchem/wasser-und-sauerstoff/wasserhaerte-und-ionenaustausch/)
+- [Strontium, Barium und Radium](/grundchem/wasser-und-sauerstoff/strontium-barium-radium/)
 
 ## Quellen
 
