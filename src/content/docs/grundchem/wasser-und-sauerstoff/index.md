@@ -1,5 +1,5 @@
 ---
-title: "Mittwoch: Elemente kennenlernen"
-description: "Mittwochs lernen wir die Elemente kennen. Vorlesung vom 25.11.2026: Wasserhärte und Ionenaustausch, die Erdalkalimetalle Strontium, Barium und Radium sowie Sauerstoff und die Chalkogene."
+title: "Vorlesung 25.11.2026: Wasser, Elemente und Sauerstoff"
+description: "Wasserhärte und Ionenaustausch, die Erdalkalimetalle Strontium, Barium und Radium sowie Sauerstoff und die Chalkogene."
 weight: 1
 ---
