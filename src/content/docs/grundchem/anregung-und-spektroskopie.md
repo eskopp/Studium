@@ -65,7 +65,7 @@ Je symmetrischer ein Molekül ist, desto mehr Schwingungen fallen im Spektrum au
 
 ## Elektronische Anregung und UV-Strahlung
 
-Elektronische Anregung braucht die höchsten Energien, also Ultraviolett mit kurzer Wellenlänge und hoher Frequenz. Farblose Stoffe absorbieren kein sichtbares Licht, ihre elektronischen Anregungen liegen im UV. Farbige Stoffe lassen sich dagegen schon mit sichtbarem Licht elektronisch anregen. Bei sehr hoher Energie wird ein Elektron ganz aus dem Molekül gelöst.
+Elektronische Anregung braucht die höchsten Energien, also Ultraviolett mit kurzer Wellenlänge und hoher Frequenz. Farblose Stoffe absorbieren kein sichtbares Licht, ihre elektronischen Anregungen liegen meist im UV. Farbige Stoffe lassen sich dagegen schon mit sichtbarem Licht elektronisch anregen. Bei sehr hoher Energie wird ein Elektron ganz aus dem Molekül gelöst.
 
 > [!CAUTION] Stolperstelle
 > Kurzwellige Strahlung ist gefährlich, weil sie Bindungen zerstören kann. Trifft sie das Erbgut (DNA), entstehen Schäden. Ein Sonnenbrand ist ein solcher Strahlenschaden. Nach vielen Jahren kann daraus Hautkrebs werden, das hängt von der Dosis und vom Immunsystem ab. Deshalb ist Sonnenschutz gerade in der Mittagssonne sinnvoll. Wärmestrahlung, also Infrarot, hat diese Wirkung nicht, weil ihre Energie viel zu klein ist.

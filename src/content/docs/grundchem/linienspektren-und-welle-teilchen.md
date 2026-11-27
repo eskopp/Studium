@@ -21,7 +21,7 @@ Beim Wasserstoffatom sortiert man die Übergänge nach dem Niveau, auf das das E
 | Serie | Rückfall auf | Bereich | Wellenlängen (nachgerechnet) |
 | --- | --- | --- | --- |
 | Lyman | $n = 1$ | ultraviolett | $91$ bis $122\,\mathrm{nm}$ |
-| Balmer | $n = 2$ | größtenteils sichtbar, nahe der Grenze ultraviolett | $365$ bis $656\,\mathrm{nm}$ |
+| Balmer | $n = 2$ | sichtbar bis nahes Ultraviolett | $365$ bis $656\,\mathrm{nm}$ |
 | Paschen | $n = 3$ | infrarot | $820$ bis $1875\,\mathrm{nm}$ |
 
 Die Grafik dazu steht im Artikel [Das Bohrsche Atommodell](/grundchem/bohrsches-atommodell/).

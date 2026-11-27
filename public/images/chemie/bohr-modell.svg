@@ -55,7 +55,7 @@
 <text x="760" y="149" font-size="13" text-anchor="start" fill="#2b6cb0" font-weight="400">91 bis 122 nm, ultraviolett</text>
 <rect x="738" y="186" width="10" height="38" rx="3" fill="#c05621"/>
 <text x="760" y="200" font-size="13" text-anchor="start" fill="#c05621" font-weight="700">Balmer-Serie: Rückfall auf n = 2</text>
-<text x="760" y="219" font-size="13" text-anchor="start" fill="#c05621" font-weight="400">365 bis 656 nm, größtenteils sichtbar</text>
+<text x="760" y="219" font-size="13" text-anchor="start" fill="#c05621" font-weight="400">365 bis 656 nm, sichtbar bis nahes UV</text>
 <rect x="738" y="256" width="10" height="38" rx="3" fill="#2f855a"/>
 <text x="760" y="270" font-size="13" text-anchor="start" fill="#2f855a" font-weight="700">Paschen-Serie: Rückfall auf n = 3</text>
 <text x="760" y="289" font-size="13" text-anchor="start" fill="#2f855a" font-weight="400">820 bis 1875 nm, infrarot</text>
