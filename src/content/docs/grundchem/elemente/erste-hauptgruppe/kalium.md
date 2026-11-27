@@ -6,6 +6,10 @@ weight: 3
 
 *In einem Satz: Kalium zeigt Linien im roten und blauen Bereich und lässt sich im Spektroskop sicher von Natrium und Rubidium unterscheiden.*
 
+![Drei Stücke Kalium mit metallisch grauer, matter Oberfläche und glänzenden Schnittflächen.](/images/chemie/kalium.jpg)
+
+*Kalium-Stücke. Foto: Dnn87, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Potassium.JPG), verkleinert.*
+
 ## Was in den Vorlesungen vorkam
 
 - **Spektrum:** Kalium hat Linien im roten und im blauen Bereich. Das Natriumgelb kann sie überdecken. Siehe [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/atombau/linienspektren-und-welle-teilchen/).

@@ -6,6 +6,10 @@ weight: 3
 
 *In einem Satz: Barium ist ein schweres Metall, und ob eine Verbindung harmlos oder giftig ist, hängt an ihrer Löslichkeit.*
 
+![Ein graues Stück Barium-Metall in einer Glasampulle.](/images/chemie/barium.jpg)
+
+*Barium-Probe in einer Glasampulle. Foto: Jurii, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Barium_%281%29.jpg).*
+
 ## Was in den Vorlesungen vorkam
 
 - **Eckdaten:** Schmelzpunkt $726\,^\circ\mathrm{C}$, wichtigstes Mineral ist der Schwerspat $\mathrm{BaSO_4}$.
