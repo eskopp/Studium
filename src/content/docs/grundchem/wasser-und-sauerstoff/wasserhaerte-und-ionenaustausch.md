@@ -66,8 +66,8 @@ Die Abwasserreinigung ging deshalb in Stufen vor: erst grobe Rechen für große 
 
 ## Verwandte Artikel
 
-- [Strontium, Barium und Radium](/grundchem/strontium-barium-radium/): die schweren Verwandten von Calcium
-- [Sauerstoff und die Chalkogene](/grundchem/sauerstoff-und-chalkogene/)
+- [Strontium, Barium und Radium](/grundchem/wasser-und-sauerstoff/strontium-barium-radium/): die schweren Verwandten von Calcium
+- [Sauerstoff und die Chalkogene](/grundchem/wasser-und-sauerstoff/sauerstoff-und-chalkogene/)
 
 ## Quellen
 

@@ -75,8 +75,8 @@ $$
 
 ## Verwandte Artikel
 
-- [Elektromagnetische Strahlung und Relativität](/grundchem/elektromagnetische-strahlung-und-relativitaet/)
-- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/linienspektren-und-welle-teilchen/): Wie die Niveaus aus der Grafik zu Spektrallinien führen
+- [Elektromagnetische Strahlung und Relativität](/grundchem/atombau/elektromagnetische-strahlung-und-relativitaet/)
+- [Linienspektren und Welle-Teilchen-Dualismus](/grundchem/atombau/linienspektren-und-welle-teilchen/): Wie die Niveaus aus der Grafik zu Spektrallinien führen
 
 ## Quellen
 

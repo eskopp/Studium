@@ -24,7 +24,7 @@ Beim Wasserstoffatom sortiert man die Übergänge nach dem Niveau, auf das das E
 | Balmer | $n = 2$ | sichtbar bis nahes Ultraviolett | $365$ bis $656\,\mathrm{nm}$ |
 | Paschen | $n = 3$ | infrarot | $820$ bis $1875\,\mathrm{nm}$ |
 
-Die Grafik dazu steht im Artikel [Das Bohrsche Atommodell](/grundchem/bohrsches-atommodell/).
+Die Grafik dazu steht im Artikel [Das Bohrsche Atommodell](/grundchem/atombau/bohrsches-atommodell/).
 
 #### Beispiel: die rote Balmer-Linie
 
@@ -88,9 +88,9 @@ Im wellenmechanischen Modell wird das Elektron als **Materiewelle** beschrieben,
 
 ## Verwandte Artikel
 
-- [Das Bohrsche Atommodell](/grundchem/bohrsches-atommodell/)
-- [Elektromagnetische Strahlung und Relativität](/grundchem/elektromagnetische-strahlung-und-relativitaet/)
-- [Molekülanregung und Spektroskopie](/grundchem/anregung-und-spektroskopie/)
+- [Das Bohrsche Atommodell](/grundchem/atombau/bohrsches-atommodell/)
+- [Elektromagnetische Strahlung und Relativität](/grundchem/atombau/elektromagnetische-strahlung-und-relativitaet/)
+- [Molekülanregung und Spektroskopie](/grundchem/atombau/anregung-und-spektroskopie/)
 
 ## Quellen
 
